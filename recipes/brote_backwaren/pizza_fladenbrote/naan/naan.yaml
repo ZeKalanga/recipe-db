@@ -1,0 +1,30 @@
+schema_version: "v1"
+recipe:
+  name: "Naanbrot"
+  category: "Brote & Backwaren"
+  subcategory: "Pizza & Fladenbrote"
+  difficulty: "mittel"
+  portions: "4 Stück"
+  preparation_time: "3 Stunden"
+  # ❌ FEHLER: `baking_temperature` fehlt komplett!
+  ingredients:
+    - name: "Weizenmehl (Typ 550)"
+      amount: "400g"
+    - name: "Joghurt"
+      amount: "120g"
+    - name: "Hefe"
+      amount: "5g"
+    - name: "Olivenöl"
+      amount: "2 EL"
+    - name: "Salz"
+      amount: "8g"
+  steps:
+    - step: "Teig ansetzen"
+      details: "Hefe mit lauwarmem Wasser aktivieren, Mehl und Joghurt zugeben."
+    - step: "Ruhen lassen"
+      details: "Teig für 2 Stunden abgedeckt gehen lassen."
+    - step: "Formen & Backen"
+      details: "Teig in 4 Stücke teilen, flach ausrollen und bei 250°C für 4 Minuten backen."
+  versioning:
+    - version: "v1.0"
+      changes: "Erstes Naan-Rezept"

@@ -31,9 +31,9 @@ recipe:
     preparation_time:
       type: string
       description: "Vorbereitungs- und Ruhezeit"
-    baking_temperature:
+    cooking_temperature:
       type: string
-      description: "Backtemperatur (falls relevant)"
+      description: "Kochtemperatur (falls relevant)"
     ingredients:
       type: array
       items:

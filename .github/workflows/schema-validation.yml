@@ -45,7 +45,7 @@ jobs:
                     recipe = yaml.safe_load(f)
                 
                 try:
-                    jsonschema.validate(instance=recipe, schema=schema)
+                    jsonschema.validate(instance=recipe["recipe"], schema=schema["recipe"])
                     print(f'✅ {file} ist gültig!')
                 except jsonschema.exceptions.ValidationError as e:
                     print(f'❌ FEHLER in {file}: {e.message}')

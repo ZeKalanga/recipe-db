@@ -6,7 +6,7 @@ recipe:
   difficulty: "mittel"
   portions: "1 Blech (30x40 cm)"
   preparation_time: "6–24 Stunden"
-  baking_temperature: "220°C Ober-/Unterhitze"
+  cooking_temperature: "220°C Ober-/Unterhitze"
   ingredients:
     - name: "Weizenmehl (Tipo 00)"
       amount: "500g"

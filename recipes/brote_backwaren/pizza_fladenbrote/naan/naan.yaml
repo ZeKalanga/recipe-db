@@ -6,7 +6,7 @@ recipe:
   difficulty: "mittel"
   portions: "4 Stück"
   preparation_time: "3 Stunden"
-  # ❌ FEHLER: `baking_temperature` fehlt komplett!
+  cooking_temperature: "250°C Ober-/Unterhitze"
   ingredients:
     - name: "Weizenmehl (Typ 550)"
       amount: "400g"
@@ -28,3 +28,5 @@ recipe:
   versioning:
     - version: "v1.0"
       changes: "Erstes Naan-Rezept"
+    - version: "v1.1"
+      changes: "Hefe reduziert für bessere Teigstruktur"

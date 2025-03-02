@@ -1,12 +1,12 @@
 schema_version: "v1"
 recipe:
-  name: "Naanbrot"
+  # ❌ FEHLER: `name` wurde entfernt!
   category: "Brote & Backwaren"
   subcategory: "Pizza & Fladenbrote"
   difficulty: "mittel"
   portions: "4 Stück"
   preparation_time: "3 Stunden"
-  # ❌ FEHLER: `baking_temperature` fehlt komplett!
+  cooking_temperature: "250°C"
   ingredients:
     - name: "Weizenmehl (Typ 550)"
       amount: "400g"

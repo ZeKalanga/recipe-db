@@ -20,14 +20,35 @@ jobs:
       - name: Install dependencies
         run: pip install jsonschema pyyaml
 
+      - name: Debug Schema & Rezepte
+        run: |
+          echo "🔍 Debugging Schema Validation..."
+          echo "📂 Zeige Schema-Datei:"
+          cat schema/recipe-schema-v1.yaml
+          echo "📂 Zeige Naan-Rezept:"
+          cat recipes/brote_backwaren/pizza_fladenbrote/naan/naan.yaml
+
       - name: Validate recipes
         run: |
           python -c "
           import yaml, jsonschema, os;
-          schema = yaml.safe_load(open('schema/recipe-schema-v1.yaml'));
+          print('🔍 Lade Schema...')
+          schema = yaml.safe_load(open('schema/recipe-schema-v1.yaml'))
+          print('✅ Schema erfolgreich geladen!')
+
           for root, dirs, files in os.walk('recipes'):
             for file in files:
               if file.endswith('.yaml'):
-                recipe = yaml.safe_load(open(os.path.join(root, file)));
-                jsonschema.validate(instance=recipe, schema=schema);
+                filepath = os.path.join(root, file)
+                print(f'📂 Prüfe Rezept: {filepath}')
+                with open(filepath, 'r') as f:
+                    recipe = yaml.safe_load(f)
+                
+                try:
+                    jsonschema.validate(instance=recipe, schema=schema)
+                    print(f'✅ {file} ist gültig!')
+                except jsonschema.exceptions.ValidationError as e:
+                    print(f'❌ FEHLER in {file}: {e.message}')
+                    exit(1)
+
           print('✅ Alle Rezepte sind gültig!')"

@@ -7,7 +7,7 @@ recipe:
     - difficulty
     - portions
     - preparation_time
-    - baking_temperature
+    - cooking_temperature
     - ingredients
     - steps
     - versioning

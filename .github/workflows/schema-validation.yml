@@ -1,0 +1,33 @@
+name: Recipe Schema Validation
+
+on:
+  pull_request:
+    paths:
+      - "recipes/**/*.yaml"
+
+jobs:
+  validate-schema:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: pip install jsonschema pyyaml
+
+      - name: Validate recipes
+        run: |
+          python -c "
+          import yaml, jsonschema, os;
+          schema = yaml.safe_load(open('schema/recipe-schema-v1.yaml'));
+          for root, dirs, files in os.walk('recipes'):
+            for file in files:
+              if file.endswith('.yaml'):
+                recipe = yaml.safe_load(open(os.path.join(root, file)));
+                jsonschema.validate(instance=recipe, schema=schema);
+          print('✅ Alle Rezepte sind gültig!')"

@@ -1,0 +1,24 @@
+name: Auto-Update Recipe-DB
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-server:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: SSH into Server and Pull Latest Changes
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh -o StrictHostKeyChecking=no ubuntu@18.199.163.68 << 'EOF'
+            cd /var/www/recipe-db
+            git pull origin main
+            pm2 restart recipe-api
+          EOF

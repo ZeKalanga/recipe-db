@@ -1,0 +1,73 @@
+schema_version: "v2"
+recipe:
+  required:
+    - name
+    - chapter
+    - subchapters
+  properties:
+    name:
+      type: string
+      description: "Rezeptname"
+    chapter:
+      type: string
+      description: "Hauptkategorie (z. B. 'Brote & Backwaren')"
+    subchapters:
+      type: array
+      items:
+        type: string
+      description: "Verschachtelte Unterkapitel (z. B. ['Pizza', 'Fladenbrote', 'Weizenmehl'])"
+    difficulty:
+      type: string
+      enum: ["leicht", "mittel", "schwer"]
+      description: "Schwierigkeitsgrad"
+    portions:
+      type: string
+      description: "Portionsgröße oder Menge"
+    preparation_time:
+      type: string
+      description: "Vorbereitungs- und Ruhezeit"
+    cooking_temperature:
+      type: string
+      description: "Kochtemperatur (falls relevant)"
+    ingredients:
+      type: array
+      items:
+        type: object
+        properties:
+          name:
+            type: string
+            description: "Zutat"
+          amount:
+            type: string
+            description: "Menge (g, ml, EL, TL, etc.)"
+    steps:
+      type: array
+      items:
+        type: object
+        properties:
+          step:
+            type: string
+            description: "Schritt-Nummer oder Titel"
+          details:
+            type: string
+            description: "Anweisung für diesen Schritt"
+    media:
+      type: object
+      properties:
+        video:
+          type: string
+          description: "Link zu einem Video"
+        gif:
+          type: string
+          description: "Link zu einem GIF oder Bild"
+    versioning:
+      type: array
+      items:
+        type: object
+        properties:
+          version:
+            type: string
+            description: "Version des Rezepts"
+          changes:
+            type: string
+            description: "Was sich geändert hat"

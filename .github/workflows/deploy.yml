@@ -10,15 +10,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: SSH into Server and Pull Latest Changes
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-        run: |
-          mkdir -p ~/.ssh
-          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh -o StrictHostKeyChecking=no ubuntu@18.199.163.68 << 'EOF'
-            cd /var/www/recipe-db
-            git pull origin main
-            pm2 restart recipe-api
-          EOF
+        - name: SSH into Server and Pull Latest Changes
+          env:
+            SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          run: |
+            mkdir -p ~/.ssh
+            echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+            chmod 600 ~/.ssh/id_rsa
+            ssh -o StrictHostKeyChecking=no ubuntu@18.199.163.68 << 'EOF'
+              cd /var/www/recipe-api
+              git pull origin main
+              git submodule update --init --recursive
+              git submodule foreach git pull origin main
+              pm2 restart recipe-api
+            EOF
+

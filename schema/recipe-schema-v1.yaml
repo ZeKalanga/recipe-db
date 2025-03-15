@@ -2,8 +2,8 @@ schema_version: "v1"
 recipe:
   required:
     - name
-    - chapter
-    - subchapter
+    - category
+    - subcategory
     - difficulty
     - portions
     - preparation_time
@@ -15,10 +15,10 @@ recipe:
     name:
       type: string
       description: "Rezeptname"
-    chapter:
+    category:
       type: string
       description: "Übergeordnetes Kapitel (z. B. 'Brote & Backwaren')"
-    subchapter:
+    subcategory:
       type: string
       description: "Unterkapitel (z. B. 'Pizza & Fladenbrote')"
     difficulty:

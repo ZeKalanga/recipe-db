@@ -2,8 +2,8 @@ schema_version: "v2"
 recipe:
   required:
     - name
-    - chapter
-    - subchapters
+    - category
+    - subcategories
     - difficulty
     - portions
     - preparation_time
@@ -15,10 +15,10 @@ recipe:
     name:
       type: string
       description: "Rezeptname"
-    chapter:
+    category:
       type: string
       description: "Hauptkategorie (z. B. 'Brote & Backwaren')"
-    subchapters:
+    subcategories:
       type: array
       items:
         type: string

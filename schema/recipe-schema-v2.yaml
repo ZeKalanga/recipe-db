@@ -4,6 +4,13 @@ recipe:
     - name
     - chapter
     - subchapters
+    - difficulty
+    - portions
+    - preparation_time
+    - cooking_temperature
+    - ingredients
+    - steps
+    - versioning
   properties:
     name:
       type: string

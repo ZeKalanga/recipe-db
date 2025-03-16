@@ -1,0 +1,56 @@
+name: "Gefüllte Auberginenschiffchen mit Bolognese und Basmati-Wildreis"
+category: "Hauptgerichte"
+subcategory: "Vegetarische Gerichte"
+difficulty: "mittel"
+portions: "2-3 Personen"
+preparation_time: "30 Minuten"
+cooking_temperature: "180°C"
+ingredients:
+  - name: "Ragout Bolognese"
+    amount: "300 g"
+  - name: "Auberginen"
+    amount: "2 mittelgroße"
+  - name: "Basmati-Wildreis"
+    amount: "200 g"
+  - name: "Zwiebel"
+    amount: "1 Stück"
+  - name: "Knoblauchzehen"
+    amount: "2 Stück"
+  - name: "Olivenöl"
+    amount: "2 EL"
+  - name: "Geriebener Käse (z.B. Mozzarella oder Parmesan)"
+    amount: "50 g"
+  - name: "Getrockneter Oregano"
+    amount: "1 TL"
+  - name: "Getrockneter Thymian"
+    amount: "1 TL"
+  - name: "Salz und Pfeffer"
+    amount: "nach Geschmack"
+  - name: "Gemüsebrühe"
+    amount: "400 ml"
+  - name: "Frische Petersilie (optional, zum Garnieren)"
+    amount: "nach Belieben"
+steps:
+  - step: "Basmati-Wildreis kochen"
+    details: "Den Reis nach Packungsanweisung in leicht gesalzenem Wasser oder Brühe kochen. Abgießen und warm halten."
+  - step: "Auberginen vorbereiten"
+    details: "Die Auberginen längs halbieren und das Fruchtfleisch vorsichtig mit einem Löffel herausschaben, sodass ein Rand von etwa 1 cm bleibt. Das Fruchtfleisch beiseite legen. Die Auberginenhälften leicht salzen und für ca. 10 Minuten ruhen lassen, damit überschüssiges Wasser entweicht. Danach mit einem Küchentuch abtupfen."
+  - step: "Auberginenschiffchen backen"
+    details: "Den Ofen auf 180°C vorheizen. Die Auberginenhälften mit etwas Olivenöl bestreichen und auf ein Backblech legen. Für etwa 20 Minuten im Ofen vorbacken, bis sie weich, aber noch formstabil sind."
+  - step: "Füllung zubereiten"
+    details: |
+      - Zwiebel und Knoblauch schälen und fein hacken.
+      - In einer Pfanne das Olivenöl erhitzen, die Zwiebel und den Knoblauch darin glasig anbraten.
+      - Das beiseite gelegte Auberginenfruchtfleisch klein hacken und zur Zwiebelmischung in die Pfanne geben. 
+      - Für etwa 5 Minuten anbraten, bis das Fruchtfleisch weich ist.
+      - Das Ragout Bolognese hinzufügen und gut umrühren. Mit Oregano, Thymian, Salz und Pfeffer abschmecken. 
+      - Die Mischung ca. 10 Minuten köcheln lassen, damit sich die Aromen verbinden.
+  - step: "Auberginen füllen"
+    details: "Die vorgebackenen Auberginenschiffchen mit der Bolognese-Mischung füllen und mit geriebenem Käse bestreuen."
+  - step: "Überbacken"
+    details: "Die gefüllten Auberginen im vorgeheizten Ofen bei 180°C weitere 10-15 Minuten überbacken, bis der Käse goldbraun ist."
+  - step: "Servieren"
+    details: "Die Auberginenschiffchen mit dem Basmati-Wildreis anrichten und nach Belieben mit frischer Petersilie garnieren."
+versioning:
+  - version: "1.0"
+    changes: "Erstes Rezept erstellt."

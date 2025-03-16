@@ -1,4 +1,5 @@
 name: Schema Validation
+
 on:
   pull_request:  # 🚨 Blockiert PRs bei Fehlern!
     paths:

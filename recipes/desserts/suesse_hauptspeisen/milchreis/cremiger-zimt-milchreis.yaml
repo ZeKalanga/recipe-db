@@ -1,0 +1,76 @@
+schema_version: "v2"
+recipe:
+  name: "Cremiger Zimt-Milchreis mit heißen Schattenmorellen"
+  category: "Desserts & Süßspeisen"
+  subcategories: ["Süße Hauptspeisen", "Milchreis", "Winterliche Klassiker"]
+  difficulty: "leicht"
+  portions: "4–5 Personen"
+  preparation_time: "15 Minuten"
+  cooking_temperature: "Mittlere Hitze"
+
+  ingredients:
+    - name: "Milch (3,5 % Fett)"
+      amount: "1 Liter"
+    - name: "Milchreis (Rundkornreis)"
+      amount: "250 g"
+    - name: "Zucker"
+      amount: "4 EL"
+    - name: "Vanilleschote (alternativ 1 TL Vanilleextrakt)"
+      amount: "1 Stück"
+    - name: "Prise Salz"
+      amount: "nach Geschmack"
+    - name: "Butter (optional, für extra Cremigkeit)"
+      amount: "1 TL"
+    - name: "Canehl-Zimt"
+      amount: "1 TL oder nach Geschmack"
+    
+    - name: "Schattenmorellen (aus dem Glas)"
+      amount: "1 großes Glas (ca. 700 ml)"
+    - name: "Kirschsaft (aus dem Glas)"
+      amount: "200 ml"
+    - name: "Zucker"
+      amount: "1–2 EL (je nach Süße der Kirschen)"
+    - name: "Zimtstange"
+      amount: "1"
+    - name: "Vanillepuddingpulver (zum Eindicken, alternativ Speisestärke)"
+      amount: "1 EL"
+
+    - name: "Zimt & Zucker"
+      amount: "2 EL Zucker + 1 TL Canehl-Zimt, gut vermischt"
+
+  steps:
+    - step: "Milchreis kochen"
+      details: "Milch in einem großen Topf bei mittlerer Hitze erhitzen."
+    - step: "Vanille hinzufügen"
+      details: "Die Vanilleschote längs aufschneiden, das Mark herauskratzen und zusammen mit der Schote in die Milch geben. Alternativ: Vanilleextrakt verwenden."
+    - step: "Milchreis einrühren"
+      details: "Sobald die Milch köchelt, den Milchreis (250 g) einrühren."
+    - step: "Köcheln lassen"
+      details: "Die Hitze reduzieren und den Milchreis unter gelegentlichem Rühren etwa 30–35 Minuten köcheln lassen, bis er weich und cremig ist."
+    - step: "Würzen & verfeinern"
+      details: "Gegen Ende der Garzeit 4 EL Zucker, eine Prise Salz und 1 TL Canehl-Zimt einrühren. Optional: 1 TL Butter für mehr Cremigkeit unterrühren."
+
+    - step: "Heiße Schattenmorellen mit Puddingpulver eindicken"
+      details: "Die Schattenmorellen samt Saft in einen kleinen Topf geben."
+    - step: "Zutaten hinzufügen"
+      details: "Kirschsaft (200 ml), Zucker (1–2 EL) und die Zimtstange hinzufügen. Alles unter Rühren erhitzen und kurz aufkochen lassen."
+    - step: "Puddingpulver anrühren"
+      details: "1 EL Vanillepuddingpulver in 4 EL kaltem Wasser oder Kirschsaft glatt rühren."
+    - step: "Andicken"
+      details: "Das angerührte Puddingpulver in die heißen Kirschen geben und unter Rühren nochmals aufkochen, bis die Masse leicht andickt."
+    - step: "Warmhalten"
+      details: "Die Zimtstange entfernen und die Kirschen heiß halten."
+
+    - step: "Anrichten"
+      details: "Den Milchreis auf Teller oder in Schüsseln füllen."
+    - step: "Mit Zimt & Zucker bestreuen"
+      details: "Mit einer großzügigen Portion Zimt & Zucker bestreuen."
+    - step: "Mit heißen Schattenmorellen servieren"
+      details: "Die heißen Schattenmorellen darübergeben oder separat servieren."
+
+  media:
+    image: "images/desserts/suesse_hauptspeisen/milchreis/cremiger-zimt-milchreis.jpg"
+  
+  versioning:
+    - version: "2.0"
+      changes: "Erstes Hinzufügen nach `schema v2` mit erweiterter Verzeichnisstruktur."

@@ -1,3 +1,5 @@
+name: Schema Validation
+
 on:
   pull_request:  # 🚨 Blockiert PRs bei Fehlern!
     paths:
@@ -26,26 +28,37 @@ jobs:
           python -c "
           import yaml, jsonschema, os;
           print('🔍 Lade Schema...')
-          schema = yaml.safe_load(open('schema/recipe-schema-v1.yaml'))
-          print('✅ Schema erfolgreich geladen!')
 
+          # 🔹 Funktion zum Erkennen des richtigen Schemas
+          def get_schema_for_recipe(recipe_path):
+              with open(recipe_path, 'r') as f:
+                  recipe_data = yaml.safe_load(f)
+                  schema_version = recipe_data.get('schema_version', 'v1')  # Default: v1
+
+              schema_file = f'schema/recipe-schema-{schema_version}.yaml'
+              print(f'📄 Verwende {schema_file} für {recipe_path}')
+              
+              if not os.path.exists(schema_file):
+                  print(f'❌ FEHLER: Schema-Datei {schema_file} existiert nicht!')
+                  exit(1)
+              
+              return yaml.safe_load(open(schema_file))
+
+          # 🔹 Alle Rezepte validieren
           for root, dirs, files in os.walk('recipes'):
-            for file in files:
-              if file.endswith('.yaml'):
-                filepath = os.path.join(root, file)
-                print(f'📂 Prüfe Rezept: {filepath}')
-                with open(filepath, 'r') as f:
-                    recipe = yaml.safe_load(f)
+              for file in files:
+                  if file.endswith('.yaml'):
+                      filepath = os.path.join(root, file)
+                      print(f'📂 Prüfe Rezept: {filepath}')
+                      schema = get_schema_for_recipe(filepath)
+                      with open(filepath, 'r') as f:
+                          recipe = yaml.safe_load(f)
 
-                try:
-                    jsonschema.validate(instance=recipe['recipe'], schema=schema['recipe'])
-                    print(f'✅ {file} ist gültig!')
-                except jsonschema.exceptions.ValidationError as e:
-                    print(f'❌ FEHLER in {file}: {e.message}')
-                    if os.getenv('GITHUB_EVENT_NAME') == 'pull_request':
-                        exit(1)  # 🚨 PR blockieren
-                    else:
-                        print('⚠️ WARNUNG: Fehler erkannt, aber Commit in main wird nicht blockiert.')
+                      try:
+                          jsonschema.validate(instance=recipe['recipe'], schema=schema['recipe'])
+                          print(f'✅ {file} ist gültig!')
+                      except jsonschema.exceptions.ValidationError as e:
+                          print(f'❌ FEHLER in {file}: {e.message}')
+                          exit(1)  # 🚨 PR blockieren bei Fehler
 
           print('✅ Alle Rezepte sind gültig!')"
-        continue-on-error: ${{ github.event_name == 'push' }}  # ⚠️ Fehler ignorieren bei direktem Commit in `main`

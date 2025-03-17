@@ -1,8 +1,8 @@
 schema_version: "v1"
 recipe:
   name: "Gefüllte Auberginenschiffchen mit Bolognese und Basmati-Wildreis"
-  category: "fleisch_fisch_proteine"
-  subcategory: "ofen_und_schmorgerichte"
+  category: "Fleisch, Fisch & Proteine"
+  subcategory: "Ofen und Schmorgerichte"
   difficulty: "mittel"
   portions: "2-3 Personen"
   preparation_time: "30 Minuten"

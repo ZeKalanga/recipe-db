@@ -1,8 +1,8 @@
 schema_version: "v1"
 recipe:
   name: "Kapernkrüstchen"
-  category: "Fleisch, Fisch & Proteine"
-  subcategory: "Kurzgebratenes & Gegrilltes"
+  category: "Deutsche & Alpenküche"
+  subcategory: "Fleisch- & Schmorgerichte"
   difficulty: "mittel"
   portions: "2 Personen"
   preparation_time: "ca. 2 Stunden (inklusive Sous-Vide-Garen)"

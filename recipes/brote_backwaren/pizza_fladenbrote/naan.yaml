@@ -1,8 +1,8 @@
 schema_version: "v1"
 recipe:
   name: "Naanbrot"
-  category: "Brote & Backwaren"
-  subcategory: "Pizza & Fladenbrote"
+  category: "Indische Küche"
+  subcategory: "Brot & Beilagen"
   difficulty: "mittel"
   portions: "4 Stück"
   preparation_time: "3 Stunden"

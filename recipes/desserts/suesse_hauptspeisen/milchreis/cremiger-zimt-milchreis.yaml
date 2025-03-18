@@ -1,8 +1,8 @@
 schema_version: "v2"
 recipe:
   name: "Cremiger Zimt-Milchreis mit heißen Schattenmorellen"
-  category: "Desserts & Süßspeisen"
-  subcategories: ["Süße Hauptspeisen", "Milchreis", "Winterliche Klassiker"]
+  category: "Deutsche & Alpenküche"
+  subcategories: ["Desserts & Kuchen", "Süße Hauptspeisen", "Milchreis", "Winterliche Klassiker"]
   difficulty: "leicht"
   portions: "4–5 Personen"
   preparation_time: "15 Minuten"

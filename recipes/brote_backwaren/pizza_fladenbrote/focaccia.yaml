@@ -1,8 +1,8 @@
 schema_version: "v1"
 recipe:
   name: "Focaccia mit Vorteig"
-  category: "Brote & Backwaren"
-  subcategory: "Pizza & Fladenbrote"
+  category: "Italienische Küche"
+  subcategory: "Pizza & Brot"
   difficulty: "mittel"
   portions: "1 Blech (30x40 cm)"
   preparation_time: "6–24 Stunden"

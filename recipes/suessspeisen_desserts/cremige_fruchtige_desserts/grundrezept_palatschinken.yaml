@@ -1,0 +1,41 @@
+schema_version: "v2"
+recipe:
+  name: "Grundrezept Palatschinken"
+  category: "Deutsche & Alpenküche"
+  subcategories: ["Desserts & Kuchen", "Palatschinken & Pfannkuchen", "Grundrezepte"]
+  difficulty: "leicht"
+  portions: "ca. 10–12 Stück"
+  preparation_time: "ca. 30 Minuten inkl. Ruhezeit"
+  cooking_temperature: "mittlere Hitze in der Pfanne"
+
+  ingredients:
+    - name: "Weizenmehl (Type 405 oder 550)"
+      amount: "150 g"
+    - name: "Salz"
+      amount: "1 Prise"
+    - name: "Eier (Größe M)"
+      amount: "4 Stück"
+    - name: "Milch"
+      amount: "450 ml"
+    - name: "Öl oder Butterschmalz (zum Ausbacken)"
+      amount: "nach Bedarf"
+
+  steps:
+    - step: "Mehl und Eier vorbereiten"
+      details: "Das Mehl in eine große Schüssel sieben und das Salz hinzufügen. Die Eier in einer separaten Schüssel verquirlen."
+
+    - step: "Teig anrühren"
+      details: "Die verquirlten Eier und die Milch abwechselnd zum Mehl geben und alles zu einem glatten, nicht zu dünnflüssigen Teig verrühren. Den Teig für etwa 15 Minuten ruhen lassen."
+
+    - step: "Palatschinken ausbacken"
+      details: "In einer beschichteten Pfanne 1 TL Öl oder Butterschmalz erhitzen. Eine kleine Kelle (ca. 60 ml) Teig hineingeben und die Pfanne schwenken, damit sich der Teig gleichmäßig verteilt. Von beiden Seiten hellgolden backen."
+
+    - step: "Wiederholen"
+      details: "Den Vorgang wiederholen, bis der Teig aufgebraucht ist. Die Menge reicht für etwa 10–12 Palatschinken."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung des klassischen Grundrezepts."
+
+  media:
+    image: "images/suessspeisen/palatschinken/grundrezept.jpg"

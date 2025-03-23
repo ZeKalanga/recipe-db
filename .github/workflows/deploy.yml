@@ -17,11 +17,17 @@ jobs:
             mkdir -p ~/.ssh
             echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
             chmod 600 ~/.ssh/id_rsa
+            ssh-keyscan -H 18.199.163.68 >> ~/.ssh/known_hosts
+
             ssh -o StrictHostKeyChecking=no ubuntu@18.199.163.68 << 'EOF'
-              cd /var/www/recipe-api
+              cd /var/www/recipe-db
+              echo "🚀 Pulling latest recipe-db changes..."
               git pull origin main
               git submodule update --init --recursive
               git submodule foreach git pull origin main
-              pm2 restart recipe-api
+              echo "🚀 Restarting related PM2 processes..."
+              pm2 restart recipe-api || true
+              pm2 restart recipe-ui || true
+              pm2 save
+              echo "✅ Recipe-DB update completed."
             EOF
-

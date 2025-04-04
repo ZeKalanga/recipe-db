@@ -20,7 +20,7 @@ jobs:
             ssh-keyscan -H 18.199.163.68 >> ~/.ssh/known_hosts
 
             ssh -o StrictHostKeyChecking=no ubuntu@18.199.163.68 << 'EOF'
-              cd /var/www/recipe-db
+              cd /var/www/recipe-api
               echo "🚀 Pulling latest recipe-db changes..."
               git pull origin main
               git submodule update --init --recursive

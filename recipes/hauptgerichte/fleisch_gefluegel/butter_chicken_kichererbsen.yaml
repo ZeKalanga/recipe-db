@@ -1,0 +1,84 @@
+schema_version: "v2"
+recipe:
+  name: "Butter Chicken mit Kichererbsen und cremiger Tomatensauce"
+  category: "Indische Küche"
+  subcategories: ["Currys & Schmorgerichte", "Familienrezepte"]
+  difficulty: "mittel"
+  portions: "4–6"
+  preparation_time: "ca. 1 Stunde (plus Marinierzeit)"
+  cooking_temperature: "mittlere Hitze am Herd"
+
+  ingredients:
+    - name: "Hähnchenbrust oder -keulen (ohne Knochen)"
+      amount: "500 g, in mundgerechte Stücke geschnitten"
+    - name: "Joghurt"
+      amount: "150 g"
+    - name: "Zitronensaft"
+      amount: "1 EL"
+    - name: "Knoblauchzehen"
+      amount: "4, fein gehackt (aufgeteilt)"
+    - name: "Ingwer"
+      amount: "2 TL, frisch gerieben (aufgeteilt)"
+    - name: "Garam Masala"
+      amount: "2 TL (aufgeteilt)"
+    - name: "Kurkuma"
+      amount: "1 TL"
+    - name: "Paprikapulver"
+      amount: "1 TL"
+    - name: "Salz"
+      amount: "nach Geschmack (1/2 TL für Marinade + zum Abschmecken)"
+    - name: "Butter oder Ghee"
+      amount: "1 EL"
+    - name: "Öl (z. B. Sonnenblumen- oder Rapsöl)"
+      amount: "1 EL"
+    - name: "Zwiebel"
+      amount: "1 große, fein gehackt"
+    - name: "Tomatenmark"
+      amount: "1 EL"
+    - name: "Stückige Tomaten (aus der Dose)"
+      amount: "400 g"
+    - name: "Sahne oder Kokosmilch"
+      amount: "200 ml"
+    - name: "Kreuzkümmel (gemahlen)"
+      amount: "1 TL"
+    - name: "Koriander (gemahlen)"
+      amount: "1 TL"
+    - name: "Chiliflocken"
+      amount: "optional, 1/2 TL oder nach Geschmack"
+    - name: "Kichererbsen (aus der Dose)"
+      amount: "1 Dose (400 g), abgespült"
+    - name: "Pfeffer"
+      amount: "nach Geschmack"
+    - name: "Frischer Koriander"
+      amount: "1 Handvoll, zum Garnieren"
+    - name: "Beilage: Basmati-Reis oder Naan-Brot"
+      amount: "nach Bedarf"
+
+  steps:
+    - step: "Mise en Place"
+      details: "Hähnchen schneiden, Zwiebel/Knoblauch/Ingwer hacken, Kichererbsen abspülen, Gewürze bereitstellen."
+
+    - step: "Hähnchen marinieren"
+      details: "Joghurt, Zitronensaft, 2 Knoblauchzehen, 1 TL Ingwer, 1 TL Garam Masala, Kurkuma, Paprika, Salz vermengen. Hähnchen darin marinieren (mind. 30 Min., besser über Nacht)."
+
+    - step: "Hähnchen anbraten"
+      details: "Butter und Öl erhitzen, mariniertes Hähnchen portionsweise goldbraun anbraten, beiseite stellen."
+
+    - step: "Sauce zubereiten"
+      details: "Zwiebeln glasig braten, restlichen Knoblauch & Ingwer zugeben, Tomatenmark einrühren, dann Tomaten dazugeben und 10 Min. einköcheln lassen."
+
+    - step: "Würzen & verfeinern"
+      details: "Restliches Garam Masala, Kreuzkümmel, Koriander, Chiliflocken sowie Sahne/Kokosmilch zugeben, kurz aufkochen lassen."
+
+    - step: "Fleisch & Kichererbsen einrühren"
+      details: "Hähnchen & Kichererbsen zurück in die Pfanne geben, 10–15 Min. köcheln lassen, bis alles gut verbunden ist."
+
+    - step: "Abschmecken & Servieren"
+      details: "Mit Salz & Pfeffer abschmecken, mit frischem Koriander garnieren. Mit Reis oder Naan servieren."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung mit Kichererbsen-Variation und veganer Option."
+
+  media:
+    image: "images/indisch/butter_chicken_kichererbsen.jpg"

@@ -1,0 +1,69 @@
+schema_version: "v2"
+recipe:
+  name: "Rindfleisch auf balinesische Art"
+  category: "Asiatische Küche"
+  subcategories: ["Indonesische Gerichte", "Wokgerichte", "Fleischgerichte"]
+  difficulty: "mittel"
+  portions: "4 Personen"
+  preparation_time: "ca. 45 Minuten"
+  cooking_temperature: "mittlere Hitze im Wok oder Pfanne"
+
+  ingredients:
+    - name: "Tamarinde"
+      amount: "10 g gepresst, in 150 ml heißem Wasser eingeweicht"
+    - name: "Rinderfilet oder Roastbeef"
+      amount: "750 g, in dünne Streifen geschnitten"
+    - name: "Frühlingszwiebeln"
+      amount: "1/4 Bund, schräg in Ringe geschnitten"
+    - name: "Knoblauchzehen"
+      amount: "2–3, fein gehackt"
+    - name: "Ingwer"
+      amount: "1 Stück (ca. 4 cm), fein gehackt"
+    - name: "Zitronengras"
+      amount: "2 Stängel, unterer Teil fein gehackt"
+    - name: "Garnelenpaste (Terasi)"
+      amount: "1/2 TL, zerdrückt"
+    - name: "Erdnussöl oder neutrales Öl"
+      amount: "2–3 EL"
+    - name: "Ketjap manis (süße Sojasauce)"
+      amount: "2 EL"
+    - name: "Sambal Oelek"
+      amount: "1 TL oder nach Geschmack"
+    - name: "Salz"
+      amount: "nach Geschmack"
+
+  steps:
+    - step: "Tamarinde vorbereiten"
+      details: "Tamarinde in 150 ml heißem Wasser 10 Minuten einweichen, durch ein Sieb gießen, Flüssigkeit auffangen."
+
+    - step: "Zutaten vorbereiten"
+      details: "Frühlingszwiebeln in Ringe schneiden, Knoblauch, Ingwer, Zitronengras fein hacken, Garnelenpaste zerdrücken."
+
+    - step: "Anbraten"
+      details: "Öl in Wok/Pfanne erhitzen. Hälfte der Frühlingszwiebeln, Knoblauch, Ingwer, Zitronengras ca. 30 Sekunden anbraten. Rindfleisch portionsweise zugeben und 10 Minuten unter Rühren braten."
+
+    - step: "Sauce zubereiten"
+      details: "Tamarindenflüssigkeit, Garnelenpaste, Ketjap manis, Sambal Oelek hinzufügen, gut verrühren und zugedeckt ca. 10 Minuten köcheln lassen."
+
+    - step: "Abschmecken & Servieren"
+      details: "Mit Salz abschmecken, restliche Frühlingszwiebeln darüberstreuen und heiß servieren."
+
+  nutrition:
+    kcal: 310
+    protein: 40 g
+    fat: 15 g
+    carbs: 3 g
+
+  tips:
+    - "Rindfleisch gegen die Faser schneiden, damit es zart bleibt."
+    - "Tamarinde kann durch 1–2 EL Limettensaft ersetzt werden."
+    - "Nur den unteren Teil des Zitronengrases verwenden und leicht andrücken."
+    - "Ketjap manis kann durch Sojasauce + 1 TL braunen Zucker ersetzt werden."
+    - "Sambal Oelek je nach gewünschter Schärfe anpassen oder weglassen."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung des balinesisch inspirierten Rindfleischgerichts."
+
+  media:
+    image: "images/asiatisch/rind_balinesisch.jpg"

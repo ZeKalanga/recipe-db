@@ -1,0 +1,85 @@
+schema_version: "v2"
+recipe:
+  name: "Balinesisches Rindfleisch – mildere Variante mit Gemüse"
+  category: "Asiatische Küche"
+  subcategories: ["Indonesische Gerichte", "Wokgerichte", "Fleischgerichte", "mit Gemüse"]
+  difficulty: "mittel"
+  portions: "3–4 Personen"
+  preparation_time: "ca. 1 Stunde (plus Marinierzeit)"
+  cooking_temperature: "mittlere Hitze im Topf"
+
+  ingredients:
+    - name: "Rindfleisch (Wade oder Schulter)"
+      amount: "500 g, in mundgerechte Stücke"
+    - name: "Kurkuma"
+      amount: "1 TL für Marinade + optional 1 TL für Paste"
+    - name: "Salz"
+      amount: "1 TL für Marinade + zum Abschmecken"
+    - name: "Limettensaft"
+      amount: "1 EL für Marinade + Saft von 1/2 Limette zum Abrunden"
+    - name: "Schalotten"
+      amount: "3 Stück"
+    - name: "Knoblauchzehen"
+      amount: "3 Stück"
+    - name: "Rote Chilischoten"
+      amount: "2, nach gewünschter Schärfe entkernt"
+    - name: "Garnelenpaste (Terasi)"
+      amount: "1 TL (reduzierte Menge)"
+    - name: "Brauner Zucker"
+      amount: "2 TL"
+    - name: "Galgant (alternativ Ingwer)"
+      amount: "1 TL, frisch oder getrocknet"
+    - name: "Zitronengras"
+      amount: "2 Stängel, nur das Weiße, fein gehackt"
+    - name: "Pflanzenöl"
+      amount: "1 EL zum Anbraten"
+    - name: "Kokosmilch"
+      amount: "200 ml"
+    - name: "Wasser oder Rinderbrühe"
+      amount: "200 ml"
+    - name: "Fischsauce"
+      amount: "1 EL, optional"
+    - name: "Möhren"
+      amount: "2 Stück, in schräge Scheiben geschnitten"
+    - name: "Spitzkohl"
+      amount: "200 g, grob geschnitten"
+    - name: "Sambal Oelek"
+      amount: "nach Geschmack"
+    - name: "Zucker"
+      amount: "nach Geschmack"
+
+  steps:
+    - step: "Fleisch marinieren"
+      details: "Rindfleisch mit Kurkuma, Salz und Limettensaft vermengen, 30 Minuten ziehen lassen."
+
+    - step: "Würzpaste herstellen"
+      details: "Schalotten, Knoblauch, Chili, Garnelenpaste, Zucker, Galgant, Kurkuma und Zitronengras im Mörser oder Mixer zu einer groben Paste verarbeiten."
+
+    - step: "Würzpaste anbraten"
+      details: "Öl im Topf erhitzen. Würzpaste 2–3 Minuten anbraten, bis sie duftet."
+
+    - step: "Fleisch anbraten"
+      details: "Mariniertes Fleisch zugeben und rundum scharf anbraten (ca. 5 Minuten)."
+
+    - step: "Flüssigkeit & Möhren zugeben"
+      details: "Kokosmilch und Wasser oder Brühe angießen. Möhren zugeben und 10 Minuten köcheln lassen."
+
+    - step: "Spitzkohl ergänzen & schmoren"
+      details: "Spitzkohl unterrühren und weitere 20–25 Minuten schmoren, bis Fleisch zart und Sauce eingedickt ist."
+
+    - step: "Abschmecken & servieren"
+      details: "Mit Limettensaft, ggf. Fischsauce, Salz, Zucker und Sambal Oelek abschmecken."
+
+  tips:
+    - "Zartes Fleisch durch marinieren mit Limettensaft und Schneiden gegen die Faser."
+    - "Gemüse balinesisch anpassen: Möhren und Spitzkohl gut geeignet."
+    - "Garnelenpaste nur dezent verwenden, um Aroma nicht zu überdecken."
+    - "Sambal Oelek separat servieren für individuelle Schärfe."
+
+  versioning:
+    - version: "1.0"
+      changes: "Mildere Variante mit Gemüse und reduzierter Garnelenpaste."
+      variant_of: "rindfleisch_balinesisch.yaml"
+
+  media:
+    image: "images/asiatisch/rind_balinesisch_gemuese.jpg"

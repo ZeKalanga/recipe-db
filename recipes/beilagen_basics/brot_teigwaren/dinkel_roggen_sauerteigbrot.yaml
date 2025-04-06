@@ -1,77 +1,52 @@
-version: 2
-meta:
-  title: Dinkel-Roggen-Sauerteigbrot
-  description: Herzhaftes Sauerteigbrot mit Dinkel und Roggen für kräftigen Geschmack und saftige Krume.
-  portion: 13 Scheiben
-  difficulty: mittel
-  duration: 
-    prep: 20 Minuten
-    rest: 13–15 Stunden
-    bake: 45–50 Minuten
-  tags: [Sauerteig, Brot, Dinkel, Roggen, Pizzastein, Dutch Oven, Gärkörbchen]
-  related_variants: []
-  source: original
+schema_version: "v2"
+recipe:
+  name: "Dinkel-Roggen-Sauerteigbrot"
+  category: "Beilagen & Basics"
+  subcategories: ["Brot & Teigwaren", "Sauerteig", "Dinkel", "Roggen"]
+  difficulty: "mittel"
+  portions: "ca. 13 Scheiben"
+  preparation_time: "ca. 14–18 Stunden inkl. Gehzeiten"
+  cooking_temperature: "230 °C → 180 °C (Ofen mit Dampf oder Dutch Oven)"
 
-ingredients:
-  - group: Sauerteig (Vorteig)
-    items:
-      - { amount: 20, unit: g, name: Sauerteig-Anstellgut }
-      - { amount: 190, unit: g, name: Dinkelmehl Type 630 }
-      - { amount: 190, unit: g, name: Wasser, note: "38 °C" }
+  ingredients:
+    - name: "Sauerteig-Anstellgut"
+      amount: "20 g"
+    - name: "Dinkelmehl Type 630"
+      amount: "190 g (Vorteig) + 200 g (Hauptteig)"
+    - name: "Roggenmehl Type 997"
+      amount: "300 g"
+    - name: "Wasser (38 °C)"
+      amount: "190 g (Vorteig) + 255 g (Hauptteig)"
+    - name: "Salz"
+      amount: "18 g"
 
-  - group: Hauptteig
-    items:
-      - { amount: 200, unit: g, name: Dinkelmehl Type 630 }
-      - { amount: 300, unit: g, name: Roggenmehl Type 997 }
-      - { amount: 255, unit: g, name: Wasser, note: "38 °C" }
-      - { amount: 18, unit: g, name: Salz }
-      - { amount: 1, unit: portion, name: Sauerteig (Vorteig) }
+  steps:
+    - step: "Sauerteig ansetzen (am Vorabend)"
+      details: "Alle Zutaten für den Sauerteig in eine Schüssel geben, gut verrühren, abdecken und 8–10 Stunden bei 20–22 °C gehen lassen."
 
-steps:
-  - title: Sauerteig ansetzen
-    description: >
-      Alle Zutaten für den Sauerteig in einer Schüssel verrühren und abgedeckt bei Raumtemperatur (20–22 °C) 8–10 Stunden stehen lassen – ideal über Nacht.
+    - step: "Hauptteig zubereiten"
+      details: "Sauerteig mit restlichen Zutaten ca. 5 Minuten kneten (Ziel-Teigtemperatur: 28 °C). 1 Stunde abgedeckt ruhen lassen."
 
-  - title: Hauptteig zubereiten
-    description: >
-      Den Sauerteig mit den restlichen Zutaten in eine große Schüssel geben und etwa 5 Minuten von Hand oder mit der Küchenmaschine kneten, bis ein homogener Teig entsteht. Ziel-Teigtemperatur: 28 °C.
-      Den Teig 1 Stunde abgedeckt ruhen lassen.
+    - step: "Teig formen & Stückgare"
+      details: "Teig rund wirken, mit dem Schluss nach unten in ein gut bemehltes Gärkörbchen legen. Weitere 3,5 Stunden gehen lassen. Backofen rechtzeitig vorheizen."
 
-  - title: Formen & Stückgare
-    description: >
-      Teig vorsichtig rund wirken und mit dem Schluss nach unten in ein gut bemehltes Gärkörbchen legen. Abgedeckt weitere 3,5 Stunden bei Raumtemperatur gehen lassen.
-      Etwa 20 Minuten vor Ende den Ofen samt Backgefäß vorheizen.
+    - step: "Backofen vorbereiten"
+      details: "Pizzastein, Dutch Oven oder Römertopf auf 230 °C vorheizen (mind. 20 Minuten). Temperatur mit Infrarotthermometer kontrollieren."
 
-  - title: Backofen vorbereiten
-    description: >
-      Pizzastein, Dutch Oven oder Römertopf im Ofen auf 230 °C vorheizen. Wichtig: Das Backgefäß oder der Stein sollte mindestens 220 °C erreicht haben (mit Infrarot- oder Einstechthermometer prüfen).
+    - step: "Backen"
+      details: "Teig mit dem Schluss nach oben auf Backfläche geben. 10 Min. bei 230 °C mit Dampf oder Deckel, 15 Min. bei 180 °C, dann 20–25 Min. offen fertigbacken."
 
-  - title: Backen
-    description: >
-      Teig mit dem Schluss nach oben auf den heißen Pizzastein oder in den Topf stürzen.
-      Bei 230 °C für 10 Minuten mit Dampf oder geschlossenem Deckel backen.
-      Dann auf 180 °C herunterregeln und 15 Minuten weiterbacken.
-      Zum Schluss 20–25 Minuten ohne Deckel fertigbacken, bis die Kruste schön gebräunt ist.
+    - step: "Auskühlen lassen"
+      details: "Mindestens 1 Stunde auf Gitter abkühlen lassen. Vorher nicht anschneiden."
 
-  - title: Auskühlen lassen
-    description: >
-      Brot aus dem Ofen nehmen und mindestens 1 Stunde auf einem Gitter auskühlen lassen, bevor es angeschnitten wird.
+  tips:
+    - "Ein aktiver Sauerteig ist entscheidend für gutes Gelingen."
+    - "Infrarotthermometer sorgt für präzise Backtemperatur."
+    - "Dutch Oven eignet sich besonders für Anfänger."
 
-notes:
-  - Ein aktiver Sauerteig ist entscheidend für gutes Gelingen – regelmäßig auffrischen!
-  - Ein Infrarotthermometer hilft, die perfekte Backtemperatur sicherzustellen.
-  - Für Anfänger empfiehlt sich der Start mit dem Dutch Oven, da dieser eine einfachere Dampfumgebung bietet.
+  versioning:
+    - version: "1.0"
+      changes: "Basisrezept Dinkel-Roggen-Sauerteigbrot mit Vorteig, Pizzastein/Dutch Oven-Option."
 
-shopping_list:
-  Getreide & Mehl:
-    - { name: Dinkelmehl Type 630, amount: 390, unit: g }
-    - { name: Roggenmehl Type 997, amount: 300, unit: g }
-
-  Flüssigkeiten:
-    - { name: Wasser, amount: 445, unit: g }
-
-  Triebmittel:
-    - { name: Sauerteig-Anstellgut, amount: 20, unit: g }
-
-  Gewürze & Salz:
-    - { name: Salz, amount: 18, unit: g }
+  media:
+    image: "images/beilagen/brot_teigwaren/dinkel_roggen_sauerteigbrot.jpg"

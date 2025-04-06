@@ -1,0 +1,77 @@
+version: 2
+meta:
+  title: Dinkel-Roggen-Sauerteigbrot
+  description: Herzhaftes Sauerteigbrot mit Dinkel und Roggen für kräftigen Geschmack und saftige Krume.
+  portion: 13 Scheiben
+  difficulty: mittel
+  duration: 
+    prep: 20 Minuten
+    rest: 13–15 Stunden
+    bake: 45–50 Minuten
+  tags: [Sauerteig, Brot, Dinkel, Roggen, Pizzastein, Dutch Oven, Gärkörbchen]
+  related_variants: []
+  source: original
+
+ingredients:
+  - group: Sauerteig (Vorteig)
+    items:
+      - { amount: 20, unit: g, name: Sauerteig-Anstellgut }
+      - { amount: 190, unit: g, name: Dinkelmehl Type 630 }
+      - { amount: 190, unit: g, name: Wasser, note: "38 °C" }
+
+  - group: Hauptteig
+    items:
+      - { amount: 200, unit: g, name: Dinkelmehl Type 630 }
+      - { amount: 300, unit: g, name: Roggenmehl Type 997 }
+      - { amount: 255, unit: g, name: Wasser, note: "38 °C" }
+      - { amount: 18, unit: g, name: Salz }
+      - { amount: 1, unit: portion, name: Sauerteig (Vorteig) }
+
+steps:
+  - title: Sauerteig ansetzen
+    description: >
+      Alle Zutaten für den Sauerteig in einer Schüssel verrühren und abgedeckt bei Raumtemperatur (20–22 °C) 8–10 Stunden stehen lassen – ideal über Nacht.
+
+  - title: Hauptteig zubereiten
+    description: >
+      Den Sauerteig mit den restlichen Zutaten in eine große Schüssel geben und etwa 5 Minuten von Hand oder mit der Küchenmaschine kneten, bis ein homogener Teig entsteht. Ziel-Teigtemperatur: 28 °C.
+      Den Teig 1 Stunde abgedeckt ruhen lassen.
+
+  - title: Formen & Stückgare
+    description: >
+      Teig vorsichtig rund wirken und mit dem Schluss nach unten in ein gut bemehltes Gärkörbchen legen. Abgedeckt weitere 3,5 Stunden bei Raumtemperatur gehen lassen.
+      Etwa 20 Minuten vor Ende den Ofen samt Backgefäß vorheizen.
+
+  - title: Backofen vorbereiten
+    description: >
+      Pizzastein, Dutch Oven oder Römertopf im Ofen auf 230 °C vorheizen. Wichtig: Das Backgefäß oder der Stein sollte mindestens 220 °C erreicht haben (mit Infrarot- oder Einstechthermometer prüfen).
+
+  - title: Backen
+    description: >
+      Teig mit dem Schluss nach oben auf den heißen Pizzastein oder in den Topf stürzen.
+      Bei 230 °C für 10 Minuten mit Dampf oder geschlossenem Deckel backen.
+      Dann auf 180 °C herunterregeln und 15 Minuten weiterbacken.
+      Zum Schluss 20–25 Minuten ohne Deckel fertigbacken, bis die Kruste schön gebräunt ist.
+
+  - title: Auskühlen lassen
+    description: >
+      Brot aus dem Ofen nehmen und mindestens 1 Stunde auf einem Gitter auskühlen lassen, bevor es angeschnitten wird.
+
+notes:
+  - Ein aktiver Sauerteig ist entscheidend für gutes Gelingen – regelmäßig auffrischen!
+  - Ein Infrarotthermometer hilft, die perfekte Backtemperatur sicherzustellen.
+  - Für Anfänger empfiehlt sich der Start mit dem Dutch Oven, da dieser eine einfachere Dampfumgebung bietet.
+
+shopping_list:
+  Getreide & Mehl:
+    - { name: Dinkelmehl Type 630, amount: 390, unit: g }
+    - { name: Roggenmehl Type 997, amount: 300, unit: g }
+
+  Flüssigkeiten:
+    - { name: Wasser, amount: 445, unit: g }
+
+  Triebmittel:
+    - { name: Sauerteig-Anstellgut, amount: 20, unit: g }
+
+  Gewürze & Salz:
+    - { name: Salz, amount: 18, unit: g }

@@ -1,0 +1,52 @@
+schema_version: "v2"
+recipe:
+  name: "Dinkel-Roggen-Sauerteigbrot"
+  category: "Beilagen & Basics"
+  subcategories: ["Brot & Teigwaren", "Sauerteig", "Dinkel", "Roggen"]
+  difficulty: "mittel"
+  portions: "ca. 13 Scheiben"
+  preparation_time: "ca. 14–18 Stunden inkl. Gehzeiten"
+  cooking_temperature: "230 °C → 180 °C (Ofen mit Dampf oder Dutch Oven)"
+
+  ingredients:
+    - name: "Sauerteig-Anstellgut"
+      amount: "20 g"
+    - name: "Dinkelmehl Type 630"
+      amount: "190 g (Vorteig) + 200 g (Hauptteig)"
+    - name: "Roggenmehl Type 997"
+      amount: "300 g"
+    - name: "Wasser (38 °C)"
+      amount: "190 g (Vorteig) + 255 g (Hauptteig)"
+    - name: "Salz"
+      amount: "18 g"
+
+  steps:
+    - step: "Sauerteig ansetzen (am Vorabend)"
+      details: "Alle Zutaten für den Sauerteig in eine Schüssel geben, gut verrühren, abdecken und 8–10 Stunden bei 20–22 °C gehen lassen."
+
+    - step: "Hauptteig zubereiten"
+      details: "Sauerteig mit restlichen Zutaten ca. 5 Minuten kneten (Ziel-Teigtemperatur: 28 °C). 1 Stunde abgedeckt ruhen lassen."
+
+    - step: "Teig formen & Stückgare"
+      details: "Teig rund wirken, mit dem Schluss nach unten in ein gut bemehltes Gärkörbchen legen. Weitere 3,5 Stunden gehen lassen. Backofen rechtzeitig vorheizen."
+
+    - step: "Backofen vorbereiten"
+      details: "Pizzastein, Dutch Oven oder Römertopf auf 230 °C vorheizen (mind. 20 Minuten). Temperatur mit Infrarotthermometer kontrollieren."
+
+    - step: "Backen"
+      details: "Teig mit dem Schluss nach oben auf Backfläche geben. 10 Min. bei 230 °C mit Dampf oder Deckel, 15 Min. bei 180 °C, dann 20–25 Min. offen fertigbacken."
+
+    - step: "Auskühlen lassen"
+      details: "Mindestens 1 Stunde auf Gitter abkühlen lassen. Vorher nicht anschneiden."
+
+  tips:
+    - "Ein aktiver Sauerteig ist entscheidend für gutes Gelingen."
+    - "Infrarotthermometer sorgt für präzise Backtemperatur."
+    - "Dutch Oven eignet sich besonders für Anfänger."
+
+  versioning:
+    - version: "1.0"
+      changes: "Basisrezept Dinkel-Roggen-Sauerteigbrot mit Vorteig, Pizzastein/Dutch Oven-Option."
+
+  media:
+    image: "images/beilagen/brot_teigwaren/dinkel_roggen_sauerteigbrot.jpg"

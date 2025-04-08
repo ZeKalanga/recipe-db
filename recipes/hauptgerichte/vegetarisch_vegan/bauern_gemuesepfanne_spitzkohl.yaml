@@ -1,0 +1,67 @@
+schema_version: "v2"
+recipe:
+  name: "Bauern-Gemüsepfanne mit Spitzkohl, Kartoffeln & Champignons"
+  category: "Vegetarische & vegane Gerichte"
+  subcategories: ["Bauernküche", "Pfannengerichte", "Spitzkohl", "Herzhafte vegetarische Küche"]
+  difficulty: "leicht"
+  portions: "2–3 Portionen"
+  preparation_time: "ca. 30–40 Minuten"
+  cooking_temperature: "mittlere Hitze in der Pfanne"
+
+  ingredients:
+    - name: "Spitzkohl"
+      amount: "1/2 Kopf, in feine Streifen"
+    - name: "Kartoffeln (festkochend)"
+      amount: "4 Stück, gewürfelt oder in dünne Scheiben"
+    - name: "Gemüsezwiebel"
+      amount: "1 große, in Spalten"
+    - name: "Möhre"
+      amount: "1 kleine, in Stifte oder Scheiben"
+    - name: "Braune Champignons"
+      amount: "150–200 g, geviertelt"
+    - name: "Tomatenmark"
+      amount: "1 EL"
+    - name: "Olivenöl oder Butterschmalz"
+      amount: "2–3 EL"
+    - name: "Paprikapulver (edelsüß)"
+      amount: "1/2 TL"
+    - name: "Kümmel (optional)"
+      amount: "1/2 TL"
+    - name: "Salz & schwarzer Pfeffer"
+      amount: "nach Geschmack"
+    - name: "Schafskäse"
+      amount: "100 g, zerbröckelt"
+    - name: "Petersilie (frisch)"
+      amount: "nach Bedarf, gehackt"
+    - name: "Gemüsebrühe (optional)"
+      amount: "50 ml"
+
+  steps:
+    - step: "Kartoffeln anbraten"
+      details: "Kartoffeln mit 1–2 EL Öl in großer Pfanne ca. 8–10 Min. goldbraun braten, herausnehmen."
+
+    - step: "Gemüse anbraten"
+      details: "Zwiebel und Möhre in derselben Pfanne 3 Min. anbraten, Champignons zugeben und 5 Min. weiterbraten."
+
+    - step: "Spitzkohl und Kümmel hinzufügen"
+      details: "Spitzkohl und ggf. Kümmel einrühren, 5–7 Min. bei mittlerer Hitze braten, bis der Kohl zusammenfällt."
+
+    - step: "Würzen & Kartoffeln zugeben"
+      details: "Tomatenmark und Paprikapulver einrühren, salzen und pfeffern. Kartoffeln zurück in die Pfanne geben, vorsichtig unterheben."
+
+    - step: "Fertigstellen"
+      details: "Alles zusammen 3–4 Min. bei niedriger Hitze durchziehen lassen. Falls nötig, Gemüsebrühe zugeben."
+
+    - step: "Mit Schafskäse & Petersilie servieren"
+      details: "Schafskäse darüberstreuen oder unterheben, mit Petersilie garnieren und direkt aus der Pfanne servieren."
+
+  tips:
+    - "Wer es vegan möchte, kann den Schafskäse weglassen oder pflanzlich ersetzen."
+    - "Die Pfanne lässt sich gut variieren – z. B. mit Lauch, Wirsing oder Räuchertofu."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung der Bauern-Gemüsepfanne mit Spitzkohl, Kartoffeln und Champignons."
+
+  media:
+    image: "images/vegetarisch/bauern_gemuesepfanne_spitzkohl.jpg"

@@ -1,0 +1,56 @@
+schema_version: "v2"
+recipe:
+  name: "Pizzateig mit Sauerteig (statt Hefe-Poolish)"
+  category: "Italienische Küche"
+  subcategories: ["Pizza & Brot", "Sauerteig", "Langzeitführung"]
+  difficulty: "mittel"
+  portions: "4 Pizzen à 230–250 g"
+  preparation_time: "24–48 Stunden inkl. Reifezeiten"
+  cooking_temperature: "250–300 °C Ober-/Unterhitze mit Pizzastein"
+
+  ingredients:
+    - name: "Aktives Sauerteig-Anstellgut (Weizen, TA 200)"
+      amount: "100 g"
+    - name: "Weizenmehl Typ 00"
+      amount: "100 g (Vorteig) + 200 g (Hauptteig)"
+    - name: "Manitoba-Mehl (≥13 % Protein)"
+      amount: "300 g"
+    - name: "Wasser (26–28 °C)"
+      amount: "100 g (Vorteig) + 280–300 g (Hauptteig)"
+    - name: "Honig (optional)"
+      amount: "5 g"
+    - name: "Salz"
+      amount: "20 g"
+    - name: "Olivenöl"
+      amount: "nach Bedarf, zum Ölen & Bearbeiten"
+
+  steps:
+    - step: "Sauerteig-Vorteig ansetzen"
+      details: "Anstellgut mit Mehl, Wasser und optional Honig verrühren. 4–6 h bei 26 °C oder 10–14 h bei 20–22 °C reifen lassen, bis sich Volumen deutlich vergrößert hat."
+
+    - step: "Hauptteig mischen"
+      details: "Vorteig mit 280 g Wasser verrühren. Beide Mehlsorten einarbeiten. 30 Min. Autolyse. Danach Salz und ggf. restliches Wasser (20 g) einkneten."
+
+    - step: "Dehnen und Falten"
+      details: "Teig 4× alle 30 Min. dehnen & falten (2 h Gesamtzeit). Dann leicht ölen, abdecken & 1–2 h ruhen lassen."
+
+    - step: "Kalte Teigführung"
+      details: "Teig in geölter Schüssel 24–48 h bei 5 °C reifen lassen. 24 h für milde Säure, 36–48 h für kräftigeres Aroma."
+
+    - step: "Akklimatisieren & Portionieren"
+      details: "Teig 2–3 h vor Backen aus Kühlschrank holen. In 4 Portionen à 230–250 g teilen & zu Kugeln formen. 1–2 h bei Raumtemperatur entspannen lassen."
+
+    - step: "Formen & Backen"
+      details: "Backofen mit Pizzastein auf 250–300 °C vorheizen (mind. 45 Min). Teig vorsichtig per Hand ausziehen, belegen & 6–9 Min. backen bis goldbraun."
+
+  tips:
+    - "Je länger die kalte Führung, desto komplexer das Aroma."
+    - "Gut geeignet für Backstahl oder Gasgrill mit Stein."
+    - "Teig nicht zu dünn ausziehen, um Luftblasen zu erhalten."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung des Pizzateigs mit Sauerteig als Poolish-Ersatz."
+
+  media:
+    image: "images/italienisch/pizza_sauerteig/pizzateig_sauerteig.jpg"

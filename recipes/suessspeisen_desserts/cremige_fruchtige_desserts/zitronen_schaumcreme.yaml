@@ -1,0 +1,50 @@
+schema_version: "v2"
+recipe:
+  name: "Zitronen-Schaumcreme (luftig & leicht)"
+  category: "Süßspeisen & Desserts"
+  subcategories: ["Cremige & fruchtige Desserts", "Sommerdesserts", "Zitrusdesserts"]
+  difficulty: "leicht"
+  portions: "4 Portionen"
+  preparation_time: "ca. 20 Minuten + mind. 3 Stunden Kühlzeit"
+  cooking_temperature: "nicht gekocht (nur Erwärmen)"
+
+  ingredients:
+    - name: "Sahne"
+      amount: "200 ml"
+    - name: "Bio-Zitronen"
+      amount: "2 Stück, Saft & Abrieb"
+    - name: "Zucker"
+      amount: "60 g (nach Geschmack)"
+    - name: "Vanillezucker oder Vanilleextrakt"
+      amount: "1 Päckchen oder 1/2 TL"
+    - name: "Eiweiße (Größe M)"
+      amount: "2 Stück"
+    - name: "Salz"
+      amount: "1 Prise"
+    - name: "Griechischer Joghurt oder Mascarpone (optional)"
+      amount: "100 g, für mehr Cremigkeit"
+
+  steps:
+    - step: "Zitronensirup zubereiten"
+      details: "Zitronensaft, -abrieb, Zucker & Vanille in kleinem Topf bei mittlerer Hitze erwärmen, bis Zucker gelöst ist. Nicht kochen. Abkühlen lassen."
+
+    - step: "Sahne und Eiweiß schlagen"
+      details: "Sahne steif schlagen und kalt stellen. Eiweiß mit 1 Prise Salz zu festem Eischnee schlagen."
+
+    - step: "Zitronencreme vorbereiten"
+      details: "Joghurt (falls verwendet) mit dem abgekühlten Zitronensirup verrühren. Dann die Sahne unterheben, anschließend Eischnee portionsweise unterheben."
+
+    - step: "Kühlen"
+      details: "In Gläser füllen, mindestens 3 Stunden kühlen – ideal über Nacht."
+
+  tips:
+    - "Mit frischer Minze, Zitronenzesten oder Lemon Curd garnieren."
+    - "Mascarpone macht die Creme etwas reichhaltiger, Joghurt hält sie leichter."
+    - "Für Extra-Frische etwas Zitronenmelisse verwenden."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung der Zitronen-Schaumcreme mit optionalem Joghurt/Mascarpone."
+
+  media:
+    image: "images/desserts/cremig_fruchtig/zitronen_schaumcreme.jpg"

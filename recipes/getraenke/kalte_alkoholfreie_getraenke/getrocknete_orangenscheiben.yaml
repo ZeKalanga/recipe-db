@@ -1,0 +1,44 @@
+schema_version: "v2"
+recipe:
+  name: "Getrocknete Orangenscheiben (für Drinks & Deko)"
+  category: "Getränke"
+  subcategories: ["Kalte & alkoholfreie Getränke", "Garnituren & Deko", "Haltbares"]
+  difficulty: "leicht"
+  portions: "ca. 20–30 Scheiben"
+  preparation_time: "ca. 5 Minuten + 3–4 Stunden Trocknung"
+  cooking_temperature: "70 °C Umluft (Backofen)"
+
+  ingredients:
+    - name: "Bio-Orangen (ungespritzt, mit Schale)"
+      amount: "3 Stück"
+
+  steps:
+    - step: "Vorbereitung"
+      details: "Orangen gründlich waschen und trockenreiben."
+
+    - step: "Scheiben schneiden"
+      details: "Orangen mit einem scharfen Messer in ca. 3–5 mm dicke Scheiben schneiden."
+
+    - step: "Anordnen"
+      details: "Scheiben auf mit Backpapier belegtem Gitterrost auslegen, nicht überlappend."
+
+    - step: "Trocknen"
+      details: "Backofen auf 70 °C Umluft vorheizen. Scheiben für 3–4 Stunden trocknen, Backofentür leicht geöffnet halten (z. B. mit Holzlöffel)."
+
+    - step: "Wenden"
+      details: "Alle 60–90 Minuten die Orangenscheiben vorsichtig wenden."
+
+    - step: "Abkühlen & Lagern"
+      details: "Nach Ende der Trocknungszeit auskühlen lassen und luftdicht aufbewahren."
+
+  tips:
+    - "Für intensiveres Aroma können Blutorangen verwendet werden."
+    - "Eignen sich perfekt als Garnitur für Cocktails, Tee, Punsch oder Desserts."
+    - "Wer sie komplett knusprig möchte, kann die Trocknungszeit etwas verlängern."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung der Anleitung für getrocknete Orangenscheiben."
+
+  media:
+    image: "images/getraenke/orangen/getrocknete_orangenscheiben.jpg"

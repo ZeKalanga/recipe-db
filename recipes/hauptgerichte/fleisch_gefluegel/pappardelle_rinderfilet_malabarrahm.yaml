@@ -1,0 +1,65 @@
+schema_version: "v2"
+recipe:
+  name: "Pappardelle mit Rinderfiletspitzen in grünem Malabar-Pfefferrahm"
+  category: "Deutsche & Alpenküche"
+  subcategories: ["Fleisch- & Schmorgerichte", "Pasta", "Malabar-Pfeffer"]
+  difficulty: "mittel"
+  portions: "2 Personen"
+  preparation_time: "ca. 30 Minuten"
+  cooking_temperature: "mittlere bis hohe Hitze, 2 Pfannen + 1 Kochtopf"
+
+  ingredients:
+    - name: "Rote Zwiebel"
+      amount: "1 Stück, grob gewürfelt"
+    - name: "Knoblauchzehe"
+      amount: "1 Stück, fein gehackt"
+    - name: "Peperoni"
+      amount: "1 Stück, entkernt, in feine Streifen"
+    - name: "Rinderfiletspitzen"
+      amount: "150 g, in feine Streifen geschnitten"
+    - name: "Parmesan"
+      amount: "25 g, frisch gerieben"
+    - name: "Pappardelle"
+      amount: "250 g"
+    - name: "Sahne"
+      amount: "200 g"
+    - name: "Brühwürfel (Gemüse- oder Rinderbrühe)"
+      amount: "1 Stück"
+    - name: "Grüner Malabar Pfeffer"
+      amount: "5 g, grob zerstoßen"
+    - name: "Olivenöl"
+      amount: "4 EL"
+    - name: "Salz"
+      amount: "1 TL (für Fleisch) + 2 EL (für Nudelwasser)"
+    - name: "Schwarzer Pfeffer"
+      amount: "nach Geschmack"
+
+  steps:
+    - step: "Vorbereitung"
+      details: "Zwiebel würfeln, Knoblauch hacken, Peperoni entkernen und in Streifen schneiden. Malabar-Pfeffer grob zerstoßen."
+
+    - step: "Malabar-Rahmsauce ansetzen"
+      details: "In Pfanne 2 EL Olivenöl erhitzen, Zwiebel, Knoblauch, Pfeffer 2 Min. anschwitzen. Sahne & Brühwürfel zugeben, 5 Min. köcheln."
+
+    - step: "Pasta & Fleisch vorbereiten"
+      details: "Wasser mit 2 EL Salz aufkochen, Pappardelle 4 Min. bissfest garen. Rinderfilet würzen, Parmesan reiben."
+
+    - step: "Fleisch scharf anbraten"
+      details: "In zweiter Pfanne 2 EL Öl stark erhitzen, Rinderfilet & Peperoni 1 Min. bei hoher Hitze anbraten. Warmhalten."
+
+    - step: "Vermengen"
+      details: "Pasta abgießen, direkt zur Sauce geben und vermengen. Pfanne vom Herd nehmen."
+
+    - step: "Anrichten"
+      details: "Pasta auf Tellern anrichten, Rinderfilet und Parmesan darübergeben. Sofort servieren."
+
+  tips:
+    - "Für intensivere Würze: etwas Zitronenabrieb oder Pfefferöl ergänzen."
+    - "Alternativ zur Sahne: Crème fraîche oder eine Mischung mit etwas Brühe verwenden."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung: Pfefferrahmpasta mit Rinderfilet und Malabar-Note."
+
+  media:
+    image: "images/deutsche_alpenkueche/pasta/pappardelle_rinderfilet_malabarrahm.jpg"

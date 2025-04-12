@@ -1,0 +1,68 @@
+schema_version: "v2"
+recipe:
+  name: "Lasagne – Original aus Italien"
+  category: "Italienische Küche"
+  subcategories: ["Pasta & Saucen", "Ofengerichte", "Klassiker"]
+  difficulty: "mittel"
+  portions: "5 Personen"
+  preparation_time: "ca. 2 Stunden inkl. Backzeit"
+  cooking_temperature: "180 °C Ober-/Unterhitze"
+
+  ingredients:
+    - name: "Karotte"
+      amount: "1 Stück (ca. 100 g), fein gewürfelt"
+    - name: "Knollensellerie"
+      amount: "100 g, fein gewürfelt"
+    - name: "Zwiebel"
+      amount: "1 Stück (ca. 100 g), fein gewürfelt"
+    - name: "Olivenöl"
+      amount: "3 EL"
+    - name: "Gemischtes Hackfleisch"
+      amount: "350 g"
+    - name: "Salz und Pfeffer"
+      amount: "nach Geschmack"
+    - name: "Trockener Weißwein"
+      amount: "100 ml (z. B. Pinot Grigio)"
+    - name: "Passierte Tomaten"
+      amount: "700 ml"
+    - name: "Lorbeerblatt"
+      amount: "1 Blatt"
+    - name: "Butter"
+      amount: "50 g"
+    - name: "Mehl"
+      amount: "3 EL"
+    - name: "Milch"
+      amount: "500 ml"
+    - name: "Muskatnuss (frisch gerieben)"
+      amount: "1 Prise"
+    - name: "Lasagne-Platten"
+      amount: "500 g"
+    - name: "Mozzarella"
+      amount: "250 g, fein gewürfelt"
+    - name: "Parmesan"
+      amount: "100 g, frisch gerieben"
+
+  steps:
+    - step: "Ragù zubereiten"
+      details: "Karotte, Sellerie und Zwiebel fein würfeln. In Olivenöl andünsten, Hackfleisch zugeben und anbraten. Mit Salz, Pfeffer würzen, mit Weißwein ablöschen. Tomaten und Lorbeerblatt zugeben und 1 Stunde köcheln lassen."
+
+    - step: "Béchamelsauce zubereiten"
+      details: "Butter schmelzen, Mehl einrühren, Milch nach und nach zugeben, ständig rühren. Aufkochen lassen bis cremig. Mit Salz und Muskat abschmecken."
+
+    - step: "Lasagne schichten"
+      details: "Ofen auf 180 °C vorheizen. Auflaufform mit Ragù ausstreichen, Lasagne-Platten, Ragù, Béchamel, Mozzarella und Parmesan abwechselnd schichten. Mit Béchamel abschließen und Käse bestreuen."
+
+    - step: "Backen"
+      details: "Lasagne 30–40 Minuten backen, bis goldbraun. Vor dem Servieren 10 Minuten ruhen lassen."
+
+  tips:
+    - "Für schneeweiße Béchamel: Mehlschwitze nicht zu stark bräunen."
+    - "Ist die Sauce zu dick? Etwas Milch einrühren. Zu dünn? Mit Mehlschwitze binden."
+    - "Vor dem Servieren ruhen lassen, damit sich die Schichten setzen."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung der klassischen italienischen Lasagne mit Ragù und Béchamel."
+
+  media:
+    image: "images/italienisch/klassiker/lasagne_original_italien.jpg"

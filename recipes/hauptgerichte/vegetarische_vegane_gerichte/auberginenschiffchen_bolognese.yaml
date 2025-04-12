@@ -1,0 +1,69 @@
+schema_version: "v2"
+recipe:
+  name: "Gefüllte Auberginenschiffchen mit Bolognese und Basmati-Wildreis"
+  category: "Hauptgerichte"
+  subcategories: ["Vegetarische & vegane Gerichte", "Ofengerichte", "Aubergine"]
+  difficulty: "mittel"
+  portions: "2–3 Personen"
+  preparation_time: "ca. 60 Minuten"
+  cooking_temperature: "180 °C Ober-/Unterhitze"
+
+  ingredients:
+    - name: "Ragout Bolognese"
+      amount: "300 g (vorbereitet oder aus dem Glas)"
+    - name: "Auberginen"
+      amount: "2 mittelgroße"
+    - name: "Basmati-Wildreis"
+      amount: "200 g"
+    - name: "Zwiebel"
+      amount: "1 Stück, fein gehackt"
+    - name: "Knoblauchzehen"
+      amount: "2 Stück, fein gehackt"
+    - name: "Olivenöl"
+      amount: "2 EL"
+    - name: "Geriebener Käse (z.B. Mozzarella oder Parmesan)"
+      amount: "50 g"
+    - name: "Getrockneter Oregano"
+      amount: "1 TL"
+    - name: "Getrockneter Thymian"
+      amount: "1 TL"
+    - name: "Salz und Pfeffer"
+      amount: "nach Geschmack"
+    - name: "Gemüsebrühe"
+      amount: "400 ml"
+    - name: "Frische Petersilie (optional)"
+      amount: "nach Belieben, gehackt"
+
+  steps:
+    - step: "Reis kochen"
+      details: "Basmati-Wildreis nach Packungsanweisung in gesalzenem Wasser oder Brühe kochen, abgießen, warm halten."
+
+    - step: "Auberginen vorbereiten"
+      details: "Auberginen längs halbieren, Fruchtfleisch ausschaben (1 cm Rand lassen), salzen, 10 Min. ruhen lassen, abtupfen."
+
+    - step: "Auberginen vorbacken"
+      details: "Backofen auf 180 °C vorheizen, Auberginenhälften mit Öl bestreichen, 20 Min. vorbacken."
+
+    - step: "Füllung zubereiten"
+      details: "Zwiebel und Knoblauch glasig braten, gehacktes Auberginenfruchtfleisch zugeben, 5 Min. anbraten. Bolognese zugeben, würzen und 10 Min. köcheln lassen."
+
+    - step: "Auberginen füllen"
+      details: "Füllung in die Auberginenschalen geben, mit Käse bestreuen."
+
+    - step: "Überbacken"
+      details: "Gefüllte Auberginen 10–15 Min. bei 180 °C überbacken, bis der Käse goldbraun ist."
+
+    - step: "Servieren"
+      details: "Mit Basmati-Wildreis und optional frischer Petersilie anrichten."
+
+  tips:
+    - "Fruchtfleisch fein hacken für gleichmäßige Konsistenz."
+    - "Für mehr Aroma: Ragout vorher mit Rotwein oder Tomatenmark verfeinern."
+    - "Wer’s vegetarisch möchte: Fleischfreie Bolognese verwenden."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung der Auberginenschiffchen mit Ragout und Wildreis."
+
+  media:
+    image: "images/hauptgerichte/vegetarisch/auberginenschiffchen_bolognese.jpg"

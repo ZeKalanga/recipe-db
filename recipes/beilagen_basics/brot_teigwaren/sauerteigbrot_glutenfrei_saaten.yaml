@@ -1,0 +1,65 @@
+schema_version: "v2"
+recipe:
+  name: "Glutenfreies Sauerteigbrot mit Saaten"
+  category: "Beilagen & Basics"
+  subcategories: ["Brot & Teigwaren", "Glutenfrei", "Sauerteig", "Mit Saaten"]
+  difficulty: "mittel"
+  portions: "1 Kastenform (ca. 25 cm)"
+  preparation_time: "12–16 Stunden inkl. Gehzeit und Backen"
+  cooking_temperature: "230 °C → 200 °C (Kastenform, Ober-/Unterhitze)"
+
+  ingredients:
+    - name: "Aktiver glutenfreier Sauerteigstarter"
+      amount: "100 g"
+    - name: "Reismehl"
+      amount: "150 g"
+    - name: "Buchweizenmehl"
+      amount: "100 g"
+    - name: "Tapiokastärke (oder Maisstärke)"
+      amount: "50 g"
+    - name: "Flohsamenschalen"
+      amount: "30 g"
+    - name: "Lauwarmes Wasser"
+      amount: "400 ml"
+    - name: "Salz"
+      amount: "1 TL"
+    - name: "Apfelessig oder Zitronensaft"
+      amount: "1 TL"
+    - name: "Olivenöl (optional)"
+      amount: "1 EL"
+    - name: "Sonnenblumenkerne"
+      amount: "30 g"
+    - name: "Kürbiskerne"
+      amount: "20 g"
+    - name: "Leinsamen"
+      amount: "10 g"
+    - name: "Chiasamen (optional)"
+      amount: "1 EL"
+
+  steps:
+    - step: "Quellstück vorbereiten"
+      details: "Flohsamenschalen mit Wasser verrühren, 10 Min. quellen lassen."
+
+    - step: "Teig herstellen"
+      details: "Sauerteigstarter, Mehle, Stärke, Salz, Essig, Öl und Saaten zugeben. Alles zu dickem, elastischem Teig verrühren."
+
+    - step: "Teig gehen lassen"
+      details: "Teig in gefettete Kastenform geben, mit feuchtem Tuch abdecken, 10–14 Std. bei Raumtemperatur ruhen lassen."
+
+    - step: "Backofen vorheizen & Backen"
+      details: "Backofen auf 230 °C vorheizen. Teig weitere 1–2 Std. ruhen lassen. 10 Min. bei 230 °C, dann 50 Min. bei 200 °C backen. Letzte 10 Min. ohne Form auf Rost fertigbacken."
+
+    - step: "Abkühlen lassen"
+      details: "Brot vollständig auf Gitter auskühlen lassen, erst dann anschneiden."
+
+  tips:
+    - "Für kräftigere Kruste: Letzte 5 Minuten Backzeit Ofentür leicht öffnen."
+    - "Saaten nach Belieben tauschen oder anrösten."
+    - "Gut einfrierbar in Scheiben."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung des glutenfreien Sauerteigbrots mit Saaten in der Kastenform."
+
+  media:
+    image: "images/brot/glutenfrei/sauerteigbrot_saaten.jpg"

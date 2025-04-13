@@ -1,0 +1,80 @@
+schema_version: "v2"
+recipe:
+  name: "Lasagne (glutenfrei, mit Ricotta statt Béchamel)"
+  category: "Hauptgerichte"
+  subcategories: ["Fleisch & Geflügel", "Glutenfrei", "Ofengerichte", "Lasagne"]
+  difficulty: "mittel"
+  portions: "4–6 Personen"
+  preparation_time: "ca. 2,5 Stunden inkl. Schmorzeit"
+  cooking_temperature: "180 °C Ober-/Unterhitze"
+
+  ingredients:
+    - name: "Olivenöl"
+      amount: "2 EL"
+    - name: "Zwiebel"
+      amount: "1 Stück, fein gewürfelt"
+    - name: "Möhre"
+      amount: "1 Stück, fein gewürfelt"
+    - name: "Stangensellerie"
+      amount: "1 Stück, fein gewürfelt"
+    - name: "Knoblauchzehen"
+      amount: "2 Stück, fein gehackt"
+    - name: "Rinderhackfleisch"
+      amount: "500 g"
+    - name: "Tomatenmark"
+      amount: "1 EL"
+    - name: "Dosentomaten (stückig)"
+      amount: "800 g"
+    - name: "Trockener Rotwein (optional)"
+      amount: "150 ml"
+    - name: "Getrockneter Oregano"
+      amount: "1 TL"
+    - name: "Getrocknetes Basilikum"
+      amount: "1 TL"
+    - name: "Salz & Pfeffer"
+      amount: "nach Geschmack"
+    - name: "Zucker oder Natron"
+      amount: "1 TL Zucker oder 1 Msp. Natron"
+    - name: "Wasser oder Brühe (optional)"
+      amount: "100 ml"
+    
+    - name: "Ricotta"
+      amount: "500 g"
+    - name: "Parmesan (frisch gerieben)"
+      amount: "100 g"
+    - name: "Ei"
+      amount: "1 Stück"
+    - name: "Muskatnuss (frisch gerieben)"
+      amount: "nach Geschmack"
+
+    - name: "Glutenfreie Lasagneplatten (Mais- oder Reismehl)"
+      amount: "250–300 g"
+    - name: "Mozzarella"
+      amount: "150 g, in Scheiben oder gerieben"
+    - name: "Butterflöckchen"
+      amount: "1–2 EL"
+
+  steps:
+    - step: "Fleischsauce zubereiten"
+      details: "Gemüse in Olivenöl anschwitzen. Hackfleisch zugeben und krümelig braten. Tomatenmark, Rotwein, Tomaten, Gewürze einrühren. 60–90 Min. bei geringer Hitze köcheln lassen."
+
+    - step: "Ricotta-Mischung anrühren"
+      details: "Ricotta mit Ei, Parmesan, Salz, Pfeffer und Muskatnuss glatt rühren und kalt stellen."
+
+    - step: "Lasagne schichten"
+      details: "Backofen vorheizen. Form einfetten. Mit Ragù starten, dann Lasagneplatten, Ricotta-Masse, Ragù – in dieser Reihenfolge schichten. Mit Ricotta-Ragù-Schicht abschließen. Mozzarella & Butterflöckchen obenauf."
+
+    - step: "Backen"
+      details: "35–45 Min. im Ofen backen, bis goldbraun. Vor dem Servieren 10 Min. ruhen lassen."
+
+  tips:
+    - "Ricotta statt Béchamel spart Zeit und macht das Gericht leichter."
+    - "Glutenfreie Platten direkt verwenden, wenn nicht anders angegeben."
+    - "Für Extra-Aroma frischen Basilikum vor dem Servieren hinzufügen."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung: Glutenfreie Lasagne mit Ricotta und klassischer Bolognese."
+
+  media:
+    image: "images/hauptgerichte/fleisch_gefluegel/lasagne_glutenfrei_ricotta.jpg"

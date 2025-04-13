@@ -1,0 +1,58 @@
+schema_version: "v2"
+recipe:
+  name: "Glutenfreies Sauerteigbrot mit rustikaler Kruste (Topfvariante)"
+  category: "Beilagen & Basics"
+  subcategories: ["Brot & Teigwaren", "Glutenfrei", "Sauerteig", "Topfbrot"]
+  difficulty: "mittel"
+  portions: "1 Laib (ca. 750–800 g)"
+  preparation_time: "ca. 18–20 Stunden inkl. Gehzeit und Backen"
+  cooking_temperature: "250 °C vorgeheizt, dann 230 °C (Gusseisentopf)"
+
+  ingredients:
+    - name: "Aktiver glutenfreier Sauerteigstarter"
+      amount: "100 g"
+    - name: "Reismehl"
+      amount: "200 g + etwas zum Bestäuben"
+    - name: "Maismehl (alternativ Hirsemehl)"
+      amount: "100 g"
+    - name: "Flohsamenschalen"
+      amount: "30 g"
+    - name: "Lauwarmes Wasser"
+      amount: "400 ml"
+    - name: "Salz"
+      amount: "1 TL"
+    - name: "Apfelessig oder Zitronensaft"
+      amount: "1 TL"
+    - name: "Honig oder Agavendicksaft (optional)"
+      amount: "1 TL"
+
+  steps:
+    - step: "Quellstück vorbereiten"
+      details: "Flohsamenschalen mit Wasser vermengen und 10 Min. quellen lassen."
+
+    - step: "Teig herstellen"
+      details: "Sauerteigstarter, Mehle, Salz, Essig und optional Honig zugeben. Alles zu weichem, formbarem Teig verrühren."
+
+    - step: "Teig gehen lassen"
+      details: "Teig auf Backpapier zu rundem Laib formen. Mit feuchtem Tuch abdecken, 12–16 Std. bei Raumtemperatur gehen lassen."
+
+    - step: "Backofen & Topf vorheizen"
+      details: "Gusseisentopf mit Deckel auf 250 °C (Ober-/Unterhitze) vorheizen."
+
+    - step: "Backen"
+      details: "Teig mit Reismehl bestäuben, einschneiden und mitsamt Backpapier in heißen Topf setzen. 40 Min. mit Deckel, 15–20 Min. ohne Deckel bei 230 °C backen."
+
+    - step: "Abkühlen lassen"
+      details: "Brot auf Gitter vollständig abkühlen lassen, bevor es angeschnitten wird."
+
+  tips:
+    - "Für kräftigere Kruste: Letzte 10 Minuten Backzeit mit leicht geöffneter Ofentür."
+    - "Backpapier erleichtert das Handling im heißen Topf."
+    - "Ideal auch als Basis für Saatenvarianten (z. B. mit Leinsamen, Sonnenblumenkerne)."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung des glutenfreien Sauerteigbrots in der Topfvariante."
+
+  media:
+    image: "images/brot/glutenfrei/sauerteigbrot_topfvariante.jpg"

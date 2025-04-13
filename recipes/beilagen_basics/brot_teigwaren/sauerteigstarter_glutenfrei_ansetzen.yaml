@@ -1,0 +1,40 @@
+schema_version: "v2"
+recipe:
+  name: "Sauerteigstarter selbst ansetzen (glutenfrei)"
+  category: "Beilagen & Basics"
+  subcategories: ["Sauerteig", "Glutenfrei", "Grundrezepte", "Fermentation"]
+  difficulty: "leicht"
+  portions: "1 Ansatz für wiederkehrende Verwendung"
+  preparation_time: "5–7 Tage Reifezeit"
+  cooking_temperature: "Zimmertemperatur, keine Hitze"
+
+  ingredients:
+    - name: "Buchweizen- oder Reismehl"
+      amount: "täglich 1 EL (insgesamt ca. 6–7 EL)"
+    - name: "Lauwarmes Wasser"
+      amount: "täglich 1 EL (insgesamt ca. 6–7 EL)"
+
+  steps:
+    - step: "Tag 1"
+      details: "1 EL Mehl mit 1 EL lauwarmem Wasser in einem Glas oder Schraubdeckelgefäß verrühren. Locker abdecken und bei Raumtemperatur stehen lassen."
+
+    - step: "Tage 2–6"
+      details: "Täglich 1 EL Mehl und 1 EL Wasser zugeben, gut verrühren. Bei Raumtemperatur ruhen lassen."
+
+    - step: "Beobachten & Pflegen"
+      details: "Nach 3–5 Tagen sollten sich Bläschen bilden und ein leicht säuerlicher Geruch entstehen."
+
+    - step: "Bereit zur Verwendung"
+      details: "Nach 5–7 Tagen ist der Starter aktiv. Zur Lagerung im Kühlschrank aufbewahren. Alle 5–7 Tage füttern."
+
+  tips:
+    - "Für gleichbleibende Ergebnisse immer dieselbe Mehlsorte verwenden."
+    - "Starter in einem großen Glas mit locker aufgesetztem Deckel oder Gummiringglas führen."
+    - "Lässt sich einfrieren oder trocknen für spätere Verwendung."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung der glutenfreien Sauerteigstarter-Anleitung."
+
+  media:
+    image: "images/sauerteig/glutenfrei/sauerteigstarter_ansetzen.jpg"

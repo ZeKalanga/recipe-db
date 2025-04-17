@@ -1,0 +1,68 @@
+schema_version: "v2"
+recipe:
+  name: "Hot Cross Buns – Englische Milchbrötchen mit Rosinen und Kreuz"
+  category: "Süßspeisen & Desserts"
+  subcategories: ["Hefegebäck", "Ostergebäck", "Klassiker"]
+  difficulty: "mittel"
+  portions: "12 Stück"
+  preparation_time: "ca. 3–3,5 Stunden inkl. Gehzeit"
+  cooking_temperature: "200 °C Ober-/Unterhitze"
+
+  ingredients:
+    - name: "Weizenmehl Type 550 (alternativ Type 405)"
+      amount: "500 g"
+    - name: "Zucker"
+      amount: "50 g"
+    - name: "Trockenhefe"
+      amount: "7 g (1 Päckchen)"
+    - name: "Salz"
+      amount: "1 gestr. TL (ca. 6 g)"
+    - name: "Gemahlener Zimt"
+      amount: "1 TL"
+    - name: "Gemahlene Muskatnuss"
+      amount: "1/2 TL"
+    - name: "Zitronen- oder Orangenabrieb (Bio)"
+      amount: "1 TL"
+    - name: "Butter (weich)"
+      amount: "40 g"
+    - name: "Ei (Größe M)"
+      amount: "1 Stück"
+    - name: "Vollmilch (lauwarm)"
+      amount: "250 ml"
+    - name: "Sultaninen oder Rosinen"
+      amount: "125 g"
+    - name: "Orangeat (optional)"
+      amount: "50 g, gehackt"
+    - name: "Mehl für das Kreuz"
+      amount: "50 g"
+    - name: "Wasser für das Kreuz"
+      amount: "4–5 EL"
+    - name: "Aprikosenmarmelade"
+      amount: "2 EL"
+    - name: "Wasser zum Glasieren"
+      amount: "1 EL"
+
+  steps:
+    - step: "Teig zubereiten (1. Gehzeit)"
+      details: "Trockenzutaten mischen, Milch, Butter und Ei zugeben, 8–10 Min. kneten. Rosinen und Orangeat einarbeiten. 60–90 Min. gehen lassen."
+
+    - step: "Formen & 2. Gehzeit"
+      details: "Teig entgasen, in 12 Stücke teilen (à 75–80 g), rund schleifen. Auf Blech setzen, 45–60 Min. gehen lassen."
+
+    - step: "Kreuz auftragen & backen"
+      details: "Mehl + Wasser zu Paste verrühren, in Beutel füllen und Kreuze aufspritzen. 20–25 Min. bei 200 °C goldbraun backen."
+
+    - step: "Glasieren"
+      details: "Aprikosenmarmelade mit Wasser erwärmen, die heißen Brötchen nach dem Backen damit bestreichen."
+
+  tips:
+    - "Weichen, leicht klebrigen Teig nicht übermehlen – ergibt feinporige Struktur."
+    - "Kühle Teigführung über Nacht möglich für feinere Porung."
+    - "Nicht übergehen lassen, sonst werden die Buns zu luftig und instabil."
+
+  versioning:
+    - version: "1.0"
+      changes: "Deutsche Version der klassischen Hot Cross Buns mit feiner Milchbrötchenstruktur."
+
+  media:
+    image: "images/suessspeisen/klassiker/hot_cross_buns.jpg"

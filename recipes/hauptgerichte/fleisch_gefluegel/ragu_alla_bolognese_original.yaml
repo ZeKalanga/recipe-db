@@ -1,0 +1,72 @@
+schema_version: "v2"
+recipe:
+  name: "Ragù alla Bolognese (Originalrezept)"
+  category: "Italienische Küche"
+  subcategories: ["Pasta & Saucen", "Fleischgerichte", "Schmorgerichte"]
+  difficulty: "mittel"
+  portions: "4–6 Portionen"
+  preparation_time: "ca. 3 Stunden inkl. Schmoren"
+  cooking_temperature: "niedrige Hitze auf dem Herd"
+
+  ingredients:
+    - name: "Rinderhackfleisch (frisch gewolft)"
+      amount: "500 g"
+    - name: "Zwiebel"
+      amount: "1 mittelgroße (ca. 120 g), fein gewürfelt"
+    - name: "Karotte"
+      amount: "1 mittelgroße (ca. 100 g), fein gewürfelt"
+    - name: "Staudensellerie"
+      amount: "1 Stange (ca. 80 g), fein gewürfelt"
+    - name: "Pancetta"
+      amount: "100 g, fein gehackt"
+    - name: "Trockener Weißwein"
+      amount: "250 ml"
+    - name: "Vollmilch"
+      amount: "250 ml"
+    - name: "Geschälte Tomaten oder passierte Tomaten"
+      amount: "400 g"
+    - name: "Olivenöl extra vergine"
+      amount: "2–3 EL"
+    - name: "Salz"
+      amount: "nach Geschmack"
+    - name: "Schwarzer Pfeffer"
+      amount: "nach Geschmack, frisch gemahlen"
+    - name: "Muskatnuss (optional)"
+      amount: "nach Geschmack, frisch gerieben"
+
+  steps:
+    - step: "Vorbereitung"
+      details: "Zwiebel, Karotte, Sellerie und Pancetta sehr fein würfeln."
+
+    - step: "Speck und Gemüse anbraten"
+      details: "In großer Pfanne Olivenöl erhitzen. Pancetta 2–3 Min. auslassen, dann Zwiebel, Karotte, Sellerie 8–10 Min. bei niedriger Hitze weich dünsten."
+
+    - step: "Fleisch anbraten"
+      details: "Hackfleisch zugeben und 10–15 Min. sorgfältig krümelig braten, bis leicht gebräunt."
+
+    - step: "Ablöschen"
+      details: "Mit Weißwein ablöschen und vollständig einkochen lassen."
+
+    - step: "Tomaten hinzufügen"
+      details: "Tomaten zugeben, gut verrühren und leicht köcheln lassen."
+
+    - step: "Milch einarbeiten"
+      details: "Nach 10 Min. Milch langsam einrühren, um die Säure auszugleichen."
+
+    - step: "Langsam schmoren"
+      details: "Ragù 2–3 Stunden offen bei sehr niedriger Hitze simmern lassen. Gelegentlich umrühren, bei Bedarf Wasser oder Brühe ergänzen."
+
+    - step: "Abschmecken"
+      details: "Mit Salz, Pfeffer und ggf. Muskat abschmecken."
+
+  tips:
+    - "Traditionell zu frischer Tagliatelle servieren, nicht zu Spaghetti."
+    - "Längeres Schmoren (bis 4 Stunden) intensiviert den Geschmack."
+    - "Ragù sollte am Ende dickflüssig, aber nicht trocken sein."
+
+  versioning:
+    - version: "1.0"
+      changes: "Originalrezept für Ragù alla Bolognese nach traditioneller Methode."
+
+  media:
+    image: "images/italienisch/saucen/ragu_alla_bolognese_original.jpg"

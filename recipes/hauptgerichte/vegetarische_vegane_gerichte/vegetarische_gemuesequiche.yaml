@@ -1,0 +1,77 @@
+schema_version: "v2"
+recipe:
+  name: "Vegetarische Gemüsequiche"
+  category: "Vegetarische & vegane Gerichte"
+  subcategories: ["Quiches & Tartes", "Ofengerichte", "Herzhafte Backwaren"]
+  difficulty: "mittel"
+  portions: "1 Quiche (Ø 26 cm)"
+  preparation_time: "ca. 90 Minuten inkl. Kühlzeit und Backen"
+  cooking_temperature: "180 °C Umluft oder 200 °C Ober-/Unterhitze"
+
+  ingredients:
+    - name: "Weizenmehl (Typ 405)"
+      amount: "250 g"
+    - name: "Kalte Butter"
+      amount: "125 g, in Stücken"
+    - name: "Ei (für Teig)"
+      amount: "1 Stück (Größe M)"
+    - name: "Salz"
+      amount: "1 TL für Teig + 1/2 TL für Guss"
+    - name: "Kaltes Wasser"
+      amount: "1–2 EL"
+    - name: "Brokkoli"
+      amount: "ca. 300 g, in kleine Röschen"
+    - name: "Rote Paprika"
+      amount: "ca. 150 g, gewürfelt"
+    - name: "Zucchini"
+      amount: "ca. 200 g, gewürfelt"
+    - name: "Möhren"
+      amount: "ca. 200 g, gewürfelt"
+    - name: "Zwiebel"
+      amount: "ca. 80 g, fein gehackt"
+    - name: "Öl (Raps- oder Olivenöl)"
+      amount: "2 EL"
+    - name: "Eier (für Guss)"
+      amount: "4 Stück (Größe M)"
+    - name: "Schmand"
+      amount: "200 g"
+    - name: "Geriebener Käse (z. B. Gouda oder Emmentaler)"
+      amount: "100 g"
+    - name: "Schwarzer Pfeffer"
+      amount: "1/4 TL"
+    - name: "Muskatnuss (frisch gerieben)"
+      amount: "1 Prise"
+
+  steps:
+    - step: "Mürbeteig herstellen"
+      details: "Mehl, Butter, Ei, Salz und Wasser rasch zu glattem Teig verkneten. In Frischhaltefolie wickeln und 30 Min. kühlen."
+
+    - step: "Gemüse vorbereiten"
+      details: "Brokkoli in Röschen teilen, restliches Gemüse würfeln, Zwiebel fein hacken."
+
+    - step: "Gemüse anbraten"
+      details: "Öl in Pfanne erhitzen. Zwiebeln glasig anschwitzen, Gemüse 5–7 Min. braten. Mit Salz und Pfeffer würzen. Beiseite stellen."
+
+    - step: "Guss anrühren"
+      details: "Eier, Schmand, geriebenen Käse verrühren, mit Salz, Pfeffer und Muskat würzen."
+
+    - step: "Teig ausrollen und Form vorbereiten"
+      details: "Teig rund ausrollen (ca. 32–34 cm), gefettete Form (Ø 26 cm) auslegen, Rand hochziehen."
+
+    - step: "Quiche zusammensetzen"
+      details: "Gemüse auf dem Teigboden verteilen, Guss darübergießen, glatt streichen."
+
+    - step: "Backen"
+      details: "Bei 180 °C Umluft oder 200 °C Ober-/Unterhitze 30–40 Min. backen, bis goldbraun."
+
+  tips:
+    - "Schmeckt lauwarm oder kalt hervorragend."
+    - "Gemüse je nach Saison variieren, z. B. mit Lauch, Pilzen oder Kürbis."
+    - "Für mehr Würze einen Teil des Käses durch würzigen Bergkäse ersetzen."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung der klassischen vegetarischen Gemüsequiche."
+
+  media:
+    image: "images/vegetarisch/quiche/vegetarische_gemuesequiche.jpg"

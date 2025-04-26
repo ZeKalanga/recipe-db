@@ -1,0 +1,71 @@
+schema_version: "v2"
+recipe:
+  name: "Ragù alla Bolognese (angepasst auf 550 g Hack, originalnah)"
+  category: "Italienische Küche"
+  subcategories: ["Pasta & Saucen", "Fleischgerichte", "Schmorgerichte"]
+  difficulty: "mittel"
+  portions: "4–6 Portionen"
+  preparation_time: "ca. 3–3,5 Stunden inkl. Schmoren"
+  cooking_temperature: "niedrige Hitze auf dem Herd"
+
+  ingredients:
+    - name: "Mageres Rindfleisch (Bauch oder Rücken, grob gehackt)"
+      amount: "300 g"
+    - name: "Pancetta (fein gewürfelt)"
+      amount: "150 g"
+    - name: "Karotte"
+      amount: "50 g, fein gewürfelt"
+    - name: "Stangensellerie"
+      amount: "50 g, fein gewürfelt"
+    - name: "Zwiebel"
+      amount: "50 g, fein gewürfelt"
+    - name: "San Marzano Tomaten (geschält)"
+      amount: "300 g"
+    - name: "Rotwein"
+      amount: "100 ml"
+    - name: "Vollmilch"
+      amount: "100 ml"
+    - name: "Gemüsebrühe"
+      amount: "100 ml"
+    - name: "Olivenöl oder Butter"
+      amount: "3–4 EL"
+    - name: "Salz"
+      amount: "nach Geschmack (ca. 2 TL)"
+    - name: "Schwarzer Pfeffer"
+      amount: "nach Geschmack, frisch gemahlen"
+    - name: "Sahne (optional)"
+      amount: "ein Schuss für mehr Cremigkeit"
+
+  steps:
+    - step: "Vorbereitung"
+      details: "Pancetta, Karotten, Sellerie und Zwiebel sehr fein würfeln."
+
+    - step: "Pancetta und Gemüse anbraten"
+      details: "Öl oder Butter in großem Topf erhitzen. Pancetta auslassen, Gemüse zugeben und 10 Min. anschwitzen, ohne Farbe nehmen zu lassen."
+
+    - step: "Hackfleisch anbraten"
+      details: "Rindfleisch zugeben und 10–12 Min. sorgfältig krümelig braten und leicht bräunen."
+
+    - step: "Ablöschen"
+      details: "Mit Rotwein ablöschen und vollständig einkochen lassen."
+
+    - step: "Tomaten, Milch und Brühe ergänzen"
+      details: "San Marzano Tomaten, Milch und Brühe einrühren, gut verrühren, zum Simmern bringen."
+
+    - step: "Langsam schmoren"
+      details: "Mindestens 2–3 Stunden offen bei niedriger Hitze schmoren lassen. Gelegentlich umrühren, bei Bedarf Flüssigkeit ergänzen."
+
+    - step: "Abschmecken"
+      details: "Mit Salz, Pfeffer und ggf. etwas Sahne abschmecken."
+
+  tips:
+    - "Noch intensiver: 3–4 Stunden langsam schmoren lassen."
+    - "Perfekt für frische Tagliatelle oder Lasagne."
+    - "San Marzano Tomaten sorgen für authentischen Geschmack."
+
+  versioning:
+    - version: "1.0"
+      changes: "Angepasste Bolognese mit exakter Mengenabstimmung auf Originalrezept"
+
+  media:
+    image: "images/italienisch/saucen/ragu_bolognese_angepasst.jpg"

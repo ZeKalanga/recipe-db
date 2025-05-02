@@ -1,0 +1,70 @@
+schema_version: "v2"
+recipe:
+  name: "Rucola-Burger mit Dry-Aged-Rind, Jalapeños & Pesto-Schmand-Sauce"
+  category: "Fusion & Moderne Küche"
+  subcategories: ["Cross-Kitchen-Kreationen", "Burger & Streetfood", "Sommerküche"]
+  difficulty: "mittel"
+  portions: "1 Burger"
+  preparation_time: "ca. 40 Minuten"
+  cooking_temperature: "Grill oder Grillpfanne bei mittelhoher Hitze"
+
+  ingredients:
+    - name: "Dry-Aged-Rindfleisch (Hochrippe o. ä.)"
+      amount: "180 g"
+    - name: "Brioche-Burger-Bun"
+      amount: "1 Stück"
+    - name: "Rucola"
+      amount: "1 Handvoll"
+    - name: "Halbgetrocknete Tomaten"
+      amount: "3 Stück"
+    - name: "Parmesan"
+      amount: "15 g gehobelt + 1 EL frisch gerieben"
+    - name: "Jalapeño"
+      amount: "1 Stück, in Scheiben"
+    - name: "Olivenöl"
+      amount: "1/2 TL für Jalapeños"
+    - name: "Schmand"
+      amount: "1 EL"
+    - name: "Mayonnaise"
+      amount: "1 EL"
+    - name: "Grünes Pesto"
+      amount: "1/2 TL"
+    - name: "Limettensaft"
+      amount: "1 Spritzer"
+    - name: "Knoblauchzehe"
+      amount: "1 kleine, fein gerieben oder gepresst"
+    - name: "Honig"
+      amount: "1 TL"
+    - name: "Salz & Pfeffer"
+      amount: "nach Geschmack"
+
+  steps:
+    - step: "Mise en Place"
+      details: "Fleisch wolfen, Rucola waschen, Parmesan hobeln & reiben, Jalapeño schneiden, Sauce anrühren, Bun halbieren."
+
+    - step: "Patty grillen"
+      details: "Patty formen (2 cm dick), mit Salz & Pfeffer würzen. Je Seite 3–4 Min. grillen (Kerntemperatur ca. 54–56 °C für medium-rare)."
+
+    - step: "Jalapeños dünsten"
+      details: "In 1/2 TL Öl 2–3 Min. bei mittlerer Hitze dünsten. Beiseitestellen."
+
+    - step: "Bun rösten"
+      details: "Bun-Hälften in Pfanne ohne Fett goldbraun rösten."
+
+    - step: "Burger zusammenbauen"
+      details: "Untere Bun-Hälfte mit Sauce bestreichen, Rucola, Patty, Tomaten, Jalapeños und Parmesan schichten. Obere Hälfte ebenfalls bestreichen und auflegen."
+
+  tips:
+    - "Mit Trüffelöl beträufelt bekommt das Patty eine edle Note."
+    - "Für mehr Schärfe: rohe Jalapeños oder Chiliflocken ergänzen."
+    - "Dazu passen Süßkartoffelpommes oder Rucola-Balsamico-Salat."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung des Rucola-Burgers mit Dry-Aged-Rind und Pesto-Schmand."
+
+  media:
+    image: "images/fusion/burger/rucola_burger_dry_aged.jpg"
+
+# Vorschlag für Dateipfad:
+# recipes/fusion_moderne_kueche/cross_kitchen_kreationen/rucola_burger_dry_aged.yaml

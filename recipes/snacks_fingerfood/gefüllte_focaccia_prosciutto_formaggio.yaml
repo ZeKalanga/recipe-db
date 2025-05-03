@@ -1,0 +1,47 @@
+schema_version: "v2"
+recipe:
+  name: "Gefüllte Focaccia-Streifen – Prosciutto e Formaggio"
+  category: "Snacks & Fingerfood"
+  subcategories: ["Italienische Küche", "Überbackene Brote", "Herzhafte Snacks"]
+  difficulty: "leicht"
+  portions: "ca. 6–8 Stücke"
+  preparation_time: "ca. 20 Minuten + Backzeit"
+  cooking_temperature: "240–250 °C Ober-/Unterhitze"
+
+  ingredients:
+    - name: "Focaccia (fertig gebacken)"
+      amount: "1 Stück (ca. 30 × 40 cm), waagerecht halbiert"
+    - name: "Kochschinken"
+      amount: "150–180 g, dünn geschnitten"
+    - name: "Milder Käse (z. B. Mozzarella, Emmentaler, junger Gouda)"
+      amount: "150–180 g"
+    - name: "Grobkörniger Senf"
+      amount: "2 EL"
+    - name: "Mayonnaise oder Butter (optional)"
+      amount: "1 EL"
+    - name: "Schwarzer Pfeffer"
+      amount: "nach Geschmack, frisch gemahlen"
+    - name: "Schnittlauch (optional)"
+      amount: "1–2 EL, fein gehackt"
+
+  steps:
+    - step: "Focaccia vorbereiten"
+      details: "Focaccia waagerecht halbieren, dann in 5–6 cm breite Streifen schneiden."
+
+    - step: "Bestreichen & belegen"
+      details: "Untere Hälften mit Senf und optional Mayonnaise/Butter bestreichen. Mit je 1–2 Scheiben Schinken und Käse belegen. Mit Pfeffer würzen und ggf. Schnittlauch darüberstreuen."
+
+    - step: "Streifen zusammensetzen"
+      details: "Obere Hälften auflegen und leicht andrücken."
+
+    - step: "Überbacken"
+      details: "Streifen auf ein Blech mit Backpapier legen. Im vorgeheizten Ofen bei 240–250 °C für 5–7 Minuten backen, bis der Käse schmilzt. Optional mit Grillfunktion für Extra-Knusprigkeit."
+
+  tips:
+    - "Direkt heiß servieren für besten Geschmack."
+    - "Perfekt als schneller Snack, Partyfood oder als warmes Sandwich."
+    - "Auch gut vorbereitbar – nur kurz vor dem Servieren überbacken."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung basierend auf klassischer Focaccia, gefüllt und überbacken mit Schinken und Käse."

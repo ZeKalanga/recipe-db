@@ -1,0 +1,85 @@
+schema_version: "v2"
+recipe:
+  name: "Harissa-Hähnchen-Streifen mit Zitronen-Safran-Reis, karamellisierten Lauchzwiebeln & Minz-Joghurt"
+  category: "Fusion & Moderne Küche"
+  subcategories: ["Cross-Kitchen-Kreationen", "Hähnchengerichte", "Reisgerichte"]
+  difficulty: "mittel"
+  portions: "2 Personen"
+  preparation_time: "ca. 45–60 Minuten inkl. Marinieren"
+  cooking_temperature: "mittlere bis hohe Hitze in Pfanne & Topf"
+
+  ingredients:
+    - name: "Hähnchenbrustfilets"
+      amount: "2 Stück (ca. 300 g)"
+    - name: "Harissapaste"
+      amount: "1 ½ EL"
+    - name: "Olivenöl"
+      amount: "1 EL"
+    - name: "Geräuchertes Paprikapulver"
+      amount: "½ TL"
+    - name: "Honig oder Ahornsirup"
+      amount: "1 TL"
+    - name: "Zitronensaft"
+      amount: "1 TL für Marinade + 1 EL für Reis + 1 TL für Joghurt"
+    - name: "Kreuzkümmel"
+      amount: "½ TL"
+    - name: "Zimt"
+      amount: "½ TL"
+    - name: "Salz & Pfeffer"
+      amount: "nach Geschmack"
+    - name: "Basmatireis"
+      amount: "150 g"
+    - name: "Butter oder Ghee"
+      amount: "1 EL für Reis + 1 TL für Lauchzwiebeln"
+    - name: "Zitronenabrieb"
+      amount: "1 TL (Bio-Zitrone)"
+    - name: "Safranfäden"
+      amount: "1 Msp., in 1 EL warmem Wasser eingeweicht"
+    - name: "Zimtstange"
+      amount: "1 kleine"
+    - name: "Kardamomkapsel"
+      amount: "1 Stück, leicht angedrückt"
+    - name: "Lauchzwiebeln"
+      amount: "3 Stück, in Ringe geschnitten"
+    - name: "Brauner Zucker oder Honig"
+      amount: "½ TL"
+    - name: "Balsamico-Essig"
+      amount: "1 TL"
+    - name: "Griechischer Joghurt"
+      amount: "150 g"
+    - name: "Minzblätter"
+      amount: "8–10, fein gehackt"
+    - name: "Honig (für Joghurt)"
+      amount: "½ TL"
+    - name: "Mandelblättchen oder Pistazien (geröstet)"
+      amount: "1 EL zum Garnieren"
+    - name: "Chiliflocken (optional)"
+      amount: "nach Geschmack"
+
+  steps:
+    - step: "Hähnchen marinieren & braten"
+      details: "Hähnchen in Streifen schneiden, mit Harissapaste, Öl, Gewürzen und Zitrone marinieren (min. 30 Min). In Pfanne 4–5 Min. braten, bis goldbraun."
+
+    - step: "Zitronen-Safran-Reis zubereiten"
+      details: "Reis waschen, Butter schmelzen, Safranwasser, Zimt, Kardamom anrösten. Reis zugeben, mit 300 ml Wasser & Salz kochen (10–12 Min). Zitronensaft & -abrieb unterrühren, 5 Min. ruhen lassen."
+
+    - step: "Lauchzwiebeln karamellisieren"
+      details: "Butter in Pfanne schmelzen, Lauchzwiebeln 2–3 Min. braten, Zucker & Balsamico zugeben, karamellisieren."
+
+    - step: "Minz-Joghurt zubereiten"
+      details: "Joghurt mit Minze, Zitrone, Honig, Salz & Pfeffer verrühren."
+
+    - step: "Anrichten"
+      details: "Reis auf Teller geben, Hähnchen und Lauchzwiebeln darüber. Joghurt dazu, mit Mandelblättchen & ggf. Chiliflocken garnieren."
+
+  tips:
+    - "Für noch mehr Aroma: Hähnchen über Nacht marinieren."
+    - "Vegan: Hähnchen durch Räuchertofu ersetzen, Joghurt pflanzlich."
+    - "Dazu passt: Fladenbrot oder geröstetes Pitabrot."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung des Harissa-Hähnchens mit Safranreis und Minz-Joghurt."
+
+  media:
+    image: "images/fusion/huhn/harissa_haehnchen_safranreis.jpg"

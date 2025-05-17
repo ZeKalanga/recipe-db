@@ -1,0 +1,78 @@
+schema_version: "v2"
+recipe:
+  name: "Sous-vide Rinderfiletspitze mit Spargel, Hollandaise & Kräuter-Drillingen"
+  category: "Deutsche & Alpenküche"
+  subcategories: ["Fleisch- & Schmorgerichte", "Saisonal", "Sous-vide"]
+  difficulty: "mittel"
+  portions: "2 Personen"
+  preparation_time: "ca. 45 Minuten aktiv + 90 Minuten sous-vide"
+  cooking_temperature: "Sous-vide: 54,5 °C; sonst mittlere bis hohe Hitze"
+
+  ingredients:
+    - name: "Rinderfilet (Ferse / Filetspitze)"
+      amount: "300–350 g"
+    - name: "Salz"
+      amount: "2 TL (für Fleisch & Drillinge)"
+    - name: "Butterschmalz"
+      amount: "1 TL (zum Anbraten)"
+    - name: "Butter"
+      amount: "1 EL (Vakuum), 1 EL (zum Glasieren), 1 EL (für Spargel), 1 EL (für Drillinge), 120 g (für Hollandaise)"
+    - name: "Rosmarin"
+      amount: "1 Zweig"
+    - name: "Thymian"
+      amount: "1 Zweig"
+    - name: "Knoblauchzehe"
+      amount: "1 kleine, angedrückt"
+    - name: "Weißer Spargel"
+      amount: "300 g, geschält"
+    - name: "Grüner Spargel"
+      amount: "300 g, holzige Enden entfernt"
+    - name: "Zucker"
+      amount: "1 TL (für Spargelwasser)"
+    - name: "Eigelb"
+      amount: "2 Stück"
+    - name: "Zitronensaft"
+      amount: "1 TL (für Hollandaise)"
+    - name: "Weißweinessig"
+      amount: "1 TL"
+    - name: "Weißer Pfeffer"
+      amount: "nach Geschmack"
+    - name: "Drillinge"
+      amount: "300 g, ungeschält"
+    - name: "Frische Kräuter (z. B. Petersilie, Schnittlauch, Kerbel)"
+      amount: "1 EL, gehackt"
+    - name: "Zitronenabrieb (optional)"
+      amount: "nach Geschmack"
+    - name: "Spargelwasser (optional)"
+      amount: "1 EL, zum Abschmecken der Sauce"
+
+  steps:
+    - step: "Rinderfilet sous-vide"
+      details: "Filet salzen, mit Kräutern, Knoblauch & Butter vakuumieren. Bei 54,5 °C 90 Min. garen. Danach ruhen lassen, scharf anbraten & glasieren. In Tranchen schneiden."
+
+    - step: "Drillinge zubereiten"
+      details: "15–18 Min. in Salzwasser kochen. Abgießen, abdampfen, in Butter schwenken. Mit Kräutern & Zitronenabrieb vollenden."
+
+    - step: "Spargel zubereiten"
+      details: "Weißen Spargel 8–10 Min. in Salzwasser mit Butter & Zucker garen. Grünen Spargel 3–5 Min. anbraten oder blanchieren."
+
+    - step: "Sauce Hollandaise"
+      details: "Eigelbe mit Zitronensaft & Essig über Wasserbad schaumig aufschlagen. Flüssige Butter langsam einrühren. Mit Salz, Pfeffer & ggf. Spargelwasser abschmecken."
+
+    - step: "Anrichten"
+      details: "Spargel mittig platzieren, Filet fächerförmig dazu. Mit Hollandaise nappieren oder separat servieren. Drillinge anlegen & mit Schnittlauch bestreuen."
+
+  tips:
+    - "Filet kann auch am Vortag sous-vide gegart & gekühlt werden."
+    - "Grüner Spargel ist ideal zum Braten & bringt Farbe."
+    - "Für perfekte Hollandaise: Butter nicht zu heiß einrühren!"
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung des Frühlingsgerichts mit sous-vide Filet, Spargel & Hollandaise."
+
+  media:
+    image: "images/fruehling/rind/sous_vide_rinderfilet_spargel.jpg"
+
+# Vorschlag für Dateipfad:
+# recipes/hauptgerichte/fleisch_gefluegel/sous_vide_rinderfilet_spargel.yaml

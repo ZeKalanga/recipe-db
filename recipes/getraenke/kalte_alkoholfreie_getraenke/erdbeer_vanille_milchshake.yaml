@@ -1,0 +1,48 @@
+schema_version: "v2"
+recipe:
+  name: "Erdbeer-Vanille-Milchshake"
+  category: "Getränke"
+  subcategories: ["Kalte & alkoholfreie Getränke", "Sommergetränke", "Milchshakes"]
+  difficulty: "leicht"
+  portions: "2 Gläser (à ca. 250 ml)"
+  preparation_time: "ca. 5 Minuten"
+  cooking_temperature: "keine Hitze nötig"
+
+  ingredients:
+    - name: "Frische Erdbeeren (alternativ TK, leicht angetaut)"
+      amount: "200 g"
+    - name: "Vanilleeis"
+      amount: "3 Kugeln (ca. 150–180 g)"
+    - name: "Kalte Milch (Vollmilch oder pflanzlich)"
+      amount: "200 ml"
+    - name: "Vanillezucker (optional)"
+      amount: "1 TL"
+    - name: "Zucker oder Honig (optional)"
+      amount: "1–2 TL, nach Geschmack"
+    - name: "Topping (optional: Schlagsahne, Erdbeerstückchen, Minze)"
+      amount: "nach Wunsch"
+
+  steps:
+    - step: "Erdbeeren vorbereiten"
+      details: "Erdbeeren waschen, entstielen und grob zerkleinern."
+
+    - step: "Mixen"
+      details: "Erdbeeren, Vanilleeis, Milch und ggf. Zucker/Vanillezucker in einen Mixer geben. Cremig und schaumig pürieren."
+
+    - step: "Abschmecken & Servieren"
+      details: "Shake abschmecken, bei Bedarf nachsüßen. In gekühlte Gläser füllen und nach Wunsch garnieren. Sofort servieren."
+
+  tips:
+    - "Für extra Frische: mit Minzblättern oder Zitronenzeste verfeinern."
+    - "Bei Verwendung von TK-Erdbeeren auf zusätzliche Eiswürfel verzichten."
+    - "Auch lecker mit einem Schuss Vanille- oder Erdbeersirup."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung des klassischen Milchshake-Rezepts mit Erdbeeren und Vanilleeis."
+
+  media:
+    image: "images/getraenke/milchshakes/erdbeer_vanille_milchshake.jpg"
+
+# Vorschlag für Dateipfad:
+# recipes/getraenke/kalte_alkoholfreie_getraenke/erdbeer_vanille_milchshake.yaml

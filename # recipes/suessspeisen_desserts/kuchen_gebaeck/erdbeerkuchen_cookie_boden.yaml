@@ -1,0 +1,74 @@
+schema_version: "v2"
+recipe:
+  name: "Erdbeerkuchen mit Cookie-Boden"
+  category: "Süßspeisen & Desserts"
+  subcategories: ["Kuchen & Gebäck", "Sommerkuchen", "Fruchtkuchen"]
+  difficulty: "leicht"
+  portions: "1 Springform (Ø 24–26 cm)"
+  preparation_time: "ca. 30 Minuten + 25–30 Minuten Backzeit + Abkühlzeit"
+  cooking_temperature: "175 °C Ober-/Unterhitze"
+
+  ingredients:
+    - name: "Butter (weich)"
+      amount: "120 g"
+    - name: "Brauner Zucker"
+      amount: "100 g"
+    - name: "Weißer Zucker"
+      amount: "50 g"
+    - name: "Ei (Größe M)"
+      amount: "1 Stück"
+    - name: "Vanilleextrakt oder Vanillezucker"
+      amount: "1 TL oder 1 Päckchen"
+    - name: "Weizenmehl (Typ 405)"
+      amount: "180 g"
+    - name: "Natron"
+      amount: "½ TL"
+    - name: "Salz"
+      amount: "¼ TL"
+    - name: "Erdbeeren (frisch oder TK, leicht angetaut)"
+      amount: "400–500 g"
+    - name: "Zucker (für Belag)"
+      amount: "1–2 EL"
+    - name: "Zitronensaft"
+      amount: "1 TL"
+    - name: "Speisestärke (optional)"
+      amount: "1 TL"
+    - name: "Frischkäse (optional, Doppelrahmstufe)"
+      amount: "200 g"
+    - name: "Puderzucker (optional)"
+      amount: "2 EL"
+    - name: "Vanilleextrakt (für Creme, optional)"
+      amount: "½ TL"
+    - name: "Schlagsahne oder Milch (optional)"
+      amount: "1–2 EL"
+
+  steps:
+    - step: "Cookie-Teig herstellen"
+      details: "Butter und Zucker cremig rühren (2–3 Min), Ei und Vanille unterrühren. Mehl, Natron und Salz mischen, einarbeiten."
+
+    - step: "Backen"
+      details: "Teig in gefettete oder mit Backpapier ausgelegte Springform drücken (Ränder leicht hochziehen). Bei 175 °C ca. 25–30 Min. backen. Gut auskühlen lassen."
+
+    - step: "Erdbeeren vorbereiten"
+      details: "Erdbeeren waschen, entstielen, nach Wunsch halbieren. Mit Zitronensaft, Zucker und ggf. Stärke mischen, kurz erhitzen (optional)."
+
+    - step: "(Optional) Creme-Schicht"
+      details: "Frischkäse mit Puderzucker und Vanille verrühren. Etwas Sahne unterziehen. Auf abgekühltem Boden verteilen."
+
+    - step: "Fertigstellen"
+      details: "Erdbeeren gleichmäßig auf Cookie-Boden oder Creme verteilen. Nach Wunsch mit Minze oder Puderzucker garnieren."
+
+  tips:
+    - "Der Cookie-Boden bleibt nach dem Backen weich & chewy – nicht zu trocken backen."
+    - "Optionalen Fruchtspiegel mit etwas Stärke binden für besseren Halt."
+    - "Mini-Version möglich im Muffinblech mit reduzierter Backzeit."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung des fruchtigen Erdbeerkuchens mit softem Cookie-Teigboden."
+
+  media:
+    image: "images/suessspeisen/kuchen/erdbeerkuchen_cookie_boden.jpg"
+
+# Vorschlag für Dateipfad:
+# recipes/suessspeisen_desserts/kuchen_gebaeck/erdbeerkuchen_cookie_boden.yaml

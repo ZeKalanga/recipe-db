@@ -1,0 +1,62 @@
+schema_version: "v2"
+recipe:
+  name: "Vindaloo-Eintopf mit Rindfleisch (angepasst)"
+  category: "Indische Küche"
+  subcategories: ["Currys & Schmorgerichte", "Rindfleisch", "Eintopf"]
+  difficulty: "mittel"
+  portions: "4–6 Personen"
+  preparation_time: "ca. 4 Stunden inkl. Marinieren & Schmoren"
+  cooking_temperature: "niedrige Hitze auf dem Herd"
+
+  ingredients:
+    - name: "Geröstete Zwiebeln"
+      amount: "115 g, fein gehackt"
+    - name: "Rote Chilis oder Chilipulver"
+      amount: "4 Stück (frisch/getrocknet) oder 1 TL Pulver"
+    - name: "Vindaloo-Masalapaste"
+      amount: "4 EL (alternativ: Madras-Curry + Knoblauch, Essig, Kreuzkümmel)"
+    - name: "Weißweinessig"
+      amount: "6 EL"
+    - name: "Tomatenmark"
+      amount: "6 EL"
+    - name: "Bockshornkleesamen oder Fenchelsamen"
+      amount: "½ TL"
+    - name: "Kurkuma"
+      amount: "1 TL"
+    - name: "Zerdrückte Senfkörner oder Senfpulver"
+      amount: "1 TL oder ½ TL"
+    - name: "Zucker"
+      amount: "1½ TL"
+    - name: "Salz"
+      amount: "nach Geschmack"
+    - name: "Rindfleisch (vom Nacken)"
+      amount: "830 g, in ca. 2 cm Würfel geschnitten"
+    - name: "Wasser"
+      amount: "200–250 ml (zum Schmoren)"
+    - name: "Basmatireis (gekocht)"
+      amount: "nach Bedarf zum Servieren"
+
+  steps:
+    - step: "Marinieren"
+      details: "Alle Zutaten außer Wasser und Reis in einer großen Schüssel gut vermengen. Rindfleisch unterheben, abdecken und mindestens 2 Std. (besser über Nacht) marinieren."
+
+    - step: "Schmoren"
+      details: "Fleisch samt Marinade in einen Schmortopf geben, Wasser zufügen und gut vermengen. Bei niedriger Hitze ca. 2 Stunden sanft schmoren, bis das Fleisch zart ist und die Sauce eindickt. Ggf. mit Salz oder Essig abschmecken."
+
+    - step: "Servieren"
+      details: "Mit gedämpftem Basmatireis heiß servieren."
+
+  tips:
+    - "Schmeckt am nächsten Tag noch besser – ideal zum Vorbereiten."
+    - "Wer es milder mag, reduziert Chilis oder verwendet mildes Currypulver."
+    - "Mit Joghurt oder Raita servieren für cremige Balance."
+
+  versioning:
+    - version: "1.0"
+      changes: "Angepasste Version des Vindaloo-Rindereintopfs mit Masalapaste und vereinfachter Zubereitung."
+
+  media:
+    image: "images/indisch/currys/vindaloo_rind_eintopf.jpg"
+
+# Vorschlag für Dateipfad:
+# recipes/indische_kueche/currys_schmorgerichte/vindaloo_rind_eintopf.yaml

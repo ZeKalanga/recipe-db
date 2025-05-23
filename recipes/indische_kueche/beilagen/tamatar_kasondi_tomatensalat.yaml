@@ -1,0 +1,54 @@
+schema_version: "v2"
+recipe:
+  name: "Tomatensalat – Tamatar Kasondi"
+  category: "Indische Küche"
+  subcategories: ["Beilagen", "Salate", "Frische Küche"]
+  difficulty: "leicht"
+  portions: "4–6 Personen"
+  preparation_time: "ca. 10 Minuten + Ziehzeit"
+  cooking_temperature: "keine Hitze erforderlich"
+
+  ingredients:
+    - name: "Zwiebeln"
+      amount: "2 Stück, fein gehackt"
+    - name: "Feste Tomaten"
+      amount: "4 Stück, fein gehackt"
+    - name: "Gurke"
+      amount: "½ Stück, fein gehackt"
+    - name: "Grüne Chili"
+      amount: "1 Stück, fein gehackt"
+    - name: "Korianderblätter"
+      amount: "einige, gehackt"
+    - name: "Minzeblätter"
+      amount: "einige, zum Garnieren"
+    - name: "Limonen (Saft)"
+      amount: "2 Stück"
+    - name: "Zucker"
+      amount: "½ TL"
+    - name: "Salz & schwarzer Pfeffer"
+      amount: "nach Geschmack"
+
+  steps:
+    - step: "Marinade herstellen"
+      details: "Limonen auspressen, Saft mit Zucker, Salz und Pfeffer vermengen, bis sich alles auflöst."
+
+    - step: "Gemüse mischen"
+      details: "Zwiebeln, Tomaten, Gurke, Chili und Koriander in die Marinade geben, vorsichtig unterheben. Kalt stellen."
+
+    - step: "Anrichten"
+      details: "Vor dem Servieren mit frischen Koriander- und Minzblättern garnieren."
+
+  tips:
+    - "Passt besonders gut zu würzigen Currys oder gegrilltem Fleisch."
+    - "Für zusätzliche Frische: ein paar Granatapfelkerne hinzufügen."
+    - "Chili nach gewünschter Schärfe anpassen."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung des frischen indischen Tomatensalats als Beilage."
+
+  media:
+    image: "images/indisch/beilagen/tamatar_kasondi_tomatensalat.jpg"
+
+# Vorschlag für Dateipfad:
+# recipes/indische_kueche/beilagen/tamatar_kasondi_tomatensalat.yaml

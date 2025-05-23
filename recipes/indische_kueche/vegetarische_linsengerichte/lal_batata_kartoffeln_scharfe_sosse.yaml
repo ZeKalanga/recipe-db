@@ -1,0 +1,67 @@
+schema_version: "v2"
+recipe:
+  name: "Kartoffeln in scharfer Soße (Lal Batata)"
+  category: "Indische Küche"
+  subcategories: ["Vegetarische & Linsengerichte", "Currys & Schmorgerichte", "Beilagen"]
+  difficulty: "mittel"
+  portions: "4–6 Personen"
+  preparation_time: "ca. 40 Minuten"
+  cooking_temperature: "mittlere Hitze auf dem Herd"
+
+  ingredients:
+    - name: "Drillinge (kleine Kartoffeln, ungeschält)"
+      amount: "450 g"
+    - name: "Knoblauchzehen"
+      amount: "4 Stück"
+    - name: "Frischer Koriander"
+      amount: "1 Bund (zum Garnieren)"
+    - name: "Zitronen"
+      amount: "1–2 Stück, in Spalten zum Servieren"
+    - name: "Getrocknete rote Chilis (z. B. Kashmiri)"
+      amount: "25 g"
+    - name: "Kreuzkümmelsamen"
+      amount: "1½ TL"
+    - name: "Asafötida (Hing)"
+      amount: "¼ TL"
+    - name: "Zucker"
+      amount: "1 TL"
+    - name: "Salz"
+      amount: "nach Geschmack"
+    - name: "Curryblätter"
+      amount: "4 Stück (frisch oder tiefgekühlt)"
+    - name: "Pflanzenöl (z. B. Sonnenblumenöl)"
+      amount: "6 EL"
+    - name: "Tamarindensaft (dick) oder Tamarindenpaste + Wasser"
+      amount: "4 EL bzw. 1–2 TL + Wasser"
+    - name: "Tomatenmark"
+      amount: "2 EL"
+
+  steps:
+    - step: "Kartoffeln garen"
+      details: "Kartoffeln 15–18 Min. in Salzwasser kochen, bis gar, aber nicht zerfallen. Abgießen & beiseite stellen."
+
+    - step: "Chilipaste herstellen"
+      details: "Chilis 5 Min. in heißem Wasser einweichen, abtropfen lassen. Mit Knoblauch & Kreuzkümmel zu feiner Paste verarbeiten."
+
+    - step: "Soße anrösten"
+      details: "Öl in großer Pfanne erhitzen, Chilipaste 1–2 Min. anrösten. Tamarindensaft, Tomatenmark, Curryblätter, Asafötida, Zucker & Salz zugeben, 5–7 Min. köcheln lassen."
+
+    - step: "Kartoffeln vollenden"
+      details: "Kartoffeln (ganz oder halbiert) zur Soße geben, gut unterheben & 5 Min. abgedeckt ziehen lassen."
+
+    - step: "Servieren"
+      details: "Mit frischem Koriander & Zitronenspalten anrichten. Passt zu Naan, Chapati oder Basmatireis."
+
+  tips:
+    - "Für mehr Tiefe: etwas geröstetes Kreuzkümmel- oder Senfpulver vor dem Servieren darüberstreuen."
+    - "Vegan & glutenfrei – perfekt als Hauptgericht oder Beilage."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung des klassischen indischen Kartoffelgerichts in scharfer Tamarinden-Chili-Sauce."
+
+  media:
+    image: "images/indisch/currys/lal_batata_kartoffeln_scharfe_sosse.jpg"
+
+# Vorschlag für Dateipfad:
+# recipes/indische_kueche/vegetarische_linsengerichte/lal_batata_kartoffeln_scharfe_sosse.yaml

@@ -1,0 +1,55 @@
+schema_version: "v2"
+recipe:
+  name: "Langsam geschmolzene Zwiebeln mit Jalapeño & Champignons (ohne Zuckerzusatz)"
+  category: "Beilagen & Basics"
+  subcategories: ["Gemüse & Salate", "Zwiebelgerichte", "Aromatische Beilagen"]
+  difficulty: "leicht"
+  portions: "2–4 Personen"
+  preparation_time: "ca. 40–45 Minuten"
+  cooking_temperature: "niedrige bis mittlere Hitze auf dem Herd"
+
+  ingredients:
+    - name: "Zwiebeln"
+      amount: "2 große (ca. 300 g), in feine Streifen"
+    - name: "Jalapeño"
+      amount: "1 Stück, entkernt und fein gehackt"
+    - name: "Braune Champignons"
+      amount: "250 g, in feine Scheiben"
+    - name: "Olivenöl oder Butterschmalz"
+      amount: "2 EL"
+    - name: "Butter (optional)"
+      amount: "1 EL"
+    - name: "Salz"
+      amount: "½ TL"
+    - name: "Schwarzer Pfeffer"
+      amount: "nach Geschmack, frisch gemahlen"
+    - name: "Balsamico oder Zitronensaft"
+      amount: "1 Spritzer, zum Abrunden"
+
+  steps:
+    - step: "Zwiebeln langsam schmoren"
+      details: "Öl in großer Pfanne auf kleiner Hitze erwärmen. Zwiebeln mit Salz zugeben, 25–30 Min. bei niedriger Hitze schmoren, ohne Farbe zu nehmen. Gelegentlich umrühren."
+
+    - step: "Jalapeño hinzufügen"
+      details: "Jalapeño zugeben, 5 Min. sanft mitgaren. Für milde Variante die Innenhäute komplett entfernen."
+
+    - step: "Champignons einarbeiten"
+      details: "Champignons unterheben, Hitze leicht erhöhen. 8–10 Min. weiterbraten, bis weich & aromatisch. Optional: mit Butter verfeinern."
+
+    - step: "Abschmecken"
+      details: "Mit frisch gemahlenem Pfeffer und einem Spritzer Balsamico oder Zitronensaft abschmecken."
+
+  tips:
+    - "Ideal als Topping für Burger, Sandwiches oder als Beilage zu Gegrilltem."
+    - "Lässt sich gut vorbereiten und aufwärmen."
+    - "Für extra Umami: 1 TL Sojasauce oder etwas Pilzpulver ergänzen."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung der sanft geschmorten Zwiebelpfanne mit Jalapeño & Champignons ohne Zuckerzusatz."
+
+  media:
+    image: "images/beilagen/zwiebeln/geschmolzene_zwiebeln_jalapeno_champignons.jpg"
+
+# Vorschlag für Dateipfad:
+# recipes/beilagen_basics/gemuese_salate/geschmolzene_zwiebeln_jalapeno_champignons.yaml

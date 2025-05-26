@@ -1,38 +1,40 @@
 #!/bin/bash
 
-# Bash-Skript zum Erstellen der Verzeichnisstruktur im aktuellen Verzeichnis
+# Rezept-Verzeichnisstruktur für recipe-db erstellen
+BASE_DIR=$(pwd)/recipes
 
-BASE_DIR=$(pwd)
+echo "📁 Verzeichnisstruktur wird unter $BASE_DIR erstellt..."
 
-# Hauptgerichte
-mkdir -p "$BASE_DIR/recipes/hauptgerichte/fleisch_gefluegel"
-mkdir -p "$BASE_DIR/recipes/hauptgerichte/fisch_meeresfruechte"
-mkdir -p "$BASE_DIR/recipes/hauptgerichte/vegetarische_vegane_gerichte"
-mkdir -p "$BASE_DIR/recipes/hauptgerichte/reis_nudel_getreidegerichte"
+# Strukturdefinition als Array (category/subcategory)
+structure=(
+  "hauptgerichte/fleisch_und_gefluegel"
+  "hauptgerichte/fisch_und_meeresfruechte"
+  "hauptgerichte/vegetarische_und_vegane_gerichte"
+  "hauptgerichte/reis_nudel_und_getreidegerichte"
 
-# Beilagen & Basics
-mkdir -p "$BASE_DIR/recipes/beilagen_basics/saucen_dips_wuerzpasten"
-mkdir -p "$BASE_DIR/recipes/beilagen_basics/brot_teigwaren"
-mkdir -p "$BASE_DIR/recipes/beilagen_basics/gemuese_salate"
+  "beilagen_und_basics/saucen_dips_und_wuerzpasten"
+  "beilagen_und_basics/brot_und_teigwaren"
+  "beilagen_und_basics/gemuese_und_salate"
 
-# Vorspeisen & Streetfood
-mkdir -p "$BASE_DIR/recipes/vorspeisen_streetfood/suppen_eintoepfe"
-mkdir -p "$BASE_DIR/recipes/vorspeisen_streetfood/snacks_fingerfood"
-mkdir -p "$BASE_DIR/recipes/vorspeisen_streetfood/kleine_warme_kalte_speisen"
+  "vorspeisen_und_streetfood/suppen_und_eintoepfe"
+  "vorspeisen_und_streetfood/snacks_und_fingerfood"
+  "vorspeisen_und_streetfood/kleine_warme_und_kalte_speisen"
 
-# Süßspeisen & Desserts
-mkdir -p "$BASE_DIR/recipes/suessspeisen_desserts/kuchen_gebaeck"
-mkdir -p "$BASE_DIR/recipes/suessspeisen_desserts/cremige_fruchtige_desserts"
-mkdir -p "$BASE_DIR/recipes/suessspeisen_desserts/suesse_snacks"
+  "suessspeisen_und_desserts/kuchen_und_gebaeck"
+  "suessspeisen_und_desserts/cremige_und_fruchtige_desserts"
+  "suessspeisen_und_desserts/suesse_snacks"
 
-# Getränke
-mkdir -p "$BASE_DIR/recipes/getraenke/heissgetraenke"
-mkdir -p "$BASE_DIR/recipes/getraenke/kalte_alkoholfreie_getraenke"
-mkdir -p "$BASE_DIR/recipes/getraenke/cocktails_alkoholische_spezialitaeten"
+  "getraenke/heissgetraenke"
+  "getraenke/kalte_und_alkoholfreie_getraenke"
+  "getraenke/cocktails_und_alkoholische_spezialitaeten"
 
-# Moderne & Fusion-Küche
-mkdir -p "$BASE_DIR/recipes/moderne_fusion_kueche/neuinterpretationen_klassischer_gerichte"
-mkdir -p "$BASE_DIR/recipes/moderne_fusion_kueche/cross_kitchen_kreationen"
-mkdir -p "$BASE_DIR/recipes/moderne_fusion_kueche/experimentelle_rezepte"
+  "moderne_und_fusion_kueche/neuinterpretationen_klassischer_gerichte"
+  "moderne_und_fusion_kueche/cross_kitchen_kreationen"
+  "moderne_und_fusion_kueche/experimentelle_rezepte"
+)
 
-echo "Verzeichnisstruktur im aktuellen Projektverzeichnis erfolgreich erstellt!"
+for path in "${structure[@]}"; do
+  mkdir -p "$BASE_DIR/$path"
+done
+
+echo "✅ Verzeichnisstruktur erfolgreich erstellt!"

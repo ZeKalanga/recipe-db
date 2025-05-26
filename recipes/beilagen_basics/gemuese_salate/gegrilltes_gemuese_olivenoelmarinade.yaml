@@ -1,0 +1,55 @@
+schema_version: "v2"
+recipe:
+  name: "Gegrillte Zucchini & Auberginen in Olivenöl-Marinade"
+  category: "Beilagen & Basics"
+  subcategories: ["Gemüse & Salate", "Mediterrane Küche", "Sommerküche"]
+  difficulty: "leicht"
+  portions: "4 Personen (Beilage)"
+  preparation_time: "ca. 35 Minuten inkl. Marinierzeit"
+  cooking_temperature: "heiße Grillpfanne oder Grill"
+
+  ingredients:
+    - name: "Zucchini"
+      amount: "2 Stück (je ca. 200 g)"
+    - name: "Aubergine"
+      amount: "1 große (ca. 300 g)"
+    - name: "Olivenöl extra vergine"
+      amount: "3–4 EL zum Grillen + für die Marinade"
+    - name: "Knoblauchzehen"
+      amount: "1–2, in feine Scheiben"
+    - name: "Getrockneter Oregano oder frischer Thymian"
+      amount: "½ TL (getrocknet) oder 1 TL frisch, fein gehackt"
+    - name: "Balsamico-Essig oder Zitronensaft"
+      amount: "1 EL"
+    - name: "Salz & schwarzer Pfeffer"
+      amount: "nach Geschmack"
+    - name: "Frische Basilikumblätter oder Petersilie (optional)"
+      amount: "einige zum Bestreuen"
+
+  steps:
+    - step: "Vorbereitung"
+      details: "Zucchini und Aubergine in 4–5 mm dicke Scheiben schneiden. Aubergine optional salzen, 10 Min. ziehen lassen & trocken tupfen."
+
+    - step: "Grillen"
+      details: "Grillpfanne stark erhitzen. Gemüse mit Olivenöl bepinseln, je Seite 2–3 Min. grillen. Fertige Scheiben auf Teller legen."
+
+    - step: "Marinieren"
+      details: "Olivenöl, Knoblauch, Oregano, Balsamico/Zitrone, Salz & Pfeffer verrühren. Gemüse schichtweise mit Marinade beträufeln. Mind. 15 Min. ziehen lassen."
+
+    - step: "Servieren"
+      details: "Lauwarm oder zimmerwarm servieren, optional mit frischen Kräutern bestreuen."
+
+  tips:
+    - "Mit Zitronenschale oder Chili verfeinern für mehr Frische oder Schärfe."
+    - "Ideal zu Burrata, Focaccia oder als Antipasti."
+    - "Lässt sich gut vorbereiten und kalt servieren."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung des mediterranen Grillgemüses mit aromatischer Olivenöl-Marinade."
+
+  media:
+    image: "images/beilagen/gemuese/gegrilltes_gemuese_olivenoelmarinade.jpg"
+
+# Vorschlag für Dateipfad:
+# recipes/beilagen_basics/gemuese_salate/gegrilltes_gemuese_olivenoelmarinade.yaml

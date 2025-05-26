@@ -1,0 +1,57 @@
+schema_version: "v2"
+recipe:
+  name: "Ofengeröstete Zucchini & Auberginen in Olivenöl-Marinade"
+  category: "Beilagen & Basics"
+  subcategories: ["Gemüse & Salate", "Mediterrane Küche", "Ofengemüse"]
+  difficulty: "leicht"
+  portions: "4 Personen (Beilage)"
+  preparation_time: "ca. 45 Minuten inkl. Ofenzeit"
+  cooking_temperature: "220 °C Ober-/Unterhitze oder 200 °C Umluft"
+
+  ingredients:
+    - name: "Zucchini"
+      amount: "2 Stück (je ca. 200 g)"
+    - name: "Aubergine"
+      amount: "1 große (ca. 300 g)"
+    - name: "Olivenöl extra vergine"
+      amount: "3–4 EL zum Rösten + 1–2 EL zum Marinieren"
+    - name: "Knoblauchzehen"
+      amount: "1–2, fein gehobelt"
+    - name: "Zitronensaft oder milder Balsamico"
+      amount: "1 EL"
+    - name: "Getrockneter Oregano oder frische Kräuter (z. B. Thymian)"
+      amount: "½ TL getrocknet oder 1 TL frisch, gehackt"
+    - name: "Salz & schwarzer Pfeffer"
+      amount: "nach Geschmack"
+    - name: "Frische Petersilie oder Basilikum (optional)"
+      amount: "zum Bestreuen"
+
+  steps:
+    - step: "Vorbereiten"
+      details: "Ofen auf 220 °C Ober-/Unterhitze vorheizen. Gemüse in 5 mm dicke Scheiben schneiden. Aubergine optional salzen & trocken tupfen."
+
+    - step: "Backblech vorbereiten"
+      details: "Gemüse auf Backpapier verteilen, mit Öl bepinseln, mit Salz, Pfeffer & Oregano würzen."
+
+    - step: "Rösten"
+      details: "25–30 Min. im Ofen rösten, nach 15 Min. wenden. Leicht bräunen lassen."
+
+    - step: "Marinieren"
+      details: "Geröstetes Gemüse mit Öl, Knoblauch, Zitronensaft/Balsamico & frischen Kräutern marinieren. Mind. 15 Min. ziehen lassen."
+
+    - step: "Servieren"
+      details: "Lauwarm oder zimmerwarm mit Kräutern servieren. Auch als Antipasti oder für Pasta geeignet."
+
+  tips:
+    - "Gemüse würfeln & mit Kirschtomaten rösten für lauwarmen Salat."
+    - "Ideal als Meal Prep, auch kalt sehr aromatisch."
+
+  versioning:
+    - version: "1.0"
+      changes: "Ofenvariante des mediterranen Grillgemüses mit identischer Marinade."
+
+  media:
+    image: "images/beilagen/gemuese/ofengemuese_olivenoelmarinade.jpg"
+
+# Vorschlag für Dateipfad:
+# recipes/beilagen_basics/gemuese_salate/ofengemuese_olivenoelmarinade.yaml

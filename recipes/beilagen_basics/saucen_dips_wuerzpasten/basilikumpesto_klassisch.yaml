@@ -1,0 +1,57 @@
+schema_version: "v2"
+recipe:
+  name: "Basilikumpesto (klassisch, nussig & intensiv)"
+  category: "Beilagen & Basics"
+  subcategories: ["Saucen, Dips & Würzpasten", "Italienische Küche", "Vorrat"]
+  difficulty: "leicht"
+  portions: "ca. 6–8 Portionen"
+  preparation_time: "ca. 15 Minuten"
+  cooking_temperature: "keine Hitze erforderlich"
+
+  ingredients:
+    - name: "Basilikumblätter (jung, ohne dicke Stängel)"
+      amount: "300 g"
+    - name: "Knoblauchzehen"
+      amount: "3–4 Stück, grob zerkleinert"
+    - name: "Pinienkerne"
+      amount: "200 g"
+    - name: "Parmigiano Reggiano oder Grana Padano"
+      amount: "120 g, frisch gerieben"
+    - name: "Pecorino (optional, für mehr Würze)"
+      amount: "30 g"
+    - name: "Feines Meersalz"
+      amount: "1,5–2 TL"
+    - name: "Schwarzer Pfeffer"
+      amount: "nach Geschmack, frisch gemahlen"
+    - name: "Olivenöl extra vergine"
+      amount: "250–300 ml"
+    - name: "Zitronensaft (optional)"
+      amount: "ein Spritzer, für Farbe & Frische"
+
+  steps:
+    - step: "Pinienkerne rösten"
+      details: "Optional, aber empfohlen: in Pfanne ohne Fett bei mittlerer Hitze goldbraun rösten, schwenken. Abkühlen lassen."
+
+    - step: "Basilikum vorbereiten"
+      details: "Blätter waschen, trocken schleudern, grobe Stängel entfernen."
+
+    - step: "Mixen oder mörsern"
+      details: "Basilikum, Knoblauch, Salz, Pinienkerne & Käse kurz anmixen, dann nach und nach Olivenöl zugeben. Alternativ: im Mörser herstellen."
+
+    - step: "Abschmecken & abfüllen"
+      details: "Mit Pfeffer und ggf. Zitronensaft abschmecken. In Gläser füllen & mit Öl bedecken."
+
+  tips:
+    - "Im Kühlschrank 5–7 Tage haltbar (mit Öl abgedeckt)."
+    - "Zum Einfrieren ideal: in Eiswürfelformen oder kleine Gläser füllen."
+    - "Für besonders mildes Aroma: jungen Knoblauch oder Bärlauch verwenden."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung des klassischen Basilikumpestos mit gerösteten Pinienkernen und zwei Käsesorten."
+
+  media:
+    image: "images/basics/pesto/basilikumpesto_klassisch.jpg"
+
+# Vorschlag für Dateipfad:
+# recipes/beilagen_basics/saucen_dips_wuerzpasten/basilikumpesto_klassisch.yaml

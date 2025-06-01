@@ -6,6 +6,7 @@ recipe:
   difficulty: "mittel"
   portions: "1 Springform Ø 24–26 cm"
   preparation_time: "30 Min. Vorbereitung + 30 Min. Backzeit + Abkühlzeit"
+  cooking_temperature: "175 °C Ober-/Unterhitze"
 
   ingredients:
     - name: "Butter (weich)"

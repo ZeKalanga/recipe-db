@@ -1,0 +1,73 @@
+schema_version: "v2"
+recipe:
+  name: "Erdbeerkuchen mit Cookie-Boden, Marmelade, Marzipanpudding & Tortenguss"
+  category: "Süßspeisen & Desserts"
+  subcategories:
+    - "Kuchen & Gebäck"
+    - "Erdbeerrezepte"
+    - "Cookie-Boden"
+    - "Marzipan"
+  portions: "Springform Ø 24–26 cm"
+  preparation_time: "30 Minuten"
+  baking_time: "25–30 Minuten"
+  cooling_time: "mind. 1–2 Stunden"
+  total_time: "ca. 3 Stunden inkl. Abkühlen"
+
+  ingredients:
+    - name: "Butter (weich)"
+      amount: "120 g"
+    - name: "Brauner Zucker"
+      amount: "100 g"
+    - name: "Weißer Zucker"
+      amount: "50 g"
+    - name: "Ei (Größe M)"
+      amount: "1"
+    - name: "Vanilleextrakt oder Vanillezucker"
+      amount: "1 TL oder 1 Pck."
+    - name: "Weizenmehl Typ 405"
+      amount: "180 g"
+    - name: "Natron"
+      amount: "1/2 TL"
+    - name: "Salz"
+      amount: "1/4 TL"
+    - name: "Erdbeermarmelade (glatt oder passiert)"
+      amount: "ca. 3–4 EL"
+    - name: "Vanillepuddingpulver"
+      amount: "1 Pck."
+    - name: "Milch"
+      amount: "400 ml"
+    - name: "Zucker (für Pudding)"
+      amount: "2 EL"
+    - name: "Marzipanrohmasse"
+      amount: "100 g"
+    - name: "Frische Erdbeeren"
+      amount: "400–500 g"
+    - name: "Klarer Tortenguss"
+      amount: "1 Pck."
+    - name: "Zucker (für Guss)"
+      amount: "2 EL"
+    - name: "Wasser oder Erdbeersaft-Wasser-Mischung"
+      amount: "250 ml"
+
+  steps:
+    - step: "Cookie-Boden backen"
+      details: "Butter und beide Zuckersorten cremig rühren. Ei und Vanille einrühren. Mehl, Natron und Salz mischen, dann unterheben. Teig in gefettete Springform geben, Rand leicht hochziehen. Bei 175 °C ca. 25–30 Minuten backen. Komplett abkühlen lassen."
+
+    - step: "Marmeladenschicht"
+      details: "3–4 EL Erdbeermarmelade erwärmen und auf dem Boden verteilen. Optional durch Sieb streichen und mit Pinsel auftragen."
+
+    - step: "Marzipan-Vanillepudding"
+      details: "Puddingpulver mit 6 EL kalter Milch und Zucker glatt rühren. Restliche Milch aufkochen, einrühren, eindicken lassen. Marzipanstücke unterrühren, leicht abkühlen lassen. Auf Marmelade verteilen."
+
+    - step: "Erdbeeren & Guss"
+      details: "Erdbeeren waschen, halbieren oder vierteln. Auf dem Pudding verteilen. Tortenguss mit Wasser und Zucker nach Packungsanleitung zubereiten. Kurz abkühlen lassen, dann über Erdbeeren geben."
+
+    - step: "Kühlen"
+      details: "Kuchen mindestens 1–2 Stunden kühlen, damit der Guss fest wird."
+
+  media:
+    image: "images/kuchen/erdbeerkuchen_cookie_marzipan.jpg"
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung mit Cookie-Boden, Marzipanpudding, Erdbeeren & Tortenguss."

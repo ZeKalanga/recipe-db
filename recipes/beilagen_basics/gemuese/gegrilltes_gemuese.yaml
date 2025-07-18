@@ -1,0 +1,51 @@
+schema_version: "v2"
+recipe:
+  name: "Gegrilltes Gemüse"
+  category: "Beilagen & Basics"
+  subcategories: ["Ofengerichte", "Gemüse", "Vegan", "Mediterran"]
+  difficulty: "leicht"
+  portions: "4 Personen"
+  preparation_time: "10 Minuten + 25 Minuten Garzeit"
+  cooking_temperature: "200 °C Umluft oder Grilltemperatur"
+
+  ingredients:
+    - name: "Aubergine"
+      amount: "1"
+    - name: "Rote Paprika"
+      amount: "2"
+    - name: "Zucchini"
+      amount: "1"
+    - name: "Rote Zwiebel"
+      amount: "1"
+    - name: "Olivenöl"
+      amount: "3 EL"
+    - name: "Oregano"
+      amount: "1 TL"
+    - name: "Salz & schwarzer Pfeffer"
+      amount: "nach Geschmack"
+    - name: "Zitronensaft oder Weißweinessig"
+      amount: "optional, zum Beträufeln"
+
+  steps:
+    - step: "Gemüse vorbereiten"
+      details: "Aubergine, Paprika, Zucchini und Zwiebel in mundgerechte Stücke schneiden."
+    - step: "Würzen"
+      details: "Gemüse mit Olivenöl, Oregano, Salz und Pfeffer vermengen."
+    - step: "Grillen oder Backen"
+      details: "Gemüse auf dem Grill oder auf einem Blech im Ofen bei 200 °C Umluft ca. 25 Minuten rösten, bis es weich und leicht gebräunt ist."
+    - step: "Abschmecken"
+      details: "Nach dem Garen mit Zitronensaft oder Essig beträufeln und servieren."
+
+  tips:
+    - "Schmeckt warm oder bei Zimmertemperatur als Antipasti oder Beilage."
+    - "Auch ideal als Füllung für Wraps oder Sandwiches."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung des gegrillten Gemüserezepts für Ofen oder Grill."
+
+  media:
+    image: "images/beilagen_basics/gemuese/gegrilltes_gemuese.jpg"
+
+# Vorschlag für Dateipfad:
+# recipes/beilagen_basics/gemuese/gegrilltes_gemuese.yaml

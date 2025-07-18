@@ -1,0 +1,55 @@
+schema_version: "v2"
+recipe:
+  name: "Fleischbällchen 'Bulgarisch' (Kjufteta)"
+  category: "Hauptgerichte"
+  subcategories: ["Hackfleisch", "Pfannengerichte", "Grill", "Balkan"]
+  difficulty: "leicht"
+  portions: "4 Personen"
+  preparation_time: "15 Minuten + 30 Minuten Kühlzeit + 10 Minuten Bratzeit"
+  cooking_temperature: "mittlere bis hohe Pfannen- oder Grillhitze"
+
+  ingredients:
+    - name: "Gemischtes Hackfleisch (Rind & Schwein)"
+      amount: "500 g"
+    - name: "Zwiebel"
+      amount: "1 mittelgroße, fein gerieben"
+    - name: "Knoblauchzehen"
+      amount: "2, gepresst"
+    - name: "Paprikapulver (edelsüß)"
+      amount: "1 TL"
+    - name: "Kreuzkümmel"
+      amount: "½ TL (optional)"
+    - name: "Majoran"
+      amount: "1 TL (alternativ Thymian)"
+    - name: "Petersilie"
+      amount: "1 EL, gehackt"
+    - name: "Ei"
+      amount: "1"
+    - name: "Semmelbrösel"
+      amount: "2 EL"
+    - name: "Salz & Pfeffer"
+      amount: "nach Geschmack"
+    - name: "Öl"
+      amount: "zum Braten oder Grillen"
+
+  steps:
+    - step: "Masse vorbereiten"
+      details: "Alle Zutaten in einer Schüssel gründlich vermengen, bis eine gleichmäßige Masse entsteht."
+    - step: "Formen & kühlen"
+      details: "Kleine Fleischbällchen (Ø ca. 4 cm) formen und 30 Minuten im Kühlschrank ruhen lassen."
+    - step: "Braten oder grillen"
+      details: "In einer heißen Pfanne mit etwas Öl oder auf dem Grill rundherum knusprig braten – etwa 8–10 Minuten, bis sie durchgegart sind."
+
+  tips:
+    - "Passt gut zu Schopska-Salat oder Joghurt-Dip mit Gurke."
+    - "Kreuzkümmel gibt ein typisch südosteuropäisches Aroma – kann aber auch weggelassen werden."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung des bulgarischen Fleischbällchen-Rezepts."
+
+  media:
+    image: "images/hauptgerichte/hackfleisch/kjufteta_bulgarisch.jpg"
+
+# Vorschlag für Dateipfad:
+# recipes/hauptgerichte/hackfleisch/kjufteta_bulgarisch.yaml

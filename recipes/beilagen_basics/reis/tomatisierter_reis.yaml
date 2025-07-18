@@ -1,0 +1,51 @@
+schema_version: "v2"
+recipe:
+  name: "Tomatisierter Reis"
+  category: "Beilagen & Basics"
+  subcategories: ["Reisgerichte", "Vegetarisch", "Vegan", "Tomatig", "Würzig"]
+  difficulty: "leicht"
+  portions: "2–3 Personen"
+  preparation_time: "25 Minuten"
+  cooking_temperature: "mittlere Hitze"
+
+  ingredients:
+    - name: "Langkornreis"
+      amount: "200 g"
+    - name: "Zwiebel"
+      amount: "1 kleine, fein gewürfelt"
+    - name: "Knoblauchzehe"
+      amount: "1, gehackt"
+    - name: "Olivenöl"
+      amount: "3 EL"
+    - name: "Gemüsebrühe"
+      amount: "300 ml"
+    - name: "Passierte Tomaten"
+      amount: "150 ml"
+    - name: "Paprikapulver"
+      amount: "1 TL"
+    - name: "Salz & Pfeffer"
+      amount: "nach Geschmack"
+
+  steps:
+    - step: "Zwiebel & Knoblauch anschwitzen"
+      details: "Olivenöl in einem Topf erhitzen. Zwiebel und Knoblauch darin bei mittlerer Hitze glasig anschwitzen."
+    - step: "Reis zugeben & glasig rühren"
+      details: "Reis einstreuen und 1–2 Minuten unter Rühren anrösten, bis er glasig wird."
+    - step: "Würzen & ablöschen"
+      details: "Paprikapulver und passierte Tomaten einrühren, mit Brühe ablöschen und gut umrühren."
+    - step: "Garen & abschmecken"
+      details: "Alles aufkochen lassen, dann bei niedriger Hitze ca. 15 Minuten garen, bis der Reis weich ist. Mit Salz und Pfeffer abschmecken."
+
+  tips:
+    - "Passt hervorragend zu mediterranen Gerichten, Gegrilltem oder als vegane Hauptbeilage."
+    - "Mit frischer Petersilie oder einem Spritzer Zitronensaft servieren für mehr Frische."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung des tomatisierten Rezepts mit Brühe und passierten Tomaten."
+
+  media:
+    image: "images/beilagen_basics/reis/tomatisierter_reis.jpg"
+
+# Vorschlag für Dateipfad:
+# recipes/beilagen_basics/reis/tomatisierter_reis.yaml

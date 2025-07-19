@@ -1,0 +1,47 @@
+schema_version: "v2"
+recipe:
+  name: "Lauwarmer Brokkoli-Salat mit Zwiebelvinaigrette"
+  category: "Beilagen & Basics"
+  subcategories: ["Salate", "Brokkoli", "Vinaigrette", "Vegetarisch"]
+  difficulty: "leicht"
+  portions: "2–4 Personen"
+  preparation_time: "15 Minuten"
+  cooking_temperature: "Blanchieren bei ca. 100 °C"
+
+  ingredients:
+    - name: "Brokkoli"
+      amount: "1 kleiner Kopf"
+    - name: "Zwiebel (rot oder weiß)"
+      amount: "½"
+    - name: "Olivenöl"
+      amount: "2 EL"
+    - name: "Weißweinessig oder Zitronensaft"
+      amount: "1 EL"
+    - name: "Senf"
+      amount: "1 TL"
+    - name: "Salz & Pfeffer"
+      amount: "nach Geschmack"
+    - name: "Feta oder Sonnenblumenkerne"
+      amount: "etwas, optional"
+
+  steps:
+    - step: "Brokkoli blanchieren"
+      details: "Brokkoli in Röschen teilen und in kochendem Salzwasser 3–4 Minuten blanchieren. Anschließend in Eiswasser oder kaltem Wasser abschrecken."
+    - step: "Vinaigrette zubereiten"
+      details: "Zwiebel fein hacken und mit Olivenöl, Essig oder Zitronensaft, Senf, Salz und Pfeffer zu einer Vinaigrette verrühren."
+    - step: "Salat anrichten"
+      details: "Brokkoli mit der noch warmen Vinaigrette vermengen. Optional mit zerbröckeltem Feta oder gerösteten Sonnenblumenkernen bestreuen und lauwarm servieren."
+
+  tips:
+    - "Schmeckt auch kalt als Meal-Prep-Salat für den nächsten Tag."
+    - "Für mehr Aroma: 1 TL Honig in die Vinaigrette geben oder Schalotte statt Zwiebel verwenden."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung des lauwarmen Brokkoli-Salats mit Vinaigrette."
+
+  media:
+    image: "images/beilagen_basics/salate/brokkoli_salat_vinaigrette.jpg"
+
+# Vorschlag für Dateipfad:
+# recipes/beilagen_basics/salate/brokkoli_salat_vinaigrette.yaml

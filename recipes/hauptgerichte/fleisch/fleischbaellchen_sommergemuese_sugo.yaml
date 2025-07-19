@@ -1,0 +1,51 @@
+schema_version: "v2"
+recipe:
+  name: "Fleischbällchen auf gegrilltem Sommergemüse & Tomatensugo"
+  category: "Hauptgerichte"
+  subcategories: ["Ofengerichte", "Sommer", "Fleisch", "Reste"]
+  difficulty: "leicht"
+  portions: "2–3 Personen"
+  preparation_time: "30 Minuten"
+  cooking_temperature: "Pfanne & Ofen: 200 °C Umluft"
+
+  ingredients:
+    - name: "Gegarte Fleischbällchen"
+      amount: "ca. 8 Stück (vom Vortag)"
+    - name: "Aubergine"
+      amount: "1"
+    - name: "Zucchini"
+      amount: "1"
+    - name: "Zwiebel"
+      amount: "1"
+    - name: "Tomatensugo"
+      amount: "ca. 300 ml"
+    - name: "Olivenöl"
+      amount: "1–2 EL"
+    - name: "Salz, Pfeffer"
+      amount: "nach Geschmack"
+    - name: "Oregano oder Thymian"
+      amount: "nach Geschmack"
+
+  steps:
+    - step: "Gemüse vorbereiten"
+      details: "Aubergine, Zucchini und Zwiebel in grobe Stücke schneiden. In einer Pfanne mit Olivenöl scharf anbraten oder im Ofen bei 200 °C (Umluft) 20–25 Minuten rösten, bis das Gemüse weich und leicht gebräunt ist."
+    - step: "Sugo erwärmen"
+      details: "Tomatensugo in einer zweiten Pfanne erhitzen und mit Kräutern sowie Salz und Pfeffer abschmecken."
+    - step: "Fleischbällchen erwärmen"
+      details: "Die gegarten Fleischbällchen vorsichtig im heißen Sugo erwärmen, ohne sie zu zerdrücken."
+    - step: "Servieren"
+      details: "Das geröstete Gemüse auf Tellern anrichten, die Fleischbällchen darauf geben und mit dem Tomatensugo überziehen."
+
+  tips:
+    - "Wer es würziger mag, kann dem Sugo etwas Chili oder geräuchertes Paprikapulver zufügen."
+    - "Auch lecker mit etwas Feta oder Parmesan als Topping."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung des Rezepts mit Resteverwertung."
+
+  media:
+    image: "images/hauptgerichte/fleisch/fleischbaellchen_sommergemuese_sugo.jpg"
+
+# Vorschlag für Dateipfad:
+# recipes/hauptgerichte/fleisch/fleischbaellchen_sommergemuese_sugo.yaml

@@ -1,4 +1,4 @@
-name: Auto-Update Recipe-DB
+name: Deploy Recipe API
 
 on:
   push:
@@ -10,24 +10,36 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-        - name: SSH into Server and Pull Latest Changes
-          env:
-            SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          run: |
-            mkdir -p ~/.ssh
-            echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-            chmod 600 ~/.ssh/id_rsa
-            ssh-keyscan -H 18.199.163.68 >> ~/.ssh/known_hosts
+      - name: SSH into Server and Update API
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H 18.199.163.68 >> ~/.ssh/known_hosts
 
-            ssh -o StrictHostKeyChecking=no ubuntu@18.199.163.68 << 'EOF'
-              cd /var/www/recipe-api
-              echo "🚀 Pulling latest recipe-db changes..."
-              git pull origin main
-              git submodule update --init --recursive
-              git submodule foreach git pull origin main
-              echo "🚀 Restarting related PM2 processes..."
-              pm2 restart recipe-api || true
-              pm2 restart recipe-ui || true
-              pm2 save
-              echo "✅ Recipe-DB update completed."
-            EOF
+          ssh -o StrictHostKeyChecking=no ubuntu@18.199.163.68 << 'EOF'
+            set -e
+            cd /var/www/recipe-api
+
+            echo "🚀 Pulling latest changes from main branch"
+            git fetch --all
+            git reset --hard origin/main
+
+            echo "🔄 Updating submodules (recipe-db)"
+            git submodule update --init --recursive
+            git submodule foreach git pull origin main
+
+            echo "📦 Installing dependencies"
+            npm install --production
+
+            echo "🔨 Building project"
+            npm run build
+
+            echo "🚀 Restarting API process via pm2"
+            pm2 restart recipe-api || pm2 start npm --name "recipe-api" -- run start
+            pm2 save
+
+            echo "✅ API deployment completed successfully."
+          EOF

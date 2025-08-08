@@ -1,0 +1,71 @@
+schema_version: "v2"
+recipe:
+  name: "Mediterraner Ofen-Gemüseauflauf mit Feta & Kräutern der Provence"
+  category: "Hauptgerichte"
+  subcategories: ["Ofengerichte", "Vegetarisch", "Mediterran"]
+  difficulty: "leicht"
+  portions: "4–5 Portionen"
+  preparation_time: "20 Minuten"
+  cooking_time: "45–50 Minuten"
+  cooking_temperature: "200 °C Ober-/Unterhitze oder 180 °C Umluft"
+
+  ingredients:
+    - name: "Knollensellerie"
+      amount: "½ Knolle (ca. 250 g), geschält, in 1 cm Würfel"
+    - name: "Staudensellerie"
+      amount: "3 Stangen (ca. 150 g), in 1 cm Stücke"
+    - name: "Möhren"
+      amount: "2 Stück (ca. 200 g), geschält, in 1 cm Würfel"
+    - name: "Aubergine"
+      amount: "1 Stück (ca. 300 g), in 1,5 cm Würfel"
+    - name: "Grüne Paprika"
+      amount: "1 Stück (ca. 150 g), entkernt, in 2 cm Stücke"
+    - name: "Zwiebeln"
+      amount: "3 mittelgroße (ca. 300 g), grob gewürfelt"
+    - name: "Eier"
+      amount: "6 Stück (Größe M)"
+    - name: "Milch oder Sahne"
+      amount: "100 ml"
+    - name: "Feta (Schaf- oder Ziegenmilch)"
+      amount: "200 g, in Würfeln"
+    - name: "Olivenöl"
+      amount: "4 EL"
+    - name: "Salz"
+      amount: "1 TL (für das Gemüse, vorsichtig wegen Feta)"
+    - name: "Schwarzer Pfeffer"
+      amount: "½ TL, frisch gemahlen"
+    - name: "Paprikapulver edelsüß"
+      amount: "1 TL"
+    - name: "Kräuter der Provence"
+      amount: "1 TL (oder Rosmarin/Thymian/Oregano-Mix)"
+
+  steps:
+    - step: "Backofen vorheizen"
+      details: "Ofen auf 200 °C Ober-/Unterhitze (180 °C Umluft) vorheizen."
+    - step: "Gemüse vorbereiten"
+      details: "Gemüse wie beschrieben schneiden. Härteres Gemüse wie Sellerieknolle und Möhren etwas kleiner würfeln."
+    - step: "Gemüse vorgaren"
+      details: "Gemüse in einer Schüssel mit 3 EL Olivenöl, Salz, Pfeffer, Paprikapulver und Kräutern der Provence mischen. Auf ein mit Backpapier belegtes Blech geben, 25 Minuten rösten, einmal wenden."
+    - step: "Eiermasse anrühren"
+      details: "Eier mit Milch verquirlen, leicht salzen und pfeffern."
+    - step: "Auflauf schichten"
+      details: "Vorgegartes Gemüse in eine Auflaufform geben. Feta darüber verteilen und Eiermasse darübergießen."
+    - step: "Backen"
+      details: "Im Ofen 20–25 Minuten backen, bis die Eier gestockt und goldgelb sind."
+    - step: "Servieren"
+      details: "Kurz abkühlen lassen, in Stücke schneiden. Passt zu grünem Salat, Baguette oder Fladenbrot."
+
+  tips:
+    - "Für extra Aroma etwas Zitronenschale über den fertigen Auflauf reiben."
+    - "Schmeckt auch lauwarm hervorragend."
+    - "Mit gerösteten Pinienkernen bestreuen für mehr Crunch."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung basierend auf mediterraner Ofengemüse-Variante mit Feta und Kräutern der Provence."
+
+  media:
+    image: "images/hauptgerichte/vegetarisch/ofen_gemueseauflauf_feta_provence.jpg"
+
+# Vorschlag für Dateipfad:
+# recipes/hauptgerichte/vegetarisch/ofen_gemueseauflauf_feta_provence.yaml

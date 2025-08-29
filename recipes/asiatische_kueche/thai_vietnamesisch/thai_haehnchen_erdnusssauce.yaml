@@ -9,65 +9,29 @@ recipe:
   cooking_temperature: "Wok auf sehr hoher Hitze"
 
   ingredients:
-    - group: "Fleisch & Marinade"
-      items:
-        - name: "Hähnchenbrustfilet"
-          amount: "500 g"
-        - name: "Speisestärke"
-          amount: "2 TL"
-        - name: "Helle Sojasauce"
-          amount: "1 EL"
-        - name: "Neutrales Öl (z. B. Sonnenblumenöl)"
-          amount: "1 TL"
-        - name: "Reiswein (oder trockener Sherry, optional)"
-          amount: "1 TL"
-
-    - group: "Gemüse"
-      items:
-        - name: "Rote Paprika"
-          amount: "1 (150 g)"
-        - name: "Gelbe Paprika"
-          amount: "1 (150 g)"
-        - name: "Karotten"
-          amount: "2 (200 g)"
-        - name: "Zucchini"
-          amount: "1 (200 g)"
-        - name: "Rote Zwiebel"
-          amount: "1 (100 g)"
-        - name: "Knoblauchzehen"
-          amount: "2 (10 g)"
-        - name: "Ingwer"
-          amount: "20 g"
-
-    - group: "Erdnusssauce"
-      items:
-        - name: "Erdnussbutter (cremig, ungesüßt)"
-          amount: "150 g"
-        - name: "Kokosmilch (Dose, vollfett)"
-          amount: "200 ml"
-        - name: "Sojasauce"
-          amount: "2 EL"
-        - name: "Fischsauce"
-          amount: "1 EL"
-        - name: "Limettensaft"
-          amount: "2 EL (ca. 1 Limette)"
-        - name: "Brauner Zucker oder Palmzucker"
-          amount: "1 EL"
-        - name: "Rote Currypaste"
-          amount: "1–2 TL"
-        - name: "Wasser"
-          amount: "100 ml"
-
-    - group: "Zum Servieren"
-      items:
-        - name: "Jasminreis oder Reisnudeln"
-          amount: "250 g Reis oder 200 g Nudeln"
-        - name: "Geröstete Erdnüsse"
-          amount: "50 g"
-        - name: "Frischer Koriander"
-          amount: "10 g"
-        - name: "Limettenspalten"
-          amount: "nach Bedarf"
+  - { name: "Hähnchenbrustfilet", amount: "500 g, in feine Streifen" }
+  - { name: "Speisestärke", amount: "2 TL (für Marinade)" }
+  - { name: "Helle Sojasauce", amount: "1 EL (für Marinade) + 2 EL (für Sauce)" }
+  - { name: "Neutrales Öl (z. B. Sonnenblumenöl)", amount: "3–4 EL gesamt (Braten) + 1 TL (Marinade)" }
+  - { name: "Reiswein oder trockener Sherry (optional)", amount: "1 TL (Marinade)" }
+  - { name: "Rote Paprika", amount: "1 (ca. 150 g), in Streifen" }
+  - { name: "Gelbe Paprika", amount: "1 (ca. 150 g), in Streifen" }
+  - { name: "Karotten", amount: "2 (ca. 200 g), schräg in dünne Scheiben" }
+  - { name: "Zucchini", amount: "1 (ca. 200 g), in Streifen" }
+  - { name: "Rote Zwiebel", amount: "1 (ca. 100 g), in Spalten" }
+  - { name: "Knoblauch", amount: "2 Zehen (ca. 10 g), fein gehackt" }
+  - { name: "Ingwer", amount: "20 g, fein gehackt" }
+  - { name: "Erdnussbutter (cremig, ungesüßt)", amount: "150 g" }
+  - { name: "Kokosmilch (vollfett)", amount: "200 ml" }
+  - { name: "Fischsauce", amount: "1 EL" }
+  - { name: "Limettensaft", amount: "2 EL (ca. 1 Limette)" }
+  - { name: "Brauner Zucker oder Palmzucker", amount: "1 EL" }
+  - { name: "Rote Currypaste", amount: "1–2 TL" }
+  - { name: "Wasser", amount: "100 ml (zum Verlängern der Sauce)" }
+  - { name: "Jasminreis oder Reisnudeln", amount: "250 g Reis oder 200 g Nudeln (Beilage)" }
+  - { name: "Geröstete Erdnüsse", amount: "50 g, grob gehackt (Topping)" }
+  - { name: "Frischer Koriander", amount: "10 g, grob gehackt (Topping)" }
+  - { name: "Limettenspalten", amount: "nach Bedarf (Servieren)" }
 
   steps:
     - step: "Reis kochen"

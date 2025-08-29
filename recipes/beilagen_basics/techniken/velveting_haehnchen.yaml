@@ -1,0 +1,55 @@
+schema_version: "v2"
+recipe:
+  name: "Velveting für Hähnchenbrust"
+  category: "Beilagen & Basics"
+  subcategories: ["Techniken", "Asiatische Küche", "Geflügel"]
+  difficulty: "mittel"
+  portions: "500 g Hähnchenbrust"
+  preparation_time: "15 Minuten + 20–30 Minuten Marinierzeit"
+  cooking_temperature: "Ölbad 160–170 °C oder Wasserbad 80–90 °C"
+
+  ingredients:
+    - group: "Fleisch"
+      items:
+        - name: "Hähnchenbrust"
+          amount: "500 g, in feine Streifen (max. 5 mm)"
+    - group: "Marinade"
+      items:
+        - name: "Eiweiß"
+          amount: "1 (ca. 30 g)"
+        - name: "Speisestärke"
+          amount: "2 TL"
+        - name: "Helle Sojasauce"
+          amount: "1 EL"
+        - name: "Neutrales Öl (z. B. Sonnenblumenöl)"
+          amount: "1 TL"
+        - name: "Reiswein oder trockener Sherry (optional)"
+          amount: "1 TL"
+        - name: "Salz"
+          amount: "½ TL"
+
+  steps:
+    - step: "Marinieren"
+      details: "Eiweiß leicht verquirlen (nicht steif). Mit Stärke, Sojasauce, Salz, Öl und Reiswein verrühren. Fleisch zugeben und gründlich mischen. 20–30 Minuten ziehen lassen."
+    - step: "Velveting in Öl"
+      details: "Wok mit ca. 500 ml Öl auf 160–170 °C erhitzen. Fleisch portionsweise 30–45 Sekunden ziehen lassen, ohne Bräunung. Herausnehmen und abtropfen lassen."
+    - step: "Velveting in Wasser"
+      details: "Alternativ: Wasser in Topf auf 80–90 °C erhitzen. Fleisch 1 Minute simmern lassen, bis es weiß wird. Herausnehmen, abtropfen lassen."
+    - step: "Finalisieren"
+      details: "Samtenes Fleisch wird am Schluss mit Gemüse und Sauce im Wok nur noch kurz durchgeschwenkt."
+
+  tips:
+    - "Öl- oder Wasserbad darf nicht sprudelnd kochen, sonst reißt die Marinade ab."
+    - "Fleisch sehr dünn schneiden (max. 5 mm) für gleichmäßige Garung."
+    - "Gut abtropfen lassen, damit die Sauce später nicht verwässert."
+    - "Velveting eignet sich auch für Schweinefleisch, Garnelen oder Tofu."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung der klassischen Velveting-Technik für Hähnchenbrust."
+
+  media:
+    image: "images/basics/techniken/velveting_haehnchen.jpg"
+
+# Vorschlag für Dateipfad:
+# recipes/beilagen_basics/techniken/velveting_haehnchen.yaml

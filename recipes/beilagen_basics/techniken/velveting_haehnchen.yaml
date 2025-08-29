@@ -9,24 +9,15 @@ recipe:
   cooking_temperature: "Ölbad 160–170 °C oder Wasserbad 80–90 °C"
 
   ingredients:
-    - group: "Fleisch"
-      items:
-        - name: "Hähnchenbrust"
-          amount: "500 g, in feine Streifen (max. 5 mm)"
-    - group: "Marinade"
-      items:
-        - name: "Eiweiß"
-          amount: "1 (ca. 30 g)"
-        - name: "Speisestärke"
-          amount: "2 TL"
-        - name: "Helle Sojasauce"
-          amount: "1 EL"
-        - name: "Neutrales Öl (z. B. Sonnenblumenöl)"
-          amount: "1 TL"
-        - name: "Reiswein oder trockener Sherry (optional)"
-          amount: "1 TL"
-        - name: "Salz"
-          amount: "½ TL"
+  - { name: "Hähnchenbrust", amount: "500 g, in sehr feine Streifen (max. 5 mm)" }
+  - { name: "Eiweiß", amount: "1 (ca. 30 g)" }
+  - { name: "Speisestärke", amount: "2 TL" }
+  - { name: "Helle Sojasauce", amount: "1 EL" }
+  - { name: "Neutrales Öl (z. B. Sonnenblumenöl)", amount: "1 TL" }
+  - { name: "Reiswein oder trockener Sherry (optional)", amount: "1 TL" }
+  - { name: "Salz", amount: "½ TL" }
+  - { name: "Öl für Öl-Velveting", amount: "ca. 500 ml (160–170 °C), optional" }
+  - { name: "Wasser für Water-Velveting", amount: "ausreichend (80–90 °C), optional" }
 
   steps:
     - step: "Marinieren"

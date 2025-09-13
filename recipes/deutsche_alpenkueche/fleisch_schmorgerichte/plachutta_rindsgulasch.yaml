@@ -1,0 +1,52 @@
+schema_version: "v2"
+recipe:
+  name: "Plachutta’s Rindsgulasch"
+  category: "Deutsche & Alpenküche"
+  subcategories: ["Fleisch- & Schmorgerichte", "Österreichische Klassiker", "Rindfleisch"]
+  difficulty: "mittel"
+  portions: "4 Portionen"
+  preparation_time: "30 Minuten Vorbereitung + 2–2,5 Stunden Schmorzeit"
+  cooking_temperature: "180 °C Heißluft oder sanftes Schmoren auf dem Herd"
+
+  ingredients:
+    - { name: "Zwiebeln", amount: "700 g, fein gewürfelt" }
+    - { name: "Knoblauchzehen", amount: "2, fein gehackt" }
+    - { name: "Rindsgulasch (z. B. Schulter oder Wadschinken)", amount: "1 kg" }
+    - { name: "Öl (Sonnenblumenöl oder neutrales Pflanzenöl)", amount: "5 EL" }
+    - { name: "Paprikapulver, edelsüß", amount: "2 EL" }
+    - { name: "Weißweinessig", amount: "1 EL" }
+    - { name: "Wasser", amount: "1 l (bei Bedarf mehr)" }
+    - { name: "Tomatenmark", amount: "1 EL" }
+    - { name: "Kümmel, gemahlen", amount: "1 TL" }
+    - { name: "Zitronenschale (½ unbehandelte Zitrone, dünn abgerieben)", amount: "nach Bedarf" }
+    - { name: "Majoran, getrocknet", amount: "1 TL" }
+    - { name: "Salz", amount: "1 TL, nach Geschmack mehr" }
+    - { name: "Weizenmehl", amount: "1 EL" }
+    - { name: "Kaltes Wasser", amount: "2 EL, zum Anrühren des Mehls" }
+
+  steps:
+    - step: "Vorbereitung"
+      details: "Zwiebeln schälen und fein würfeln. Knoblauch hacken. Fleisch quer zur Faser in 4 cm breite Streifen, dann in daumenbreite Stücke schneiden."
+    - step: "Zwiebelbasis"
+      details: "Öl in einem Schmortopf erhitzen, Zwiebeln 20–25 Minuten goldbraun rösten. Topf kurz vom Herd ziehen, Paprikapulver einrühren, sofort mit Essig ablöschen. Mit 1 l Wasser aufgießen, 20 Minuten köcheln lassen."
+    - step: "Fleisch & Gewürze"
+      details: "Fleisch, Tomatenmark, Knoblauch, Kümmel, Zitronenschale und Majoran zugeben. Salzen, aufkochen lassen."
+    - step: "Schmoren"
+      details: "Zugedeckt bei 180 °C Heißluft oder auf Herdplatte 2–2,5 Stunden sanft schmoren. Gelegentlich umrühren und Wasser nachgießen."
+    - step: "Abbinden"
+      details: "Mehl mit 2 EL kaltem Wasser glatt rühren. In das kochende Gulasch einrühren, weitere 5 Minuten köcheln lassen, bis die Sauce bindet."
+
+  tips:
+    - "Traditionell mit Nockerln oder Semmelknödeln servieren."
+    - "Für noch mehr Tiefe etwas Rinderfond statt Wasser verwenden."
+    - "Langsames Rösten der Zwiebeln ist entscheidend für das Aroma."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung nach Plachutta, angepasst für Schema v2."
+
+  media:
+    image: "images/deutsche_alpenkueche/fleisch_schmorgerichte/plachutta_rindsgulasch.jpg"
+
+# Vorschlag für Dateipfad:
+# recipes/deutsche_alpenkueche/fleisch_schmorgerichte/plachutta_rindsgulasch.yaml

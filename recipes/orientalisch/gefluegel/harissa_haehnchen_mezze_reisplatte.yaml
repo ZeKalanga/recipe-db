@@ -1,0 +1,70 @@
+schema_version: "v2"
+recipe:
+  name: "Harissa-Hähnchen mit Zitronen-Safran-Reis, Rote-Beete-Hummus, Baba Ganoush & Minz-Joghurt"
+  category: "Orientalische Küche"
+  subcategories: ["Geflügelgerichte", "Hähnchen", "Orientalisch", "Mezze & Bowls"]
+  difficulty: "mittel"
+  portions: "2 Personen"
+  preparation_time: "ca. 60 Minuten + 30 Minuten Marinierzeit"
+  cooking_temperature: "Pfanne und Ofen: hohe Hitze, Aubergine 220 °C"
+
+  ingredients:
+    - { name: "Hähnchenbrustfilets", amount: "2 Stück (ca. 300 g)" }
+    - { name: "Harissapaste", amount: "1 ½ EL" }
+    - { name: "Olivenöl", amount: "1 EL" }
+    - { name: "Geräuchertes Paprikapulver", amount: "½ TL" }
+    - { name: "Honig oder Ahornsirup", amount: "1 TL" }
+    - { name: "Zitronensaft", amount: "2 TL (1 für Huhn, 1 für Reis/Joghurt)" }
+    - { name: "Kreuzkümmel", amount: "1 TL (½ TL für Huhn, ½ TL für Hummus)" }
+    - { name: "Zimt", amount: "½ TL" }
+    - { name: "Salz & Pfeffer", amount: "nach Geschmack" }
+    - { name: "Basmatireis", amount: "150 g" }
+    - { name: "Butter oder Ghee", amount: "2 TL (1 für Reis, 1 für Lauchzwiebeln)" }
+    - { name: "Safranfäden", amount: "1 Messerspitze, in 1 EL warmem Wasser eingeweicht" }
+    - { name: "Zimtstange", amount: "1 kleine" }
+    - { name: "Kardamomkapsel", amount: "1 Stück, leicht angedrückt" }
+    - { name: "Zitronenabrieb", amount: "1 TL" }
+    - { name: "Wasser", amount: "300 ml für Reis" }
+    - { name: "Lauchzwiebeln", amount: "3 Stück, in Ringe geschnitten" }
+    - { name: "Brauner Zucker oder Honig", amount: "½ TL" }
+    - { name: "Balsamico-Essig oder Granatapfelsirup", amount: "1 TL" }
+    - { name: "Griechischer Joghurt", amount: "150 g" }
+    - { name: "Minzblätter", amount: "8–10, fein gehackt" }
+    - { name: "Rote Beete, gegart", amount: "150 g" }
+    - { name: "Kichererbsen, gekocht", amount: "150 g" }
+    - { name: "Tahin (Sesampaste)", amount: "2 ½ EL (1 ½ EL für Hummus, 1 EL für Baba Ganoush)" }
+    - { name: "Knoblauchzehen", amount: "2 kleine (1 für Hummus, 1 für Baba Ganoush)" }
+    - { name: "Aubergine", amount: "1 mittelgroße" }
+    - { name: "Mandelblättchen oder Pistazien", amount: "1 EL, geröstet" }
+    - { name: "Chiliflocken", amount: "nach Geschmack" }
+
+  steps:
+    - step: "Hähnchen marinieren & braten"
+      details: "Hähnchenbrust in Streifen schneiden, mit Harissa, Olivenöl, Paprika, Honig, Zitronensaft, Kreuzkümmel, Zimt, Salz & Pfeffer mischen. 30 Min. im Kühlschrank marinieren. In einer Pfanne 4–5 Min. scharf anbraten, bis goldbraun."
+    - step: "Safranreis kochen"
+      details: "Reis waschen. Butter erhitzen, Zimtstange & Kardamom kurz anrösten. Reis und Safranwasser zugeben, mit 300 ml Wasser & Salz aufkochen. 10–12 Min. sanft köcheln lassen, 5 Min. ruhen lassen. Zitronensaft & Abrieb einrühren."
+    - step: "Lauchzwiebeln karamellisieren"
+      details: "Butter erhitzen, Lauchzwiebeln 2–3 Min. anbraten. Zucker & Balsamico zugeben, leicht karamellisieren."
+    - step: "Minz-Joghurt"
+      details: "Joghurt mit Minze, Zitronensaft, Honig, Salz & Pfeffer verrühren."
+    - step: "Rote-Beete-Hummus"
+      details: "Rote Beete würfeln, mit Kichererbsen, Tahin, Zitronensaft, Knoblauch, Olivenöl, Salz, Pfeffer und Kreuzkümmel pürieren. Zu einer festen Creme mixen, ggf. zu Nocken formen."
+    - step: "Baba Ganoush"
+      details: "Aubergine im Ofen (220 °C, 30–40 Min.) oder auf offener Flamme/Grill rösten, bis weich und verkohlt. Fruchtfleisch auskratzen, mit Tahin, Zitronensaft, Knoblauch, Olivenöl, Salz & Pfeffer pürieren. Optional mit Sumach oder Kreuzkümmel würzen. Ebenfalls zu Nocken formen."
+    - step: "Anrichten"
+      details: "Safranreis als Basis, Hähnchenstreifen darauf, karamellisierte Lauchzwiebeln darüber. Minz-Joghurt, Rote-Beete-Hummus und Baba Ganoush als Nocken daneben anrichten. Mit gerösteten Mandelblättchen/Pistazien und Chiliflocken garnieren."
+
+  tips:
+    - "Für intensiveres Aroma Hähnchen über Nacht marinieren."
+    - "Safran vorher im warmen Wasser ziehen lassen, um Farbe & Geschmack zu intensivieren."
+    - "Baba Ganoush wird authentisch, wenn die Aubergine direkt über offener Flamme geröstet wird."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung: Mezze-inspiriertes Harissa-Hähnchen mit Reis, Hummus, Baba Ganoush und Dips."
+
+  media:
+    image: "images/orientalisch/gefluegel/harissa_haehnchen_mezze_reisplatte.jpg"
+
+# Vorschlag für Dateipfad:
+# recipes/orientalisch/gefluegel/harissa_haehnchen_mezze_reisplatte.yaml

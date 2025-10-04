@@ -1,0 +1,108 @@
+schema_version: "v2"
+
+file_path: "recipes/levantische_kueche/hauptgerichte/levante_tian_mit_lammhack.yaml"
+
+recipe:
+  id: levante_tian_mit_lammhack
+  name: "Levante-Tian mit Lammhack & Kräuterfrischkäse"
+  category: "Levantinische Küche"
+  subcategories: ["Hauptgerichte", "Fleisch & Gemüse"]
+  difficulty: "mittel"
+  portions: "2–3 Personen"
+  preparation_time: "ca. 75 Minuten (inkl. Backzeit)"
+  cooking_temperature: "190 °C Ober-/Unterhitze"
+  origin: "Ostmittelmeer / Levante"
+  version: "1.0"
+  description: >
+    Geschichtetes Ofengericht aus Kartoffeln, Zucchini, Aubergine und Lammhack,
+    verfeinert mit einer cremigen Kräuterfrischkäse-Sauce. Inspiriert von Moussaka
+    und orientalischen Gewürzen – warm, würzig und aromatisch.
+
+  ingredients:
+    - { name: "Kartoffeln (festkochend)", quantity: 400, unit: g }
+    - { name: "Zucchini", quantity: 250, unit: g }
+    - { name: "Aubergine", quantity: 250, unit: g }
+    - { name: "Zwiebeln", quantity: 200, unit: g }
+    - { name: "Olivenöl", quantity: 4, unit: EL }
+    - { name: "Salz", quantity: 2, unit: TL }
+    - { name: "Schwarzer Pfeffer", quantity: 0.5, unit: TL }
+    - { name: "Lammhack (oder Rinderhack)", quantity: 300, unit: g }
+    - { name: "Knoblauchzehen", quantity: 2, unit: Stück }
+    - { name: "Tomatenmark", quantity: 1, unit: EL }
+    - { name: "Kreuzkümmel, gemahlen", quantity: 1, unit: TL }
+    - { name: "Zimt", quantity: 0.25, unit: TL }
+    - { name: "Paprikapulver (edelsüß oder geräuchert)", quantity: 0.5, unit: TL }
+    - { name: "Chiliflocken", quantity: null, unit: "nach Geschmack" }
+    - { name: "Kräuterfrischkäse", quantity: 150, unit: g }
+    - { name: "Griechischer Joghurt oder Crème fraîche", quantity: 100, unit: g }
+    - { name: "Zitronensaft", quantity: 1, unit: EL }
+    - { name: "Knoblauch (optional)", quantity: 0.5, unit: Zehe }
+    - { name: "Frische Minze oder Petersilie", quantity: 2, unit: EL }
+    - { name: "Granatapfelkerne (optional)", quantity: 2, unit: EL }
+
+  steps:
+    - step: 1
+      title: "Gemüse vorbereiten"
+      description: >
+        Kartoffeln schälen und in ca. 3 mm dünne Scheiben schneiden.
+        Zucchini und Aubergine ebenfalls in Scheiben schneiden, Zwiebeln halbieren
+        und in feine Halbringe schneiden. Alles mit Salz, Pfeffer und 2 EL Olivenöl
+        vermengen. Auberginenscheiben ggf. vorher salzen und 10 Minuten ziehen lassen.
+
+    - step: 2
+      title: "Hackmischung anbraten"
+      description: >
+        In einer Pfanne 1 EL Olivenöl erhitzen, die Hälfte der Zwiebeln fein hacken und glasig dünsten.
+        Lammhack zugeben, krümelig braten, dann Knoblauch, Tomatenmark, Kreuzkümmel, Zimt,
+        Paprika, Chiliflocken und Salz einrühren. 3–4 Minuten braten, bis sich Röstaromen bilden.
+
+    - step: 3
+      title: "Frischkäsecreme anrühren"
+      description: >
+        Kräuterfrischkäse, Joghurt, Zitronensaft und ggf. Knoblauch verrühren.
+        Mit Pfeffer abschmecken und gehackte Kräuter unterheben.
+
+    - step: 4
+      title: "Tian schichten"
+      description: >
+        Eine ofenfeste Form (ca. 25 × 20 cm) einfetten.
+        Schichten: Kartoffeln → Hack → Zucchini/Aubergine → Hack → Gemüse → Frischkäsecreme.
+        Glattstreichen.
+
+    - step: 5
+      title: "Backen"
+      description: >
+        Im vorgeheizten Ofen bei 190 °C Ober-/Unterhitze etwa 40 Minuten backen,
+        bis die Oberfläche goldbraun ist und das Gemüse weich.
+
+    - step: 6
+      title: "Servieren"
+      description: >
+        10 Minuten ruhen lassen, mit Granatapfelkernen und frischer Petersilie oder Koriander bestreuen.
+        Dazu warmes Fladenbrot oder Zitronen-Couscous reichen.
+
+  shopping_list:
+    "Gemüse":
+      - "Kartoffeln – 400 g"
+      - "Zucchini – 250 g"
+      - "Aubergine – 250 g"
+      - "Zwiebeln – 200 g"
+      - "Knoblauch – 2–3 Zehen"
+      - "Zitrone – 1 Stück"
+      - "Frische Minze oder Petersilie – 1 Bund"
+      - "Granatapfel – 1 Stück (optional)"
+    "Fleisch":
+      - "Lammhack – 300 g"
+    "Milchprodukte":
+      - "Kräuterfrischkäse – 150 g"
+      - "Griechischer Joghurt oder Crème fraîche – 100 g"
+    "Gewürze & Öle":
+      - "Olivenöl"
+      - "Salz"
+      - "Schwarzer Pfeffer"
+      - "Kreuzkümmel, gemahlen"
+      - "Zimt"
+      - "Paprikapulver"
+      - "Chiliflocken"
+    "Beilage":
+      - "Fladenbrot oder Couscous"

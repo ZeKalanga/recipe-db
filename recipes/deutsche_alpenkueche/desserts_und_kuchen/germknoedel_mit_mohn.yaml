@@ -1,0 +1,136 @@
+file_path: recipes/deutsche_alpenkueche/desserts_und_kuchen/germknoedel_mit_mohn.yaml
+id: germknoedel_mit_mohn
+version: 1.2
+title: Germknödel mit Mohn
+category: Deutsche & Alpenküche
+subcategories:
+  - Desserts & Kuchen
+  - Mehlspeisen
+difficulty: mittel
+portions: 15 Stück
+time:
+  preparation: 150
+  resting: 90
+  baking: 0
+  total: 240
+temperature:
+  cooking: 95-100
+  unit: °C
+origin: Österreich
+description: >
+  Klassische österreichische Germknödel aus feinem süßen Hefeteig mit Powidlfüllung,
+  in Wasser gegart und mit zerlassener Butter und Mohn-Zucker-Mischung serviert.
+  Eine ikonische Mehlspeise der Wiener und böhmischen Küche.
+
+ingredients:
+  - name: Weizenmehl (Type 550 oder glatt)
+    quantity: 500
+    unit: g
+  - name: Milch (lauwarm, ca. 25 °C)
+    quantity: 225
+    unit: ml
+  - name: Zucker
+    quantity: 180
+    unit: g
+  - name: Vanillezucker
+    quantity: 34
+    unit: g
+  - name: Salz
+    quantity: 7.5
+    unit: g
+  - name: Eidotter
+    quantity: 2
+    unit: Stück
+  - name: Zitronenschale (abgerieben, unbehandelt)
+    quantity: 0.25
+    unit: Stück
+  - name: Frischhefe (Germ)
+    quantity: 25
+    unit: g
+  - name: Butter (weich)
+    quantity: 320
+    unit: g
+    note: 70 g für Teig + 250 g zum Glasieren
+  - name: Powidl (Pflaumenmus oder Zwetschkenmus)
+    quantity: 250
+    unit: g
+  - name: Gemahlener Mohn
+    quantity: 180
+    unit: g
+
+steps:
+  - number: 1
+    title: Germteig herstellen
+    description: >
+      225 ml Milch auf ca. 25 °C erwärmen. In 120 ml davon 60 g Zucker, 4 g Vanillezucker,
+      7.5 g Salz, 2 Eidotter und Abrieb von 0.25 Zitrone verrühren. In den restlichen
+      105 ml Milch die 25 g Hefe auflösen. 500 g Mehl in eine Rührschüssel sieben,
+      beide Milchmischungen zugeben und 8–10 Minuten kneten, bis ein glatter, elastischer
+      Teig entsteht. Anschließend 70 g weiche Butter portionsweise unterkneten und
+      weitere 5 Minuten kneten, bis der Teig seidig und homogen ist.
+
+  - number: 2
+    title: Erste Gare
+    description: >
+      Den Teig zur Kugel formen, leicht bemehlen und abgedeckt 60–75 Minuten an einem
+      warmen Ort (28–30 °C) gehen lassen, bis sich das Volumen verdoppelt hat.
+
+  - number: 3
+    title: Portionieren und Füllen
+    description: >
+      Den gegangenen Teig auf einer leicht bemehlten Fläche kurz durchkneten und zu
+      einem Rechteck von ca. 21 × 35 cm ausrollen. In 15 Quadrate à 7 × 7 cm schneiden.
+      Auf jedes Quadrat etwa 1 TL Powidl (insgesamt 250 g) geben, die Ränder zusammendrücken
+      und zu glatten Knödeln formen. Mit dem Schluss nach unten auf ein bemehltes Brett legen.
+
+  - number: 4
+    title: Stückgare
+    description: >
+      Die Knödel abgedeckt 30–40 Minuten bei Raumtemperatur gehen lassen, bis sie fast
+      das doppelte Volumen erreicht haben.
+
+  - number: 5
+    title: Garen
+    description: >
+      In einem großen Topf leicht gesalzenes Wasser auf 95–100 °C erhitzen. Die Knödel
+      vorsichtig einlegen, den Deckel schräg auflegen, nach erneutem Aufkochen die Hitze
+      reduzieren und nur mehr sieden lassen. 10 Minuten garen, dann mit einem Holzlöffelstiel
+      vorsichtig wenden und weitere 5 Minuten ziehen lassen.
+
+  - number: 6
+    title: Abstechen
+    description: >
+      Knödel mit einem Schaumlöffel herausheben und sofort mit einem Holzstäbchen oder
+      einer Nadel mehrfach einstechen, damit Dampf entweichen kann und sie nicht
+      zusammenfallen.
+
+  - number: 7
+    title: Anrichten
+    description: >
+      250 g Butter schmelzen und die heißen Knödel damit übergießen. Mit einer Mischung
+      aus 180 g gemahlenem Mohn, 120 g Zucker und 30 g Vanillezucker großzügig bestreuen.
+      Optional mit Vanillesauce servieren.
+
+notes:
+  - Die Teigkonsistenz soll weich-elastisch, aber nicht klebrig sein.
+  - Wer mag, kann die Knödel statt im Wasser über Dampf 15 Minuten garen – das ergibt
+    eine besonders feine, flauschige Krume.
+  - Powidl ist ungesüßt; dickes Pflaumenmus ist eine gute Alternative.
+
+shopping_list:
+  Mehl & Zucker:
+    - Weizenmehl Type 550 – 500 g
+    - Zucker – 180 g
+    - Vanillezucker – 34 g
+  Milch & Eier:
+    - Milch – 225 ml
+    - Eidotter – 2 Stück
+  Fett:
+    - Butter – 320 g (70 g + 250 g)
+  Füllung:
+    - Powidl – 250 g
+  Sonstiges:
+    - Frischhefe – 25 g
+    - Salz – 7.5 g
+    - Mohn (gemahlen) – 180 g
+    - ¼ Zitrone (Abrieb)

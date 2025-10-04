@@ -1,0 +1,55 @@
+schema_version: "v2"
+recipe:
+  name: "Germteig – direkte Führung (klassisch-österreichisch)"
+  category: "Deutsche & Alpenküche"
+  subcategories: ["Brot & Gebäck", "Hefeteige", "Grundrezepte"]
+  difficulty: "mittel"
+  portions: "ca. 12–15 Stück oder 1 großer Zopf"
+  preparation_time: "ca. 2 ½ Stunden inkl. Gehzeit"
+  cooking_temperature: "Raumtemperatur für Gare, Backofen 180 °C Ober-/Unterhitze"
+  notes: "Direkte Führung ohne Vorteig – Grundrezept für Striezel, Buchteln, Butterkuchen, Zopf, Rosinenbrötchen."
+
+  ingredients:
+    - { name: "Weizenmehl (Type 550 oder glatt)", amount: "1 kg" }
+    - { name: "Milch (lauwarm, ca. 25 °C)", amount: "450 ml" }
+    - { name: "Zucker", amount: "120 g" }
+    - { name: "Vanillezucker", amount: "1 Päckchen (8 g)" }
+    - { name: "Salz", amount: "15 g" }
+    - { name: "Eidotter", amount: "3 Stück (Größe M)" }
+    - { name: "Zitronenschale (abgerieben, unbehandelt)", amount: "von ½ Zitrone" }
+    - { name: "Frischhefe (Germ)", amount: "50 g" }
+    - { name: "Butter (zimmerwarm, weich)", amount: "140 g" }
+
+  steps:
+    - step: "Milchmischung vorbereiten"
+      details: "Milch auf ca. 25 °C erwärmen. Hälfte der Milch mit Zucker, Vanillezucker, Salz, Eidottern und Zitronenschale verrühren. In der zweiten Hälfte die Hefe auflösen. Beide Mischungen sollten lauwarm und leicht süßlich sein."
+    - step: "Mehl vorbereiten"
+      details: "Mehl in eine große Rührschüssel sieben, Mulde formen und beide Milchmischungen hineingießen."
+    - step: "Kneten"
+      details: "8–10 Minuten kräftig kneten, bis ein glatter, elastischer Teig entsteht. Der Teig soll weich, aber nicht klebrig sein. Falls nötig, etwas Milch oder Mehl zur Korrektur zugeben."
+    - step: "Butter einarbeiten"
+      details: "Weiche Butter in 2–3 Portionen unterkneten. Danach weitere 5 Minuten kneten, bis der Teig seidig und homogen ist."
+    - step: "Erste Gare"
+      details: "Teig zu einer Kugel formen, leicht bemehlen, abdecken und 60–75 Minuten an einem warmen Ort (28–30 °C) gehen lassen, bis sich das Volumen verdoppelt."
+    - step: "Formen"
+      details: "Teig kurz durchkneten, je nach gewünschtem Gebäck in Stücke teilen (z. B. 3 Stränge für Zopf oder 12 Kugeln für Buchteln). Nach Wunsch füllen oder pur formen."
+    - step: "Stückgare"
+      details: "Die geformten Stücke abgedeckt nochmals 30–45 Minuten ruhen lassen, bis sie sichtbar aufgegangen sind."
+    - step: "Backen"
+      details: "Backofen auf 180 °C Ober-/Unterhitze (oder 170 °C Umluft) vorheizen. Optional mit Ei-Milch (1 Ei + 1 EL Milch) bestreichen. Je nach Form 20–30 Minuten goldbraun backen."
+
+  tips:
+    - "Teig sollte elastisch sein, sich vom Schüsselrand lösen, aber beim Drücken leicht nachgeben."
+    - "Für mehr Aroma: 20 ml Rum oder 1 TL Vanilleextrakt zugeben."
+    - "Langsamführung möglich: Nach erster Gare 8–12 h im Kühlschrank – ergibt feineres Aroma und längere Frischhaltung."
+    - "Reste lassen sich gut zu Schnecken oder Mini-Brioches weiterverarbeiten."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung des klassischen österreichischen Germteigs in direkter Führung."
+
+  media:
+    image: "images/alpenlaender/gebaeck/germteig_direkte_fuehrung.jpg"
+
+# Vorschlag für Dateipfad:
+# recipes/alpenlaender/gebaeck/germteig_direkte_fuehrung.yaml

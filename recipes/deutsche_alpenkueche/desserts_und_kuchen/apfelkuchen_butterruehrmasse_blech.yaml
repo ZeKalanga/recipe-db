@@ -1,0 +1,138 @@
+schema_version: "v2"
+
+file_path: "recipes/deutsche_alpenkueche/desserts_und_kuchen/apfelkuchen_butterruehrmasse_blech.yaml"
+
+recipe:
+  name: "Apfelkuchen (Blech) – Buttergerührte Masse"
+  category: "Deutsche & Alpenküche"
+  subcategories: ["Desserts & Kuchen", "Obstkuchen"]
+  difficulty: "mittel"
+  portions: "1 Blech (ca. 38 × 25 cm)"
+  preparation_time: "ca. 1½ Stunden inkl. Vorbereitung und Backzeit"
+  cooking_temperature: "170 °C Ober-/Unterhitze"
+  origin: "Österreich/Deutschland"
+  version: "1.0"
+  notes: >
+    Klassischer Obst-Blechkuchen auf feiner Butterrührmasse.
+    Die Apfelspalten werden kurz in 1,5 l Wasser mit dem Saft von 1 Zitrone
+    blanchiert, damit sie beim Backen formstabil bleiben. Gehobelte Mandeln
+    werden mit 30 g Puderzucker „bepudert“ und locker über die Äpfel gestreut.
+
+  ingredients:
+    # Grundmasse
+    - { name: "Weizenmehl (Type 405 oder 550)", amount: "400 g" }
+    - { name: "Backpulver", amount: "7 g" }
+    - { name: "Eier (Größe M)", amount: "5 Stück" }
+    - { name: "Butter (zimmerwarm)", amount: "230 g" }
+    - { name: "Puderzucker (sehr fein)", amount: "280 g" }
+    - { name: "Vanillezucker", amount: "12 g" }
+    - { name: "Salz", amount: "1 g" }
+    - { name: "Zitronenschale (abgerieben, unbehandelt)", amount: "½ Zitrone" }
+    - { name: "Milch", amount: "120 ml" }
+
+    # Belag
+    - { name: "Äpfel (säuerliche Sorte, z. B. Boskoop)", amount: "2 kg" }
+    - { name: "Zitronensaft", amount: "Saft von 1 Zitrone" }
+    - { name: "Wasser (zum Blanchieren)", amount: "1.5 l" }
+    - { name: "Gehobelte Mandeln", amount: "50 g" }
+    - { name: "Puderzucker (für Mandeln)", amount: "30 g" }
+
+  steps:
+    - step: "Backofen & Blech vorbereiten"
+      details: >
+        Backofen auf 170 °C Ober-/Unterhitze vorheizen. Ein Blech
+        (ca. 38 × 25 cm) mit 5 g Butter einfetten und dünn mit 10 g Mehl ausstreuen
+        (aus den Gesamtmengen entnehmen).
+
+    - step: "Trockene Zutaten sieben"
+      details: >
+        400 g Weizenmehl mit 7 g Backpulver gemeinsam sieben und beiseitestellen.
+
+    - step: "Eier aufschlagen"
+      details: >
+        5 Eier (Größe M) in einer kleinen Schüssel gründlich verquirlen.
+
+    - step: "Buttermasse schaumig rühren"
+      details: >
+        230 g zimmerwarme Butter mit 280 g Puderzucker, 12 g Vanillezucker,
+        1 g Salz und dem Abrieb von ½ Zitrone in 3–4 Minuten sehr cremig-schaumig rühren.
+
+    - step: "Eier einarbeiten"
+      details: >
+        Die verquirlten 5 Eier nach und nach (in 4–5 Portionen) zur Buttermasse geben
+        und jeweils 15–20 Sekunden einrühren, bis die Masse glatt ist.
+
+    - step: "Mehl & Milch einarbeiten"
+      details: >
+        Die gesiebte Mehl-Backpulver-Mischung (400 g + 7 g) und 120 ml Milch
+        abwechselnd in 3–4 Portionen unterrühren, nur so lange rühren,
+        bis ein glatter Teig entsteht.
+
+    - step: "Teig verstreichen"
+      details: >
+        Die Rührmasse gleichmäßig auf das vorbereitete Blech streichen
+        (Schichtdicke ca. 1,5–2 cm).
+
+    - step: "Äpfel vorbereiten"
+      details: >
+        2 kg Äpfel schälen, vierteln, entkernen und jede Viertel in 3 Spalten
+        (insg. 10–12 Spalten je Apfel, je nach Größe) schneiden.
+
+    - step: "Äpfel blanchieren"
+      details: >
+        1.5 l Wasser mit dem Saft von 1 Zitrone aufkochen. Apfelspalten zugeben,
+        1–2 Minuten kernig-weich blanchieren, dann in ein Sieb abgießen und auf
+        einem Gitter vollständig abkühlen lassen.
+
+    - step: "Mandeln zuckern"
+      details: >
+        Hände leicht befeuchten, 50 g gehobelte Mandeln mit den feuchten Händen
+        lockern, 30 g Puderzucker darübergeben und mischen, sodass der Zucker
+        haften bleibt, die Mandeln aber nicht nass werden.
+
+    - step: "Belegen"
+      details: >
+        Abgekühlte Apfelspalten dicht, aber mit feinen Zwischenräumen auf die
+        Teigmasse legen, sodass der Teig beim Backen noch leicht hochsteigen kann.
+        Die gezuckerten Mandeln (50 g + 30 g Puderzucker) locker darüberstreuen.
+
+    - step: "Backen"
+      details: >
+        Im vorgeheizten Ofen bei 170 °C Ober-/Unterhitze ca. 60 Minuten backen,
+        bis der Kuchen goldgelb ist und die Mitte bei leichter Druckprobe federnd nachgibt.
+
+    - step: "Auskühlen & Portionieren"
+      details: >
+        Kuchen auf dem Blech vollständig auskühlen lassen und anschließend in
+        12–20 Stücke schneiden.
+
+  tips:
+    - "Die Apfelspalten wirklich nur kurz blanchieren – sie sollen beim Backen noch Stand haben."
+    - "Für mehr Säure 10–20 g Zitronensaft zusätzlich in den Teig geben (von der Milchmenge abziehen)."
+    - "Optional: Nach dem Backen dünn mit weiterem Puderzucker bestäuben."
+
+  shopping_list:
+    "Obst & Zitrus":
+      - "Äpfel – 2 kg"
+      - "Zitronen – 2 Stück (1× Abrieb, 1× Saft)"
+    "Mehl, Zucker & Backtrieb":
+      - "Weizenmehl Type 405/550 – 400 g"
+      - "Backpulver – 7 g"
+      - "Puderzucker – 310 g (280 g Teig + 30 g Mandeln)"
+      - "Vanillezucker – 12 g"
+      - "Salz – 1 g"
+    "Molkerei & Eier":
+      - "Butter – 230 g"
+      - "Milch – 120 ml"
+      - "Eier (M) – 5 Stück"
+    "Nüsse":
+      - "Gehobelte Mandeln – 50 g"
+    "Sonstiges":
+      - "Wasser – 1.5 l (zum Blanchieren)"
+
+  media:
+    image: "images/deutsche_alpenkueche/desserts_und_kuchen/apfelkuchen_butterruehrmasse_blech.jpg"
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung gemäß Buchvorlage (Buttergerührte Masse + Apfelkuchen-Variante) in v2-Schema strukturiert; alle Step-Mengen explizit."

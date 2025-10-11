@@ -1,33 +1,35 @@
-name: Auto-Update Recipe-DB
+name: 🔄 Update Recipe-DB Submodule
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
 
 jobs:
   update-server:
     runs-on: ubuntu-latest
-
     steps:
-        - name: SSH into Server and Pull Latest Changes
-          env:
-            SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          run: |
-            mkdir -p ~/.ssh
-            echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-            chmod 600 ~/.ssh/id_rsa
-            ssh-keyscan -H 18.199.163.68 >> ~/.ssh/known_hosts
+      - name: SSH into Server and Update Recipe-DB Submodule
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh -o StrictHostKeyChecking=no ubuntu@18.199.163.68 << 'EOF'
+            set -euo pipefail
+            cd /var/www/recipe-api
 
-            ssh -o StrictHostKeyChecking=no ubuntu@18.199.163.68 << 'EOF'
-              cd /var/www/recipe-api
-              echo "🚀 Pulling latest recipe-db changes..."
-              git pull origin main
-              git submodule update --init --recursive
-              git submodule foreach git pull origin main
-              echo "🚀 Restarting related PM2 processes..."
-              pm2 restart recipe-api || true
-              pm2 restart recipe-ui || true
-              pm2 save
-              echo "✅ Recipe-DB update completed."
-            EOF
+            echo "� Updating recipe-db submodule to latest..."
+            cd data
+            git fetch origin main
+            git reset --hard origin/main
+            cd ..
+
+            echo "♻️ Restarting related PM2 processes..."
+            pm2 restart recipe-api || true
+            pm2 restart recipe-ui || true
+            pm2 save
+            
+            echo "✅ Recipe-DB submodule updated successfully."
+          EOF

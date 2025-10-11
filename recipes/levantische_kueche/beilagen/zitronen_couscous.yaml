@@ -1,0 +1,75 @@
+﻿schema_version: "v2"
+
+file_path: "recipes/levantische_kueche/beilagen/zitronen_couscous.yaml"
+
+recipe:
+  id: zitronen_couscous
+  name: "Zitronen-Couscous mit frischen Kräutern"
+  category: "Levantinische Küche"
+  subcategories: ["Beilagen", "Getreidegerichte"]
+  difficulty: "leicht"
+  portions: "2–3 Personen"
+  preparation_time: "10 Minuten"
+  cooking_temperature: "100 °C (kochendes Wasser oder Brühe)"
+  origin: "Ostmittelmeer / Levante"
+  version: "1.0"
+  description: >
+    Leichtes, aromatisches Couscous mit Zitrone, Olivenöl und frischen Kräutern.
+    Ideal als Beilage zu Fleisch- und Gemüsegerichten der levantinischen Küche,
+    insbesondere zu Levante-Tian oder Grillgerichten.
+
+  ingredients:
+    - name: "Couscous (fein oder mittelgrob)"
+      amount: "150 g"
+    - name: "Wasser oder Gemüsebrühe"
+      amount: "200 ml"
+    - name: "Salz"
+      amount: "0.5 TL"
+    - name: "Olivenöl"
+      amount: "2 EL"
+    - name: "Zitronensaft"
+      amount: "2 EL"
+    - name: "Zitronenabrieb"
+      amount: "0.5 Zitrone"
+    - name: "Frische Kräuter (Petersilie, Minze, Koriander)"
+      amount: "4 EL"
+    - name: "Frühlingszwiebel oder Schalotte (optional)"
+      amount: "1 Stück"
+    - name: "Schwarzer Pfeffer"
+      amount: "nach Geschmack"
+
+  steps:
+    - step: "Flüssigkeit erhitzen"
+      details: >
+        Wasser oder Gemüsebrühe mit Salz aufkochen (ca. 100 °C).
+        Vom Herd nehmen, Couscous einrühren, 1 EL Olivenöl zugeben,
+        abdecken und 5 Minuten quellen lassen.
+
+    - step: "Auflockern & würzen"
+      details: >
+        Mit einer Gabel auflockern, Zitronensaft, Zitronenabrieb,
+        1 EL Olivenöl, Pfeffer und gehackte Kräuter einrühren.
+        Optional Frühlingszwiebel unterheben.
+
+    - step: "Abschmecken & servieren"
+      details: >
+        Mit Salz oder Zitronensaft nach Geschmack abschmecken.
+        Warm oder lauwarm zum Levante-Tian servieren.
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung nach Schema v2; Schema v2 konform mit step/details statt title/description."
+      
+  shopping_list:
+    "Getreide & Brühe":
+      - "Couscous – 150 g"
+      - "Gemüsebrühe – 200 ml"
+    "Gemüse & Kräuter":
+      - "Zitrone – 1 Stück"
+      - "Frische Petersilie – ½ Bund"
+      - "Frische Minze oder Koriander – ½ Bund"
+      - "Frühlingszwiebel oder Schalotte – 1 Stück (optional)"
+    "Öle & Gewürze":
+      - "Olivenöl"
+      - "Salz"
+      - "Schwarzer Pfeffer"

@@ -1,0 +1,69 @@
+schema_version: "v2"
+recipe:
+  name: "Authentisches Thai-Hähnchen mit Erdnusssauce"
+  category: "Asiatische Küche"
+  subcategories: ["Thai & Vietnamesische Gerichte", "Wokgerichte", "Geflügel"]
+  difficulty: "mittel"
+  portions: "4 Personen"
+  preparation_time: "25 Minuten + 20 Minuten Marinierzeit"
+  cooking_temperature: "Wok auf sehr hoher Hitze"
+
+  ingredients:
+  - { name: "Hähnchenbrustfilet", amount: "500 g, in feine Streifen" }
+  - { name: "Speisestärke", amount: "2 TL (für Marinade)" }
+  - { name: "Helle Sojasauce", amount: "1 EL (für Marinade) + 2 EL (für Sauce)" }
+  - { name: "Neutrales Öl (z. B. Sonnenblumenöl)", amount: "3–4 EL gesamt (Braten) + 1 TL (Marinade)" }
+  - { name: "Reiswein oder trockener Sherry (optional)", amount: "1 TL (Marinade)" }
+  - { name: "Rote Paprika", amount: "1 (ca. 150 g), in Streifen" }
+  - { name: "Gelbe Paprika", amount: "1 (ca. 150 g), in Streifen" }
+  - { name: "Karotten", amount: "2 (ca. 200 g), schräg in dünne Scheiben" }
+  - { name: "Zucchini", amount: "1 (ca. 200 g), in Streifen" }
+  - { name: "Rote Zwiebel", amount: "1 (ca. 100 g), in Spalten" }
+  - { name: "Knoblauch", amount: "2 Zehen (ca. 10 g), fein gehackt" }
+  - { name: "Ingwer", amount: "20 g, fein gehackt" }
+  - { name: "Erdnussbutter (cremig, ungesüßt)", amount: "150 g" }
+  - { name: "Kokosmilch (vollfett)", amount: "200 ml" }
+  - { name: "Fischsauce", amount: "1 EL" }
+  - { name: "Limettensaft", amount: "2 EL (ca. 1 Limette)" }
+  - { name: "Brauner Zucker oder Palmzucker", amount: "1 EL" }
+  - { name: "Rote Currypaste", amount: "1–2 TL" }
+  - { name: "Wasser", amount: "100 ml (zum Verlängern der Sauce)" }
+  - { name: "Jasminreis oder Reisnudeln", amount: "250 g Reis oder 200 g Nudeln (Beilage)" }
+  - { name: "Geröstete Erdnüsse", amount: "50 g, grob gehackt (Topping)" }
+  - { name: "Frischer Koriander", amount: "10 g, grob gehackt (Topping)" }
+  - { name: "Limettenspalten", amount: "nach Bedarf (Servieren)" }
+
+  steps:
+    - step: "Reis kochen"
+      details: "250 g Jasminreis nach Packungsanweisung garen und warm halten."
+    - step: "Fleisch marinieren"
+      details: "Hähnchen in feine Streifen schneiden, mit Stärke, Sojasauce, Öl und Reiswein vermengen. 15–20 Minuten marinieren."
+    - step: "Sauce vorbereiten"
+      details: "Erdnussbutter, Kokosmilch, Sojasauce, Fischsauce, Limettensaft, Zucker und Currypaste verrühren. Mit Wasser glattrühren."
+    - step: "Gemüse schneiden"
+      details: "Paprika und Zucchini in Streifen, Karotten in Scheiben, Zwiebel in Spalten. Knoblauch & Ingwer fein hacken."
+    - step: "Fleisch braten"
+      details: "Wok sehr stark erhitzen. 2 EL Öl zugeben, Hälfte des Hähnchens 2–3 Min. braten, herausnehmen. Mit zweiter Hälfte wiederholen."
+    - step: "Gemüse braten"
+      details: "1–2 EL Öl in den heißen Wok geben. Knoblauch & Ingwer kurz anrösten (10 Sek.), dann Zwiebel, Karotten, Paprika und Zucchini 3–4 Min. kräftig braten."
+    - step: "Alles zusammenführen"
+      details: "Fleisch zurück in den Wok geben, Sauce zugießen und 2–3 Minuten köcheln lassen, bis cremig."
+    - step: "Servieren"
+      details: "Mit gehackten Erdnüssen und Koriander bestreuen. Mit Reis oder Nudeln und Limettenspalten servieren."
+
+  tips:
+    - "Mise en Place ist entscheidend – alles vorbereiten, bevor der Wok heiß wird."
+    - "Speisestärke sorgt für saftiges Fleisch (Velveting)."
+    - "Wok richtig rauchheiß werden lassen, sonst entsteht kein 'Wok Hei'."
+    - "Fleisch portionsweise braten, damit es brät statt kocht."
+    - "Schwenken statt rühren für authentisches Wok-Feeling."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung eines authentischen Thai-Hähnchen-Gerichts mit Erdnusssauce."
+
+  media:
+    image: "images/asiatisch/thai/haehnchen_erdnusssauce.jpg"
+
+# Vorschlag für Dateipfad:
+# recipes/asiatische_kueche/thai_vietnamesisch/thai_haehnchen_erdnusssauce.yaml

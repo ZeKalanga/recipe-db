@@ -1,0 +1,54 @@
+schema_version: "v2"
+recipe:
+  name: "Thai-Wantans mit Fleischfüllung"
+  category: "Asiatische Küche"
+  subcategories:
+    - "Snacks & Fingerfood"
+    - "Wantans"
+  difficulty: "mittel"
+  portions: "ca. 20 Stück"
+  preparation_time: "30 Min."
+  cooking_temperature: ""
+  ingredients:
+    - name: "Hähnchenhackfleisch (oder Schweinehack, alternativ gemischt)"
+      amount: "200 g"
+    - name: "Frühlingszwiebeln, fein gehackt"
+      amount: "2 Stück"
+    - name: "Knoblauchzehen, fein gehackt"
+      amount: "2 Stück (10 g)"
+    - name: "Frischer Ingwer, fein gehackt"
+      amount: "1 TL"
+    - name: "Helle Sojasauce"
+      amount: "2 EL"
+    - name: "Fischsauce"
+      amount: "1 EL"
+    - name: "Sesamöl"
+      amount: "1 TL"
+    - name: "Zucker"
+      amount: "½ TL"
+    - name: "Wantanblätter (TK, aus dem Asia-Shop)"
+      amount: "20 Stück"
+    - name: "Öl zum Braten oder Frittieren"
+      amount: "nach Bedarf"
+  steps:
+    - step: "Füllung vorbereiten"
+      details: "Hackfleisch mit Frühlingszwiebeln, Knoblauch, Ingwer, Sojasauce, Fischsauce, Sesamöl und Zucker gründlich vermengen."
+    - step: "Wantans füllen"
+      details: |
+        Wantanblatt in der Handfläche platzieren.
+        1 TL Füllung in die Mitte geben.
+        Ränder mit etwas Wasser einpinseln.
+        Zu einem Dreieck falten und die Ecken gut zusammendrücken.
+        Optional: zwei Ecken über Kreuz zusammendrücken („Hutform“).
+    - step: "Garen – Gebraten (knusprig)"
+      details: "In einer Pfanne 3–4 EL Öl erhitzen. Wantans portionsweise von beiden Seiten goldbraun braten (je 3–4 Min.)."
+    - step: "Garen – Frittiert (sehr knusprig)"
+      details: "In 170 °C heißem Öl 3–4 Min. frittieren."
+    - step: "Garen – Gedämpft (saftig)"
+      details: "In einem Bambuskorb oder Sieb über kochendem Wasser 6–8 Min. dämpfen."
+    - step: "Servieren"
+      details: "Mit süß-saurer Chilisauce, Sojasauce oder einem Rest deiner Erdnusssauce servieren."
+  media: {}
+  versioning:
+    - version: "1.0"
+      changes: "Erste Version im Schema v2 erfasst."

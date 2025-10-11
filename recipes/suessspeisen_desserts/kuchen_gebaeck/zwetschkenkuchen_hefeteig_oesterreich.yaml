@@ -1,0 +1,62 @@
+schema_version: "v2"
+recipe:
+  name: "Österreichischer Pflaumenkuchen mit Hefeteig (saftig)"
+  category: "Deutsche & Alpenküche"
+  subcategories: ["Desserts & Kuchen", "Brot & Gebäck", "Österreichische Klassiker"]
+  difficulty: "mittel"
+  portions: "1 Blech (ca. 12–16 Stück)"
+  preparation_time: "25 Min. aktiv + 60 Min. Gehzeit + 35–40 Min. Backzeit"
+  cooking_temperature: "180 °C Ober-/Unterhitze"
+
+  ingredients:
+    - { name: "Weizenmehl (Type 550 oder glatt)", amount: "500 g" }
+    - { name: "Zucker", amount: "70 g" }
+    - { name: "Vanillezucker", amount: "1 Päckchen (8 g)" }
+    - { name: "Salz", amount: "1 Prise" }
+    - { name: "Frische Hefe", amount: "1 Würfel (42 g) – alternativ: Trockenhefe 7 g" }
+    - { name: "Milch, lauwarm", amount: "250 ml" }
+    - { name: "Butter, geschmolzen", amount: "80 g" }
+    - { name: "Ei (Größe M)", amount: "1" }
+    - { name: "Zwetschken (Pflaumen), entkernt & geviertelt", amount: "1,2–1,5 kg" }
+    - { name: "Semmelbrösel", amount: "2 EL" }
+    - { name: "Zucker (für Belag)", amount: "2 EL, nach Säure der Früchte" }
+    - { name: "Zimt", amount: "½ TL" }
+    - { name: "Sauerrahm/Schmand", amount: "150 g (optional, für Rahmguss)" }
+    - { name: "Zucker (für Rahmguss)", amount: "1 EL (optional)" }
+    - { name: "Eigelb (für Rahmguss)", amount: "1 (optional)" }
+    - { name: "Butter (für Streusel)", amount: "100 g (optional)" }
+    - { name: "Zucker (für Streusel)", amount: "100 g (optional)" }
+    - { name: "Mehl (für Streusel)", amount: "100 g (optional)" }
+
+  steps:
+    - step: "Vorteig ansetzen (bei frischer Hefe)"
+      details: "Lauwarme Milch (250 ml) mit 1 TL Zucker und der Hefe verrühren, 2 EL Mehl einrühren. 15 Min. stehen lassen, bis Bläschen entstehen. (Bei Trockenhefe entfällt dieser Schritt.)"
+    - step: "Hefeteig kneten"
+      details: "Mehl, Zucker, Vanillezucker, Salz mischen. Vorteig (oder Trockenhefe), Ei und geschmolzene Butter zugeben. 8–10 Min. zu einem glatten, elastischen Teig kneten."
+    - step: "Teig gehen lassen"
+      details: "Abgedeckt an warmem Ort 60 Min. gehen lassen, bis sich das Volumen verdoppelt."
+    - step: "Zwetschken vorbereiten"
+      details: "Zwetschken entkernen und längs vierteln."
+    - step: "Teig ausrollen & belegen"
+      details: "Blech fetten oder mit Backpapier auslegen. Teig auf Blechgröße ausrollen, auflegen. Mit Semmelbröseln bestreuen. Zwetschken dicht dachziegelartig (Haut nach unten) auflegen. Mit Zucker und Zimt bestreuen. Optional: Streusel jetzt aufstreuen."
+    - step: "Zweiter Gang"
+      details: "Kuchen nochmals 15 Min. gehen lassen. Backofen auf 180 °C Ober-/Unterhitze vorheizen."
+    - step: "Backen"
+      details: "35–40 Min. backen, bis der Rand goldbraun ist. Bei Rahmguss: 25 Min. vorbacken, Rahmguss (Sauerrahm/Schmand + Zucker + Eigelb) auf die Früchte geben und weitere 10–15 Min. fertig backen."
+    - step: "Abkühlen & servieren"
+      details: "Kurz abkühlen lassen. Am besten lauwarm servieren; abgedeckt 2–3 Tage haltbar."
+
+  tips:
+    - "Semmelbrösel binden den Fruchtsaft und verhindern Durchweichen."
+    - "Für extra Aroma 1 TL Zitronenabrieb in den Teig geben."
+    - "Zwetschken nicht zu dünn schneiden – so bleibt der Kuchen saftig."
+
+  versioning:
+    - version: "1.0"
+      changes: "Erstfassung: klassischer Zwetschkenkuchen mit Hefeteig; optional mit Rahmguss oder Streuseln."
+
+  media:
+    image: "images/deutsche_alpenkueche/desserts_kuchen/zwetschkenkuchen_hefeteig_oesterreich.jpg"
+
+# Vorschlag für Dateipfad:
+# recipes/suessspeisen_desserts/kuchen_gebaeck/zwetschkenkuchen_hefeteig_oesterreich.yaml

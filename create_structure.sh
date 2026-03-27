@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Rezept-Verzeichnisstruktur für recipe-db erstellen
+# Rezept-Verzeichnisstruktur für gkc-recipe-db erstellen
 BASE_DIR=$(pwd)/recipes
 
 echo "📁 Verzeichnisstruktur wird unter $BASE_DIR erstellt..."

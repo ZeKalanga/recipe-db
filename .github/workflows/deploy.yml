@@ -1,4 +1,4 @@
-name: 🔄 Update Recipe-DB Submodule
+name: 🔄 Update gkc-recipe-db Submodule
 
 on:
   push:
@@ -8,7 +8,7 @@ jobs:
   update-server:
     runs-on: ubuntu-latest
     steps:
-      - name: SSH into Server and Update Recipe-DB Submodule
+  - name: SSH into Server and Update gkc-recipe-db Submodule
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         run: |
@@ -19,18 +19,18 @@ jobs:
           ssh-keyscan -H 18.199.163.68 >> ~/.ssh/known_hosts
           ssh -o StrictHostKeyChecking=no ubuntu@18.199.163.68 << 'EOF'
             set -euo pipefail
-            cd /var/www/recipe-api
+            cd /var/www/gkc-recipe-db
 
-            echo "� Updating recipe-db submodule to latest..."
+            echo "🔄 Updating gkc-recipe-db submodule to latest..."
             cd data
             git fetch origin main
             git reset --hard origin/main
             cd ..
 
             echo "♻️ Restarting related PM2 processes..."
-            pm2 restart recipe-api || true
-            pm2 restart recipe-ui || true
+            pm2 restart gkc-recipe-db || true
+            pm2 restart gkc-cooking-host || true
             pm2 save
-            
-            echo "✅ Recipe-DB submodule updated successfully."
+
+            echo "✅ gkc-recipe-db submodule updated successfully."
           EOF

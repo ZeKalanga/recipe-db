@@ -1,4 +1,4 @@
-# recipe-db
+# gkc-recipe-db
 Open-Source-Kochbuch mit iterativer Rezeptverbesserung (metrische Einheiten, deutsch).  
 
 # Lizenzierung  
@@ -8,7 +8,7 @@ Dies bedeutet:
 - Falls du Änderungen veröffentlichst, müssen diese ebenfalls unter ODbL stehen.  
 - Bitte keine urheberrechtlich geschützten Texte oder Markenbegriffe einreichen.
 
-# Recipe DB  
+# gkc-recipe-db  
 # Verzeichnisstruktur der Rezepte
 Alle Rezepte sind nach Kategorien und Unterkategorien in YAML-Dateien organisiert:
 recipes/

@@ -4,6 +4,11 @@ on:
   push:
     branches: [main]
 
+env:
+  SSH_HOST: ${{ secrets.SSH_HOST }}
+  SSH_PORT: ${{ secrets.SSH_PORT }}
+  SSH_USER: ${{ secrets.SSH_USER }}
+
 jobs:
   update-server:
     runs-on: ubuntu-latest
@@ -16,8 +21,8 @@ jobs:
           mkdir -p ~/.ssh
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan -H 18.199.163.68 >> ~/.ssh/known_hosts
-          ssh -o StrictHostKeyChecking=no ubuntu@18.199.163.68 << 'EOF'
+          ssh-keyscan -p "${SSH_PORT:-22}" -H "${SSH_HOST}" >> ~/.ssh/known_hosts
+          ssh -p "${SSH_PORT:-22}" -o StrictHostKeyChecking=no "${SSH_USER:-ubuntu}@${SSH_HOST}" << 'EOF'
             set -euo pipefail
             cd /var/www/recipe-api
 

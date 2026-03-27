@@ -1,4 +1,7 @@
-# gkc-recipe-db
+# recipe-db
+
+`recipe-db` ist das kanonische Rezeptdaten-Repository. Es enthaelt die eigentlichen Rezeptdateien, waehrend `gkc-recipe-db` diese Daten als API fuer Abruf, Suche und JSON-Ausgabe bereitstellt.
+
 Open-Source-Kochbuch mit iterativer Rezeptverbesserung (metrische Einheiten, deutsch).  
 
 # Lizenzierung  
@@ -8,8 +11,9 @@ Dies bedeutet:
 - Falls du Änderungen veröffentlichst, müssen diese ebenfalls unter ODbL stehen.  
 - Bitte keine urheberrechtlich geschützten Texte oder Markenbegriffe einreichen.
 
-# gkc-recipe-db  
-# Verzeichnisstruktur der Rezepte
+## Rezeptstruktur
+
+## Verzeichnisstruktur der Rezepte
 Alle Rezepte sind nach Kategorien und Unterkategorien in YAML-Dateien organisiert:
 recipes/
 ├── hauptgerichte/
